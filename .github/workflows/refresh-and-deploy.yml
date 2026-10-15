@@ -1,0 +1,62 @@
+name: Refresh prices & deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Daily at 21:15 UTC (4:15 PM Central), after TCGCSV's ~20:00 UTC refresh
+    - cron: "15 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch prices
+        env:
+          PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
+        run: python scripts/update_prices.py
+
+      - name: Commit updated price data
+        run: |
+          git config user.name "price-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Update prices $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Build site
+        run: |
+          mkdir -p _site/data
+          cp -r site/. _site/
+          cp data/portfolio.json data/history.json _site/data/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

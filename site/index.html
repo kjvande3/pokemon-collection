@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sealed Collection</title>
+  <meta name="description" content="Value, cost and gains for a sealed Pokémon TCG collection.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23e34948'/%3E%3Cpath d='M2 16h28v1a14 14 0 0 1-28 0z' fill='%23fff'/%3E%3Ccircle cx='16' cy='16' r='4.5' fill='%23fff' stroke='%23222' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <div>
+        <h1>Sealed Collection</h1>
+        <p class="sub" id="updated">Loading prices…</p>
+      </div>
+      <div class="top-right">
+        <div class="sources" id="sources" aria-label="Price source status"></div>
+        <button class="icon-btn" id="theme-btn" type="button" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="kpis" id="kpis" aria-label="Collection totals"></section>
+
+    <section class="grid-2">
+      <article class="card wide">
+        <div class="card-head">
+          <h2>Value over time</h2>
+          <div class="legend" id="trend-legend"></div>
+        </div>
+        <div class="chart-box tall"><canvas id="trend" aria-label="Market value and amount invested over time" role="img"></canvas></div>
+        <p class="empty-note" id="trend-note" hidden></p>
+      </article>
+    </section>
+
+    <section class="grid-2">
+      <article class="card">
+        <div class="card-head"><h2>Value by set</h2></div>
+        <div class="chart-box" id="by-set-box"><canvas id="by-set" role="img" aria-label="Market value by set"></canvas></div>
+      </article>
+      <article class="card">
+        <div class="card-head"><h2>Value by product type</h2></div>
+        <div class="chart-box" id="by-type-box"><canvas id="by-type" role="img" aria-label="Market value by product type"></canvas></div>
+      </article>
+    </section>
+
+    <section class="card">
+      <div class="card-head table-head">
+        <h2>Holdings <span class="count" id="count"></span></h2>
+        <div class="filters">
+          <input type="search" id="search" placeholder="Search products" aria-label="Search products">
+          <select id="set-filter" aria-label="Filter by set"><option value="">All sets</option></select>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="holdings">
+          <thead>
+            <tr>
+              <th data-sort="name" class="left">Product</th>
+              <th data-sort="qty">Qty</th>
+              <th data-sort="unit_cost">Paid ea.</th>
+              <th data-sort="p_tcgplayer">TCGplayer</th>
+              <th data-sort="p_pricecharting">PriceCharting</th>
+              <th data-sort="p_ebay">eBay sold</th>
+              <th data-sort="market">Market ea.</th>
+              <th data-sort="value">Value</th>
+              <th data-sort="gain">Gain</th>
+              <th data-sort="gain_pct">Gain %</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+          <tfoot></tfoot>
+        </table>
+      </div>
+    </section>
+
+    <section class="card notes">
+      <h2>How prices work</h2>
+      <ul>
+        <li><strong>Market ea.</strong> is a weighted average of whichever sources have a price for that product (weights live in <code>config.json</code>).</li>
+        <li><strong>TCGplayer</strong> uses the market price from recent sales, refreshed daily. When a product has no recent sales (common for cases), it falls back to the middle listing price, marked <span class="tag">listing</span>.</li>
+        <li><strong>PriceCharting</strong> fills in once a <code>PRICECHARTING_TOKEN</code> secret is added to the repo.</li>
+        <li><strong>eBay sold</strong> comes from the <code>ebay_price</code> column in <code>collection.csv</code>; enter an average of recent sold listings for items you want it on.</li>
+        <li><span class="tag warn">check match</span> means the product was matched by name with low confidence; add its TCGplayer ID to the CSV to pin it. <span class="tag warn">sources disagree</span> means prices differ by 25%+.</li>
+      </ul>
+    </section>
+
+    <footer class="foot">Prices from TCGplayer (via TCGCSV), PriceCharting and manual eBay comps. Not financial advice.</footer>
+  </div>
+
+  <script src="vendor/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
