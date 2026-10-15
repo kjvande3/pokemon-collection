@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-10-15T21:59:35+00:00",
+  "status": {
+    "pricecharting": "off - add a PRICECHARTING_TOKEN secret to enable",
+    "ebay": "manual - from the ebay_price column",
+    "tcgplayer": "ok"
+  },
+  "weights": {
+    "tcgplayer": 1,
+    "pricecharting": 1,
+    "ebay": 1
+  },
+  "totals": {
+    "cost": 789.95,
+    "cost_priced": 789.95,
+    "value": 5700.0,
+    "gain": 4910.05,
+    "gain_pct": 621.6,
+    "units": 1,
+    "products": 1,
+    "priced_products": 1
+  },
+  "items": [
+    {
+      "key": "evolving-skies-elite-trainer-box-case-10-etbs-evolving-skies",
+      "name": "Evolving Skies Elite Trainer Box Case (10 ETBs)",
+      "set": "Evolving Skies",
+      "type": "ETB Case",
+      "qty": 1,
+      "unit_cost": 789.95,
+      "cost": 789.95,
+      "purchase_date": "",
+      "bought_from": "",
+      "notes": "Order SKU PKSWORDEVOSKIELTCS - bought 2 and kept 1",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/243722_200w.jpg",
+      "prices": {
+        "tcgplayer": {
+          "price": 5700.0,
+          "basis": "listing",
+          "low": 5600.0,
+          "mid": 5700.0,
+          "url": "https://www.tcgplayer.com/product/243722/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-case",
+          "matched_name": "Evolving Skies Elite Trainer Box Case",
+          "confidence": 1.0
+        },
+        "pricecharting": null,
+        "ebay": null
+      },
+      "market": 5700.0,
+      "value": 5700.0,
+      "gain": 4910.05,
+      "gain_pct": 621.6,
+      "spread_pct": null,
+      "flags": [
+        "listing_price"
+      ]
+    }
+  ]
+}
