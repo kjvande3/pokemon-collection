@@ -1,4 +1,6 @@
-Last backfill run: 2026-10-15T19:41:00-05:00
+Last backfill run: 2026-10-15T19:44:52-05:00
+  TCGplayer history for 243722: failed (HTTP Error 403: Forbidden)
+  TCGplayer history for 513409: failed (HTTP Error 403: Forbidden)
 2 product(s), 65 archive date(s) to look up
   2024-02-08: download failed (HTTP 403 ); will retry next run
   2024-02-15: download failed (HTTP 403 ); will retry next run
