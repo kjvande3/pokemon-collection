@@ -1,16 +1,12 @@
 {
-  "generated_at": "2026-10-16T02:47:50+00:00",
+  "generated_at": "2026-10-16T02:51:44+00:00",
   "status": {
-    "pricecharting": "off - add a PRICECHARTING_TOKEN secret to enable",
-    "ebay": "manual - from the ebay_price column",
     "cardmarket": "ok",
     "tcgplayer": "ok"
   },
   "weights": {
     "tcgplayer": 1,
-    "cardmarket": 1,
-    "pricecharting": 1,
-    "ebay": 1
+    "cardmarket": 1
   },
   "totals": {
     "cost": 2219.9,
@@ -56,9 +52,7 @@
           "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Evolving%20Skies%2010%20Elite%20Trainer%20Box%20Case",
           "confidence": 0.848,
           "counted": false
-        },
-        "pricecharting": null,
-        "ebay": null
+        }
       },
       "market": 3950.0,
       "value": 3950.0,
@@ -100,9 +94,7 @@
           "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=151%20Booster%20Bundle%20Display",
           "confidence": 1.0,
           "counted": true
-        },
-        "pricecharting": null,
-        "ebay": null
+        }
       },
       "market": 11553.58,
       "value": 11553.58,
