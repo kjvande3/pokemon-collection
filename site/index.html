@@ -84,7 +84,8 @@
       <h2>How prices work</h2>
       <ul>
         <li><strong>Market ea.</strong> is a weighted average of whichever sources have a price for that product (weights live in <code>config.json</code>).</li>
-        <li><strong>TCGplayer</strong> uses the market price from recent sales, refreshed daily. When a product has no recent sales (common for cases), it falls back to the middle listing price, marked <span class="tag">listing</span>.</li>
+        <li><strong>TCGplayer</strong> uses TCGplayer's market price (based on completed sales), refreshed daily. If TCGplayer has no market price at all, it falls back to the middle listing price, marked <span class="tag">listing</span>.</li>
+        <li><strong>Value over time</strong> comes from TCGplayer's weekly market-price history. Before a product has any price history, it counts at what you paid.</li>
         <li><strong>PriceCharting</strong> fills in once a <code>PRICECHARTING_TOKEN</code> secret is added to the repo.</li>
         <li><strong>eBay sold</strong> comes from the <code>ebay_price</code> column in <code>collection.csv</code>; enter an average of recent sold listings for items you want it on.</li>
         <li><span class="tag warn">check match</span> means the product was matched by name with low confidence; add its TCGplayer ID to the CSV to pin it. <span class="tag warn">sources disagree</span> means prices differ by 25%+.</li>

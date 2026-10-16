@@ -117,10 +117,38 @@ def main() -> int:
             + "\n".join(LOG_LINES[-200:]) + "\n")
 
 
+def has_price_near(ph: dict, pid: int, d: date, days: int = 10) -> bool:
+    for k in range(-days, days + 1):
+        if str(pid) in ph["prices"].get((d + timedelta(days=k)).isoformat(), {}):
+            return True
+    return False
+
+
+def backfill_from_tcgplayer(ph: dict, products: dict[int, dict], today: date) -> None:
+    """Weekly history from TCGplayer's own price chart; refreshed at most once a week."""
+    for pid, p in sorted(products.items()):
+        last = ph["tcg_history_fetched"].get(str(pid))
+        if last and (today - date.fromisoformat(last)).days < 7:
+            continue
+        try:
+            series = history.tcgplayer_history(pid)
+        except Exception as err:  # noqa: BLE001
+            log(f"  TCGplayer history for {pid}: failed ({err})")
+            continue
+        added = 0
+        for d, price, _qty in series:
+            dd = date.fromisoformat(d)
+            if dd >= today:
+                continue
+            ph["prices"].setdefault(d, {})[str(pid)] = price
+            added += 1
+        ph["tcg_history_fetched"][str(pid)] = today.isoformat()
+        span = f"{series[0][0]} to {series[-1][0]}" if series else "none"
+        log(f"  TCGplayer history for {pid}: {added} weekly prices ({span})")
+    history.save_price_history(ph)
+
+
 def run() -> int:
-    if not SEVEN_ZIP:
-        log("7z not installed; skipping backfill")
-        return 0
     portfolio = json.loads(history.PORTFOLIO.read_text())
     cache = json.loads(history.CACHE.read_text())
     products = history.tracked_products(portfolio, cache)
@@ -132,11 +160,19 @@ def run() -> int:
     earliest = min(p["since"] for p in products.values())
     ph = history.load_price_history()
 
-    # which (date -> productIds) still need a lookup
+    backfill_from_tcgplayer(ph, products, today)
+
+    if not SEVEN_ZIP:
+        log("7z not installed; skipping archive backfill")
+        history.rebuild(today)
+        return 0
+
+    # archive lookups only where TCGplayer's own history left a gap
     todo: dict[date, set[int]] = {}
     for d in sample_dates(max(earliest, history.ARCHIVE_START), today - timedelta(days=1)):
         checked = set(ph["checked"].get(d.isoformat(), []))
-        need = {pid for pid, p in products.items() if p["since"] <= d and pid not in checked}
+        need = {pid for pid, p in products.items()
+                if p["since"] <= d and pid not in checked and not has_price_near(ph, pid, d)}
         if need:
             todo[d] = need
     log(f"{len(products)} product(s), {len(todo)} archive date(s) to look up")

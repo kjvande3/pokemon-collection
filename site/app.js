@@ -110,13 +110,10 @@
     if (pts.length < 2) {
       note.hidden = false;
       note.textContent = `Tracking started ${day(pts[0].t, { dateStyle: "medium" })}. The line grows with each daily price refresh.`;
-    } else if (firstValue && firstValue.t > pts[0].t) {
+    } else {
       note.hidden = false;
-      const archiveStart = new Date("2024-02-08T12:00:00").getTime();
-      note.textContent = firstValue.t > archiveStart + 30 * 864e5
-        ? `Starts at your first purchase (${day(pts[0].t, { dateStyle: "medium" })}). Market value tracking began ${day(firstValue.t, { dateStyle: "medium" })}; earlier values (back to Feb 8, 2024) fill in once the price-history backfill runs.`
-        : `Starts at your first purchase (${day(pts[0].t, { dateStyle: "medium" })}). TCGplayer price history only goes back to ${day(firstValue.t, { dateStyle: "medium" })}, so market value begins there.`;
-    } else note.hidden = true;
+      note.textContent = "Market value uses TCGplayer's weekly market price history. Until TCGplayer has a price for an item, it counts at what you paid.";
+    }
     const xMin = pts[0].t;
     const now = new Date(); now.setHours(12, 0, 0, 0);
     const xMax = Math.max(now.getTime(), pts[pts.length - 1].t);

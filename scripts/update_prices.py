@@ -308,6 +308,14 @@ class TCGplayer:
         # marketPrice comes from recent sales; rarely-sold items (e.g. cases) only have listing prices
         basis = "market"
         price = p.get(self.price_field) or p.get("marketPrice")
+        if price is None:
+            # TCGCSV omits market price for rarely-sold items; TCGplayer's own chart still has one
+            try:
+                series = history.tcgplayer_history(rec["productId"])
+                if series:
+                    price = series[-1][1]
+            except Exception as err:  # noqa: BLE001
+                log(f"  ! TCGplayer price history unavailable: {err}")
         if price is None and p.get("midPrice") is not None:
             price, basis = p["midPrice"], "listing"
         if price is None:

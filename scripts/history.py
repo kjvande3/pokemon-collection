@@ -25,6 +25,45 @@ CACHE = DATA / "match_cache.json"
 ARCHIVE_START = date(2024, 2, 8)  # first day TCGCSV kept daily price archives
 
 
+TCG_HISTORY_URL = "https://infinite-api.tcgplayer.com/price/history/{pid}/detailed?range={range}"
+USER_AGENT = "pokemon-collection-dashboard/1.0 (+https://github.com/kjvande3/pokemon-collection)"
+
+
+def tcgplayer_history(pid: int) -> list[tuple[str, float, int]]:
+    """Weekly TCGplayer market price history for a product: [(YYYY-MM-DD, price, qty_sold)], oldest first.
+
+    This is the series behind the price chart on TCGplayer's product page; it goes
+    back to roughly when TCGplayer started tracking the product.
+    """
+    import os
+    import urllib.request
+
+    out: dict[str, tuple[float, int]] = {}
+    for rng in ("alltime", "annual"):  # annual fills the most recent weeks alltime can omit
+        url = TCG_HISTORY_URL.format(pid=pid, range=rng)
+        fixtures = os.environ.get("FIXTURE_DIR")
+        if fixtures:
+            f = Path(fixtures) / f"tcg-history-{pid}-{rng}.json"
+            data = json.loads(f.read_text()) if f.exists() else {}
+        else:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        for res in data.get("result") or []:
+            if (res.get("condition") or "Unopened") not in ("Unopened", "Sealed", "Near Mint"):
+                continue
+            for b in res.get("buckets") or []:
+                try:
+                    price = float(b.get("marketPrice") or 0)
+                    qty = int(float(b.get("quantitySold") or 0))
+                except ValueError:
+                    continue
+                d = b.get("bucketStartDate")
+                if price > 0 and d:
+                    out[d] = (round(price, 2), qty)
+    return sorted((d, p, q) for d, (p, q) in out.items())
+
+
 def _load(path: Path, default):
     try:
         return json.loads(path.read_text())
@@ -41,6 +80,7 @@ def load_price_history() -> dict:
     ph = _load(PRICE_HISTORY, {})
     ph.setdefault("prices", {})
     ph.setdefault("checked", {})
+    ph.setdefault("tcg_history_fetched", {})
     return ph
 
 
@@ -95,7 +135,6 @@ def rebuild(today: date) -> list[dict]:
     price_dates = sorted(d for d, v in ph["prices"].items() if v)
     purchase_dates = sorted({h["since"].isoformat() for h in holdings if h["since"]})
     dates = sorted(set(price_dates) | set(purchase_dates) | {today.isoformat()})
-    first_price = price_dates[0] if price_dates else today.isoformat()
 
     series = []
     last_price: dict[str, float] = {}
@@ -109,13 +148,13 @@ def rebuild(today: date) -> list[dict]:
         if not owned:
             continue
         cost = round(sum(h["cost"] for h in owned), 2)
-        value = None
         if d == today.isoformat():
             value = portfolio["totals"]["value"]
-        elif d >= first_price:
-            priced = [h for h in owned if h["pid"] and h["pid"] in last_price]
-            if priced:
-                value = round(sum(h["qty"] * last_price[h["pid"]] for h in priced), 2)
+        else:
+            # items with no market price yet count at what was paid for them
+            value = round(sum(
+                h["qty"] * last_price[h["pid"]] if h["pid"] and h["pid"] in last_price else h["cost"]
+                for h in owned), 2)
         series.append({"date": d, "cost": cost, "value": value})
 
     _save(HISTORY, series)
