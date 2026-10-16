@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:44:52+00:00",
+  "generated_at": "2026-10-16T00:47:13+00:00",
   "status": {
     "pricecharting": "off - add a PRICECHARTING_TOKEN secret to enable",
     "ebay": "manual - from the ebay_price column",
@@ -13,9 +13,9 @@
   "totals": {
     "cost": 2219.9,
     "cost_priced": 2219.9,
-    "value": 19199.5,
-    "gain": 16979.6,
-    "gain_pct": 764.9,
+    "value": 15950.0,
+    "gain": 13730.1,
+    "gain_pct": 618.5,
     "units": 2,
     "products": 2,
     "priced_products": 2
@@ -35,8 +35,8 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/243722_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 5700.0,
-          "basis": "listing",
+          "price": 3950.0,
+          "basis": "market",
           "low": 5600.0,
           "mid": 5700.0,
           "url": "https://www.tcgplayer.com/product/243722/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-case",
@@ -46,14 +46,12 @@
         "pricecharting": null,
         "ebay": null
       },
-      "market": 5700.0,
-      "value": 5700.0,
-      "gain": 4910.05,
-      "gain_pct": 621.6,
+      "market": 3950.0,
+      "value": 3950.0,
+      "gain": 3160.05,
+      "gain_pct": 400.0,
       "spread_pct": null,
-      "flags": [
-        "listing_price"
-      ]
+      "flags": []
     },
     {
       "key": "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151",
@@ -69,8 +67,8 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/513409_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 13499.5,
-          "basis": "listing",
+          "price": 12000.0,
+          "basis": "market",
           "low": 11997.96,
           "mid": 13499.5,
           "url": "https://www.tcgplayer.com/product/513409/pokemon-sv-scarlet-and-violet-151-151-booster-bundle-display-case",
@@ -80,14 +78,12 @@
         "pricecharting": null,
         "ebay": null
       },
-      "market": 13499.5,
-      "value": 13499.5,
-      "gain": 12069.55,
-      "gain_pct": 844.1,
+      "market": 12000.0,
+      "value": 12000.0,
+      "gain": 10570.05,
+      "gain_pct": 739.2,
       "spread_pct": null,
-      "flags": [
-        "listing_price"
-      ]
+      "flags": []
     }
   ]
 }

@@ -1,9 +1,5 @@
-Last backfill run: 2026-10-15T19:44:52-05:00
-  TCGplayer history for 243722: failed (HTTP Error 403: Forbidden)
-  TCGplayer history for 513409: failed (HTTP Error 403: Forbidden)
-2 product(s), 65 archive date(s) to look up
-  2024-02-08: download failed (HTTP 403 ); will retry next run
-  2024-02-15: download failed (HTTP 403 ); will retry next run
-  2024-03-01: download failed (HTTP 403 ); will retry next run
-  stopping after repeated failures
-History rebuilt: 3 points from 2023-02-14
+Last backfill run: 2026-10-15T19:47:13-05:00
+  TCGplayer history for 243722: 180 weekly prices (2023-05-08 to 2026-10-12)
+  TCGplayer history for 513409: 151 weekly prices (2023-11-27 to 2026-10-12)
+2 product(s), 0 archive date(s) to look up
+History rebuilt: 182 points from 2023-02-14
