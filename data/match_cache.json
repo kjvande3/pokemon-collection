@@ -17,6 +17,15 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/513409_200w.jpg",
       "confidence": 1.0,
       "method": "id"
+    },
+    "ascended-heroes-elite-trainer-box-ascended-heroes": {
+      "productId": 668496,
+      "groupId": 24541,
+      "name": "Ascended Heroes Elite Trainer Box",
+      "url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668496_200w.jpg",
+      "confidence": 1.0,
+      "method": "id"
     }
   },
   "cardmarket": {
@@ -84,6 +93,40 @@
           "score": 0.32
         }
       ]
+    },
+    "ascended-heroes-elite-trainer-box-ascended-heroes": {
+      "query": "Ascended Heroes Elite Trainer Box|Ascended Heroes",
+      "idProduct": 860574,
+      "candidates": [
+        {
+          "idProduct": 860574,
+          "name": "Ascended Heroes Elite Trainer Box",
+          "score": 1.0
+        },
+        {
+          "idProduct": 860575,
+          "name": "Ascended Heroes Pok\u00e9mon Center Elite Trainer Box",
+          "score": 0.778
+        },
+        {
+          "idProduct": 860573,
+          "name": "Ascended Heroes 10 Elite Trainer Box Case",
+          "score": 0.673
+        },
+        {
+          "idProduct": 864109,
+          "name": "Ascended Heroes: Mega Feraligatr ex Box",
+          "score": 0.288
+        },
+        {
+          "idProduct": 895099,
+          "name": "Ascended Heroes: Trainer & Special Energy Set",
+          "score": 0.287
+        }
+      ],
+      "name": "Ascended Heroes Elite Trainer Box",
+      "confidence": 1.0,
+      "method": "auto"
     }
   }
 }

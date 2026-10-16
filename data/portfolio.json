@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:51:44+00:00",
+  "generated_at": "2026-10-16T03:10:30+00:00",
   "status": {
     "cardmarket": "ok",
     "tcgplayer": "ok"
@@ -9,14 +9,14 @@
     "cardmarket": 1
   },
   "totals": {
-    "cost": 2219.9,
-    "cost_priced": 2219.9,
-    "value": 15503.58,
-    "gain": 13283.68,
-    "gain_pct": 598.4,
-    "units": 2,
-    "products": 2,
-    "priced_products": 2
+    "cost": 2349.9,
+    "cost_priced": 2349.9,
+    "value": 15645.46,
+    "gain": 13295.56,
+    "gain_pct": 565.8,
+    "units": 3,
+    "products": 3,
+    "priced_products": 3
   },
   "items": [
     {
@@ -101,6 +101,48 @@
       "gain": 10123.63,
       "gain_pct": 708.0,
       "spread_pct": 7.7,
+      "flags": []
+    },
+    {
+      "key": "ascended-heroes-elite-trainer-box-ascended-heroes",
+      "name": "Ascended Heroes Elite Trainer Box",
+      "set": "Ascended Heroes",
+      "type": "Elite Trainer Box",
+      "qty": 1,
+      "unit_cost": 130.0,
+      "cost": 130.0,
+      "purchase_date": "2026-10-15",
+      "bought_from": "Facebook Marketplace",
+      "notes": "",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/668496_200w.jpg",
+      "prices": {
+        "tcgplayer": {
+          "price": 144.99,
+          "basis": "market",
+          "low": 136.01,
+          "mid": 178.88,
+          "url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box",
+          "matched_name": "Ascended Heroes Elite Trainer Box",
+          "confidence": 1.0,
+          "counted": true
+        },
+        "cardmarket": {
+          "price": 138.78,
+          "eur": 123.82,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 1,
+          "matched_name": "Ascended Heroes Elite Trainer Box",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ascended%20Heroes%20Elite%20Trainer%20Box",
+          "confidence": 1.0,
+          "counted": true
+        }
+      },
+      "market": 141.88,
+      "value": 141.88,
+      "gain": 11.88,
+      "gain_pct": 9.1,
+      "spread_pct": 4.4,
       "flags": []
     }
   ]
