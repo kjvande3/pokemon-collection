@@ -112,9 +112,15 @@
       note.textContent = `Tracking started ${day(pts[0].t, { dateStyle: "medium" })}. The line grows with each daily price refresh.`;
     } else if (firstValue && firstValue.t > pts[0].t) {
       note.hidden = false;
-      note.textContent = `Starts at your first purchase (${day(pts[0].t, { dateStyle: "medium" })}). TCGplayer price history is only available from ${day(firstValue.t, { dateStyle: "medium" })}, so market value begins there.`;
+      const archiveStart = new Date("2024-02-08T12:00:00").getTime();
+      note.textContent = firstValue.t > archiveStart + 30 * 864e5
+        ? `Starts at your first purchase (${day(pts[0].t, { dateStyle: "medium" })}). Market value tracking began ${day(firstValue.t, { dateStyle: "medium" })}; earlier values (back to Feb 8, 2024) fill in once the price-history backfill runs.`
+        : `Starts at your first purchase (${day(pts[0].t, { dateStyle: "medium" })}). TCGplayer price history only goes back to ${day(firstValue.t, { dateStyle: "medium" })}, so market value begins there.`;
     } else note.hidden = true;
-    const span = pts[pts.length - 1].t - pts[0].t;
+    const xMin = pts[0].t;
+    const now = new Date(); now.setHours(12, 0, 0, 0);
+    const xMax = Math.max(now.getTime(), pts[pts.length - 1].t);
+    const span = xMax - xMin;
     const longRange = span > 150 * 864e5;
     const few = pts.filter((p) => p.value != null).length <= 40;
     charts.push(new Chart($("#trend"), {
@@ -146,10 +152,17 @@
         },
         scales: {
           x: {
-            type: "linear", min: pts[0].t, max: pts[pts.length - 1].t,
+            type: "linear", min: xMin, max: xMax,
             grid: { display: false }, border: { color: css("--axis") },
-            ticks: { maxRotation: 0, autoSkipPadding: 24, maxTicksLimit: 8,
-              callback: (v) => day(v, longRange ? { month: "short", year: "numeric" } : { month: "short", day: "numeric" }) },
+            // evenly spaced ticks that start exactly on the first purchase and end on today
+            afterBuildTicks: (axis) => {
+              const n = Math.max(2, Math.min(7, Math.floor(axis.width / 130)));
+              axis.ticks = Array.from({ length: n }, (_, k) => ({ value: xMin + ((xMax - xMin) * k) / (n - 1) }));
+            },
+            ticks: { maxRotation: 0, autoSkip: false,
+              callback: (v, k, all) => (k === 0 || k === all.length - 1)
+                ? day(v, { month: "short", day: "numeric", year: "numeric" })
+                : day(v, longRange ? { month: "short", year: "numeric" } : { month: "short", day: "numeric" }) },
           },
           y: { beginAtZero: true, grid: { color: o._grid }, border: { display: false }, ticks: { callback: (v) => usd0.format(v), maxTicksLimit: 6 } },
         },
