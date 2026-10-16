@@ -164,6 +164,19 @@ def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", (text or "").lower()).strip("-")
 
 
+def row_units(row: dict) -> int:
+    """How many sealed units one collection item contains (e.g. 10 for an ETB case). Default 1."""
+    try:
+        return max(1, int(float(row.get("units") or 1)))
+    except ValueError:
+        return 1
+
+
+def match_text(row: dict) -> str:
+    """Name used to find the product: match_name if given (the single unit inside a case), else name."""
+    return (row.get("match_name") or "").strip() or row["name"]
+
+
 # ----------------------------------------------------------------------------- collection
 
 def read_collection() -> list[dict]:
@@ -251,8 +264,8 @@ class TCGplayer:
         # "194729" pins a product; "194729x10" prices this row as 10 of that product (e.g. a case of ETBs)
         m = re.match(r"\s*(\d+)\s*(?:[x×*]\s*(\d+))?\s*$", row.get("tcgplayer_id", "") or "")
         explicit_id = int(m.group(1)) if m else None
-        mult = int(m.group(2) or 1) if m else 1
-        query_key = f"{row['name']}|{row.get('set','')}"
+        mult = int(m.group(2) or 0) if m and m.group(2) else row_units(row)
+        query_key = f"{match_text(row)}|{row.get('set','')}|x{mult}"
         cached = self.cache.get(key)
         if cached:
             if explicit_id is not None and cached.get("productId") == explicit_id and cached.get("multiplier", 1) == mult:
@@ -278,7 +291,8 @@ class TCGplayer:
             log(f"  ! no TCGplayer set matched '{row.get('set')}' for {row['name']}")
             return None
 
-        query = f"{row['name']} {row.get('type','')}" if row.get("type") and norm(row["type"]) not in norm(row["name"]) else row["name"]
+        base = match_text(row)
+        query = base if row.get("match_name") or not row.get("type") or norm(row["type"]) in norm(base) else f"{base} {row['type']}"
         scored = []
         for g in groups:
             set_words = tokens(g.get("name", "")) | tokens(row.get("set", ""))
@@ -298,6 +312,7 @@ class TCGplayer:
             conf = round(best_score - 0.1, 3)  # near-tie: treat as uncertain
         rec = self._record(best, conf, "auto", alts)
         rec["query"] = query_key
+        rec["multiplier"] = mult
         self.cache[key] = rec
         return rec
 
@@ -360,16 +375,17 @@ class Cardmarket:
         # "794902" pins a product; "794902x6" prices this row as 6 of that product (e.g. a case of displays)
         m = re.match(r"\s*(\d+)\s*(?:[x×*]\s*(\d+))?\s*$", row.get("cardmarket_id", "") or "")
         if m:
-            pid, mult = int(m.group(1)), int(m.group(2) or 1)
+            pid, mult = int(m.group(1)), int(m.group(2) or row_units(row))
             p = next((p for p in self.products if p.get("idProduct") == pid), None)
             return {"idProduct": pid, "name": p.get("name") if p else None, "confidence": 1.0, "method": "id", "multiplier": mult}
-        query_key = f"{row['name']}|{row.get('set','')}"
+        mult = row_units(row)
+        query_key = f"{match_text(row)}|{row.get('set','')}|x{mult}"
         cached = self.cache.get(row["key"])
         if cached and cached.get("query") == query_key:
             return cached if cached.get("idProduct") else None
 
         set_words = tokens(row.get("set", ""))
-        name = re.sub(r"\([^)]*\)", " ", row["name"])  # drop notes like "(10 ETBs)"
+        name = re.sub(r"\([^)]*\)", " ", match_text(row))  # drop notes like "(10 ETBs)"
         query = name if set_words <= tokens(name) else f"{name} {row.get('set','')}"
         qt = tokens(query)
         q_kind = qt & self.KIND_WORDS
@@ -385,7 +401,7 @@ class Cardmarket:
             if s > best_score:
                 best, best_score = p, s
         near.sort(key=lambda x: x[0], reverse=True)
-        rec = {"query": query_key, "idProduct": None,
+        rec = {"query": query_key, "idProduct": None, "multiplier": mult,
                "candidates": [{"idProduct": p["idProduct"], "name": p.get("name"), "score": sc} for sc, p in near[:5]]}
         if best and best_score >= self.min_conf:
             rec.update({"idProduct": best["idProduct"], "name": best.get("name"), "confidence": best_score, "method": "auto"})
