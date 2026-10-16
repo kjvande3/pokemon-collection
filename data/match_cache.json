@@ -8,6 +8,15 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/243722_200w.jpg",
       "confidence": 1.0,
       "method": "id"
+    },
+    "evolving-skies-elite-trainer-box-case-10-etbs-evolving-skies-2023-02-14": {
+      "productId": 243722,
+      "groupId": 2848,
+      "name": "Evolving Skies Elite Trainer Box Case",
+      "url": "https://www.tcgplayer.com/product/243722/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-case",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/243722_200w.jpg",
+      "confidence": 1.0,
+      "method": "id"
     }
   }
 }
