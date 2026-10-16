@@ -232,6 +232,8 @@ class TCGplayer:
 
     @staticmethod
     def is_sealed(product: dict) -> bool:
+        if (product.get("name") or "").lower().startswith("code card"):
+            return False  # online code cards, not sealed product
         return not any(e.get("name") == "Number" for e in product.get("extendedData") or [])
 
     def candidate_groups(self, set_name: str) -> list[dict]:
@@ -274,7 +276,7 @@ class TCGplayer:
         m = re.match(r"\s*(\d+)\s*(?:[x×*]\s*(\d+))?\s*$", row.get("tcgplayer_id", "") or "")
         explicit_id = int(m.group(1)) if m else None
         mult = int(m.group(2) or 0) if m and m.group(2) else row_units(row)
-        query_key = f"{match_text(row)}|{row.get('set','')}|x{mult}"
+        query_key = f"v2|{match_text(row)}|{row.get('set','')}|x{mult}"
         cached = self.cache.get(key)
         if cached:
             if explicit_id is not None and cached.get("productId") == explicit_id and cached.get("multiplier", 1) == mult:
@@ -392,7 +394,7 @@ class Cardmarket:
             p = next((p for p in self.products if p.get("idProduct") == pid), None)
             return {"idProduct": pid, "name": p.get("name") if p else None, "confidence": 1.0, "method": "id", "multiplier": mult}
         mult = row_units(row)
-        query_key = f"{match_text(row)}|{row.get('set','')}|x{mult}"
+        query_key = f"v2|{match_text(row)}|{row.get('set','')}|x{mult}"
         cached = self.cache.get(row["key"])
         if cached and cached.get("query") == query_key:
             return cached if cached.get("idProduct") else None
