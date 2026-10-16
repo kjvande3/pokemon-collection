@@ -18,5 +18,72 @@
       "confidence": 1.0,
       "method": "id"
     }
+  },
+  "cardmarket": {
+    "evolving-skies-elite-trainer-box-case-10-etbs-evolving-skies": {
+      "query": "Evolving Skies Elite Trainer Box Case (10 ETBs)|Evolving Skies",
+      "idProduct": 873116,
+      "candidates": [
+        {
+          "idProduct": 873116,
+          "name": "Evolving Skies 10 Elite Trainer Box Case",
+          "score": 0.848
+        },
+        {
+          "idProduct": 568794,
+          "name": "Evolving Skies Elite Trainer Box [LUJF]",
+          "score": 0.66
+        },
+        {
+          "idProduct": 568795,
+          "name": "Evolving Skies Elite Trainer Box [SEGV]",
+          "score": 0.66
+        },
+        {
+          "idProduct": 568796,
+          "name": "Evolving Skies Pok\u00e9mon Center Elite Trainer Box [FJUL]",
+          "score": 0.6
+        },
+        {
+          "idProduct": 568797,
+          "name": "Evolving Skies Pok\u00e9mon Center Elite Trainer Box [GVSE]",
+          "score": 0.6
+        }
+      ],
+      "name": "Evolving Skies 10 Elite Trainer Box Case",
+      "confidence": 0.848,
+      "method": "auto"
+    },
+    "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151": {
+      "query": "Scarlet & Violet 151 Booster Bundle Display Case (6 Displays)|Scarlet & Violet 151",
+      "idProduct": null,
+      "candidates": [
+        {
+          "idProduct": 794902,
+          "name": "151 Booster Bundle Display",
+          "score": 0.802
+        },
+        {
+          "idProduct": 719695,
+          "name": "151 Booster Bundle",
+          "score": 0.564
+        },
+        {
+          "idProduct": 800351,
+          "name": "Pok\u00e9mon Card 151 Booster Box Case",
+          "score": 0.435
+        },
+        {
+          "idProduct": 704498,
+          "name": "Pok\u00e9mon Card 151 Booster",
+          "score": 0.327
+        },
+        {
+          "idProduct": 718514,
+          "name": "Pok\u00e9mon Card 151 Booster Box",
+          "score": 0.32
+        }
+      ]
+    }
   }
 }

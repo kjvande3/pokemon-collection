@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-10-16T00:47:13+00:00",
+  "generated_at": "2026-10-16T02:46:28+00:00",
   "status": {
     "pricecharting": "off - add a PRICECHARTING_TOKEN secret to enable",
     "ebay": "manual - from the ebay_price column",
+    "cardmarket": "ok",
     "tcgplayer": "ok"
   },
   "weights": {
     "tcgplayer": 1,
+    "cardmarket": 1,
     "pricecharting": 1,
     "ebay": 1
   },
   "totals": {
     "cost": 2219.9,
     "cost_priced": 2219.9,
-    "value": 15950.0,
-    "gain": 13730.1,
-    "gain_pct": 618.5,
+    "value": 17505.52,
+    "gain": 15285.62,
+    "gain_pct": 688.6,
     "units": 2,
     "products": 2,
     "priced_products": 2
@@ -43,15 +45,25 @@
           "matched_name": "Evolving Skies Elite Trainer Box Case",
           "confidence": 1.0
         },
+        "cardmarket": {
+          "price": 7061.04,
+          "eur": 6300.0,
+          "basis": "low",
+          "matched_name": "Evolving Skies 10 Elite Trainer Box Case",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Evolving%20Skies%2010%20Elite%20Trainer%20Box%20Case",
+          "confidence": 0.848
+        },
         "pricecharting": null,
         "ebay": null
       },
-      "market": 3950.0,
-      "value": 3950.0,
-      "gain": 3160.05,
-      "gain_pct": 400.0,
-      "spread_pct": null,
-      "flags": []
+      "market": 5505.52,
+      "value": 5505.52,
+      "gain": 4715.57,
+      "gain_pct": 596.9,
+      "spread_pct": 56.5,
+      "flags": [
+        "sources_disagree"
+      ]
     },
     {
       "key": "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151",
@@ -75,6 +87,7 @@
           "matched_name": "151 Booster Bundle Display Case",
           "confidence": 1.0
         },
+        "cardmarket": null,
         "pricecharting": null,
         "ebay": null
       },
