@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T03:55:22+00:00",
+  "generated_at": "2026-10-16T03:58:20+00:00",
   "status": {
     "cardmarket": "ok",
     "tcgplayer": "ok"
@@ -11,9 +11,9 @@
   "totals": {
     "cost": 38677.35,
     "cost_priced": 38677.35,
-    "value": 286774.65,
-    "gain": 248097.3,
-    "gain_pct": 641.5,
+    "value": 293925.35,
+    "gain": 255248.0,
+    "gain_pct": 659.9,
     "units": 81,
     "products": 68,
     "priced_products": 68
@@ -909,9 +909,9 @@
       "flags": []
     },
     {
-      "key": "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards",
+      "key": "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products",
       "name": "Charizard Ultra Premium Collection Case (4 Boxes)",
-      "set": "Sword & Shield Promo Cards",
+      "set": "Miscellaneous Cards & Products",
       "type": "Premium Collection Case",
       "qty": 1,
       "unit_cost": 399.88,
@@ -919,44 +919,54 @@
       "purchase_date": "2022-12-05",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100590858",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/210576_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 640.0,
-          "unit_price": 160.0,
+          "price": 903.6,
+          "unit_price": 225.9,
           "multiplier": 4,
           "basis": "market",
-          "low": 319.95,
-          "mid": 319.95,
-          "url": "https://www.tcgplayer.com/product/210576/pokemon-swsh01-sword-and-shield-base-set-snorlax-pin-collection",
-          "matched_name": "4 \u00d7 Snorlax Pin Collection",
-          "confidence": 0.196,
+          "low": 219.97,
+          "mid": 299.93,
+          "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
+          "matched_name": "4 \u00d7 Mega Charizard X ex Ultra Premium Collection",
+          "confidence": 0.677,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 251472,
-              "name": "Code Card - Snorlax Pin Collection",
-              "score": 0.293
+              "productId": 285424,
+              "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
+              "score": 0.587
             },
             {
-              "productId": 210577,
-              "name": "Morpeko Pin Collection",
-              "score": 0.283
+              "productId": 594491,
+              "name": "Greninja ex Ultra-Premium Collection",
+              "score": 0.565
             },
             {
-              "productId": 251471,
-              "name": "Code Card - Morpeko Pin Collection",
-              "score": 0.283
+              "productId": 575198,
+              "name": "Terapagos ex Ultra-Premium Collection",
+              "score": 0.562
             }
           ],
-          "counted": true
+          "counted": false
         },
-        "cardmarket": null
+        "cardmarket": {
+          "price": 2040.71,
+          "eur": 1820.76,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 4,
+          "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Charizard",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Sword%20%26%20Shield%20Ultra-Premium%20Collection%20-%20Charizard",
+          "confidence": 0.727,
+          "counted": true
+        }
       },
-      "market": 640.0,
-      "value": 640.0,
-      "gain": 240.12,
-      "gain_pct": 60.0,
+      "market": 2040.71,
+      "value": 2040.71,
+      "gain": 1640.83,
+      "gain_pct": 410.3,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -1131,9 +1141,9 @@
       "flags": []
     },
     {
-      "key": "paldea-collection-case-6-boxes-scarlet-violet-base-set",
+      "key": "paldea-collection-case-6-boxes-miscellaneous-cards-products",
       "name": "Paldea Collection Case (6 Boxes)",
-      "set": "Scarlet & Violet Base Set",
+      "set": "Miscellaneous Cards & Products",
       "type": "Collection Case",
       "qty": 1,
       "unit_cost": 109.95,
@@ -1141,48 +1151,27 @@
       "purchase_date": "2023-01-14",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100599539",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/475653_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/477174_200w.jpg",
       "prices": {
-        "tcgplayer": {
-          "price": 0.54,
-          "unit_price": 0.09,
+        "tcgplayer": null,
+        "cardmarket": {
+          "price": 336.24,
+          "eur": 300.0,
+          "basis": "avg",
+          "listing_only": false,
           "multiplier": 6,
-          "basis": "market",
-          "low": 0.05,
-          "mid": 0.11,
-          "url": "https://www.tcgplayer.com/product/475653/pokemon-sv01-scarlet-and-violet-base-set-code-card-paldea-collection-quaxly",
-          "matched_name": "6 \u00d7 Code Card - Paldea Collection [Quaxly]",
-          "confidence": 0.393,
-          "uncertain": true,
-          "alternatives": [
-            {
-              "productId": 475651,
-              "name": "Code Card - Paldea Collection [Fuecoco]",
-              "score": 0.489
-            },
-            {
-              "productId": 91598,
-              "name": "Sylveon Collection",
-              "score": 0.477
-            },
-            {
-              "productId": 475652,
-              "name": "Code Card - Paldea Collection [Sprigatito]",
-              "score": 0.476
-            }
-          ],
+          "matched_name": "6 \u00d7 Quaxly Paldea Collection",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Quaxly%20Paldea%20Collection",
+          "confidence": 0.724,
           "counted": true
-        },
-        "cardmarket": null
+        }
       },
-      "market": 0.54,
-      "value": 0.54,
-      "gain": -109.41,
-      "gain_pct": -99.5,
+      "market": 336.24,
+      "value": 336.24,
+      "gain": 226.29,
+      "gain_pct": 205.8,
       "spread_pct": null,
-      "flags": [
-        "check_match"
-      ]
+      "flags": []
     },
     {
       "key": "crown-zenith-elite-trainer-box-case-10-etbs-crown-zenith",
@@ -1229,9 +1218,9 @@
       "flags": []
     },
     {
-      "key": "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards-2",
+      "key": "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-2",
       "name": "Charizard Ultra Premium Collection Case (4 Boxes)",
-      "set": "Sword & Shield Promo Cards",
+      "set": "Miscellaneous Cards & Products",
       "type": "Premium Collection Case",
       "qty": 1,
       "unit_cost": 399.95,
@@ -1239,44 +1228,54 @@
       "purchase_date": "2023-01-14",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100599539",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/210576_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 640.0,
-          "unit_price": 160.0,
+          "price": 903.6,
+          "unit_price": 225.9,
           "multiplier": 4,
           "basis": "market",
-          "low": 319.95,
-          "mid": 319.95,
-          "url": "https://www.tcgplayer.com/product/210576/pokemon-swsh01-sword-and-shield-base-set-snorlax-pin-collection",
-          "matched_name": "4 \u00d7 Snorlax Pin Collection",
-          "confidence": 0.196,
+          "low": 219.97,
+          "mid": 299.93,
+          "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
+          "matched_name": "4 \u00d7 Mega Charizard X ex Ultra Premium Collection",
+          "confidence": 0.677,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 251472,
-              "name": "Code Card - Snorlax Pin Collection",
-              "score": 0.293
+              "productId": 285424,
+              "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
+              "score": 0.587
             },
             {
-              "productId": 210577,
-              "name": "Morpeko Pin Collection",
-              "score": 0.283
+              "productId": 594491,
+              "name": "Greninja ex Ultra-Premium Collection",
+              "score": 0.565
             },
             {
-              "productId": 251471,
-              "name": "Code Card - Morpeko Pin Collection",
-              "score": 0.283
+              "productId": 575198,
+              "name": "Terapagos ex Ultra-Premium Collection",
+              "score": 0.562
             }
           ],
-          "counted": true
+          "counted": false
         },
-        "cardmarket": null
+        "cardmarket": {
+          "price": 2040.71,
+          "eur": 1820.76,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 4,
+          "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Charizard",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Sword%20%26%20Shield%20Ultra-Premium%20Collection%20-%20Charizard",
+          "confidence": 0.727,
+          "counted": true
+        }
       },
-      "market": 640.0,
-      "value": 640.0,
-      "gain": 240.05,
-      "gain_pct": 60.0,
+      "market": 2040.71,
+      "value": 2040.71,
+      "gain": 1640.76,
+      "gain_pct": 410.2,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -1829,9 +1828,9 @@
       ]
     },
     {
-      "key": "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards-3",
+      "key": "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-3",
       "name": "Charizard Ultra Premium Collection Case (4 Boxes)",
-      "set": "Sword & Shield Promo Cards",
+      "set": "Miscellaneous Cards & Products",
       "type": "Premium Collection Case",
       "qty": 1,
       "unit_cost": 375.12,
@@ -1839,44 +1838,54 @@
       "purchase_date": "2023-03-14",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100612070",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/210576_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 640.0,
-          "unit_price": 160.0,
+          "price": 903.6,
+          "unit_price": 225.9,
           "multiplier": 4,
           "basis": "market",
-          "low": 319.95,
-          "mid": 319.95,
-          "url": "https://www.tcgplayer.com/product/210576/pokemon-swsh01-sword-and-shield-base-set-snorlax-pin-collection",
-          "matched_name": "4 \u00d7 Snorlax Pin Collection",
-          "confidence": 0.196,
+          "low": 219.97,
+          "mid": 299.93,
+          "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
+          "matched_name": "4 \u00d7 Mega Charizard X ex Ultra Premium Collection",
+          "confidence": 0.677,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 251472,
-              "name": "Code Card - Snorlax Pin Collection",
-              "score": 0.293
+              "productId": 285424,
+              "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
+              "score": 0.587
             },
             {
-              "productId": 210577,
-              "name": "Morpeko Pin Collection",
-              "score": 0.283
+              "productId": 594491,
+              "name": "Greninja ex Ultra-Premium Collection",
+              "score": 0.565
             },
             {
-              "productId": 251471,
-              "name": "Code Card - Morpeko Pin Collection",
-              "score": 0.283
+              "productId": 575198,
+              "name": "Terapagos ex Ultra-Premium Collection",
+              "score": 0.562
             }
           ],
-          "counted": true
+          "counted": false
         },
-        "cardmarket": null
+        "cardmarket": {
+          "price": 2040.71,
+          "eur": 1820.76,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 4,
+          "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Charizard",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Sword%20%26%20Shield%20Ultra-Premium%20Collection%20-%20Charizard",
+          "confidence": 0.727,
+          "counted": true
+        }
       },
-      "market": 640.0,
-      "value": 640.0,
-      "gain": 264.88,
-      "gain_pct": 70.6,
+      "market": 2040.71,
+      "value": 2040.71,
+      "gain": 1665.59,
+      "gain_pct": 444.0,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -2071,9 +2080,9 @@
       "flags": []
     },
     {
-      "key": "cyrus-klara-premium-tournament-collection-display-2-boxes-sword-shield-promo-cards",
+      "key": "cyrus-klara-premium-tournament-collection-display-2-boxes-miscellaneous-cards-products",
       "name": "Cyrus / Klara Premium Tournament Collection Display (2 Boxes)",
-      "set": "Sword & Shield Promo Cards",
+      "set": "Miscellaneous Cards & Products",
       "type": "Premium Collection Display",
       "qty": 1,
       "unit_cost": 119.95,
@@ -2081,44 +2090,54 @@
       "purchase_date": "2023-04-17",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100618185",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/210577_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/632691_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 138.0,
-          "unit_price": 69.0,
+          "price": 8.5,
+          "unit_price": 4.25,
           "multiplier": 2,
           "basis": "market",
-          "low": 80.0,
-          "mid": 89.9,
-          "url": "https://www.tcgplayer.com/product/210577/pokemon-swsh01-sword-and-shield-base-set-morpeko-pin-collection",
-          "matched_name": "2 \u00d7 Morpeko Pin Collection",
-          "confidence": 0.236,
+          "low": 4.99,
+          "mid": 23.96,
+          "url": "https://www.tcgplayer.com/product/632691/pokemon-miscellaneous-cards-and-products-code-card-lillie-premium-tournament-collection",
+          "matched_name": "2 \u00d7 Code Card - Lillie Premium Tournament Collection",
+          "confidence": 0.596,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 210576,
-              "name": "Snorlax Pin Collection",
-              "score": 0.322
+              "productId": 594539,
+              "name": "Tera Team Premium Collection",
+              "score": 0.542
             },
             {
-              "productId": 251471,
-              "name": "Code Card - Morpeko Pin Collection",
-              "score": 0.265
+              "productId": 249689,
+              "name": "Vaporeon VMAX Premium Collection",
+              "score": 0.524
             },
             {
-              "productId": 251472,
-              "name": "Code Card - Snorlax Pin Collection",
-              "score": 0.254
+              "productId": 276701,
+              "name": "Code Card - Professor Juniper Premium Tournament Collection",
+              "score": 0.515
             }
           ],
-          "counted": true
+          "counted": false
         },
-        "cardmarket": null
+        "cardmarket": {
+          "price": 106.54,
+          "eur": 95.06,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 2,
+          "matched_name": "2 \u00d7 Iono Premium Tournament Collection",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Iono%20Premium%20Tournament%20Collection",
+          "confidence": 0.81,
+          "counted": true
+        }
       },
-      "market": 138.0,
-      "value": 138.0,
-      "gain": 18.05,
-      "gain_pct": 15.0,
+      "market": 106.54,
+      "value": 106.54,
+      "gain": -13.41,
+      "gain_pct": -11.2,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -2257,9 +2276,9 @@
       "flags": []
     },
     {
-      "key": "charizard-ex-premium-collection-case-6-boxes-scarlet-violet-promo-cards",
+      "key": "charizard-ex-premium-collection-case-6-boxes-miscellaneous-cards-products",
       "name": "Charizard ex Premium Collection Case (6 Boxes)",
-      "set": "Scarlet & Violet Promo Cards",
+      "set": "Miscellaneous Cards & Products",
       "type": "Premium Collection Case",
       "qty": 1,
       "unit_cost": 214.95,
@@ -2267,53 +2286,45 @@
       "purchase_date": "2023-08-10",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100640296",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/599657_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/516576_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 16.44,
-          "unit_price": 2.74,
+          "price": 653.04,
+          "unit_price": 108.84,
           "multiplier": 6,
           "basis": "market",
-          "low": 2.0,
-          "mid": 3.09,
-          "url": "https://www.tcgplayer.com/product/599657/pokemon-jumbo-cards-miraidon-ex-unnumbered",
-          "matched_name": "6 \u00d7 Miraidon ex (Unnumbered)",
-          "confidence": 0.127,
-          "uncertain": true,
-          "alternatives": [
-            {
-              "productId": 650725,
-              "name": "Koraidon ex (Unnumbered)",
-              "score": 0.227
-            },
-            {
-              "productId": 247376,
-              "name": "Zacian V-UNION [Set of 4]",
-              "score": 0.13
-            },
-            {
-              "productId": 211494,
-              "name": "Zorua and Celebi (Black and White Tour Promo)",
-              "score": 0.117
-            }
-          ],
+          "low": 100.11,
+          "mid": 130.62,
+          "url": "https://www.tcgplayer.com/product/516576/pokemon-miscellaneous-cards-and-products-charizard-ex-premium-collection",
+          "matched_name": "6 \u00d7 Charizard ex Premium Collection",
+          "confidence": 1.0,
           "counted": true
         },
-        "cardmarket": null
+        "cardmarket": {
+          "price": 498.98,
+          "eur": 445.2,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 6,
+          "matched_name": "6 \u00d7 Charizard ex Premium Collection",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Charizard%20ex%20Premium%20Collection",
+          "confidence": 1.0,
+          "counted": true
+        }
       },
-      "market": 16.44,
-      "value": 16.44,
-      "gain": -198.51,
-      "gain_pct": -92.4,
-      "spread_pct": null,
+      "market": 576.01,
+      "value": 576.01,
+      "gain": 361.06,
+      "gain_pct": 168.0,
+      "spread_pct": 26.7,
       "flags": [
-        "check_match"
+        "sources_disagree"
       ]
     },
     {
-      "key": "2023-summer-collector-chest-tin-case-9-tins-scarlet-violet-promo-cards",
+      "key": "2023-summer-collector-chest-tin-case-9-tins-miscellaneous-cards-products",
       "name": "2023 Summer Collector Chest Tin Case (9 Tins)",
-      "set": "Scarlet & Violet Promo Cards",
+      "set": "Miscellaneous Cards & Products",
       "type": "Tin Case",
       "qty": 1,
       "unit_cost": 199.95,
@@ -2321,47 +2332,56 @@
       "purchase_date": "2023-08-16",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100641620",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/211494_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/516647_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 3150.0,
-          "unit_price": 350.0,
+          "price": 599.22,
+          "unit_price": 66.58,
           "multiplier": 9,
-          "basis": "listing",
-          "low": 350.0,
-          "mid": 350.0,
-          "url": "https://www.tcgplayer.com/product/211494/pokemon-jumbo-cards-zorua-and-celebi-black-and-white-tour-promo",
-          "matched_name": "9 \u00d7 Zorua and Celebi (Black and White Tour Promo)",
-          "confidence": 0.027,
+          "basis": "market",
+          "low": 74.95,
+          "mid": 89.99,
+          "url": "https://www.tcgplayer.com/product/516647/pokemon-miscellaneous-cards-and-products-fall-2023-collector-chest",
+          "matched_name": "9 \u00d7 Fall 2023 Collector Chest",
+          "confidence": 0.487,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 251099,
-              "name": "Pikachu V-Union [Set of 4]",
-              "score": 0.108
+              "productId": 575706,
+              "name": "Fall 2024 Collector Chest",
+              "score": 0.587
             },
             {
-              "productId": 170121,
-              "name": "Tornadus, Thundurus & Landorus (Forces of Nature Promo)",
-              "score": 0.107
+              "productId": 654593,
+              "name": "Fall 2025 Collector Chest",
+              "score": 0.587
             },
             {
-              "productId": 250252,
-              "name": "Mewtwo V-UNION",
-              "score": 0.097
+              "productId": 265252,
+              "name": "Spring 2022 Collector Chest",
+              "score": 0.575
             }
           ],
-          "counted": true
+          "counted": false
         },
-        "cardmarket": null
+        "cardmarket": {
+          "price": 494.17,
+          "eur": 440.91,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 9,
+          "matched_name": "9 \u00d7 Pok\u00e9mon TCG 2023 Collector Chest",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pok%C3%A9mon%20TCG%202023%20Collector%20Chest",
+          "confidence": 0.733,
+          "counted": true
+        }
       },
-      "market": 3150.0,
-      "value": 3150.0,
-      "gain": 2950.05,
-      "gain_pct": 1475.4,
+      "market": 494.17,
+      "value": 494.17,
+      "gain": 294.22,
+      "gain_pct": 147.1,
       "spread_pct": null,
       "flags": [
-        "listing_price",
         "check_match"
       ]
     },
@@ -2689,9 +2709,9 @@
       ]
     },
     {
-      "key": "cynthia-s-garchomp-ex-premium-collection-case-6-boxes-scarlet-violet-promo-cards",
+      "key": "cynthia-s-garchomp-ex-premium-collection-case-6-boxes-miscellaneous-cards-products",
       "name": "Cynthia's Garchomp ex Premium Collection Case (6 Boxes)",
-      "set": "Scarlet & Violet Promo Cards",
+      "set": "Miscellaneous Cards & Products",
       "type": "Premium Collection Case",
       "qty": 1,
       "unit_cost": 449.95,
@@ -2699,44 +2719,54 @@
       "purchase_date": "2025-04-02",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100751188",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/599657_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/625952_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 16.44,
-          "unit_price": 2.74,
+          "price": 451.32,
+          "unit_price": 75.22,
           "multiplier": 6,
           "basis": "market",
-          "low": 2.0,
-          "mid": 3.09,
-          "url": "https://www.tcgplayer.com/product/599657/pokemon-jumbo-cards-miraidon-ex-unnumbered",
-          "matched_name": "6 \u00d7 Miraidon ex (Unnumbered)",
-          "confidence": 0.083,
+          "low": 70.0,
+          "mid": 85.0,
+          "url": "https://www.tcgplayer.com/product/625952/pokemon-miscellaneous-cards-and-products-cynthias-garchomp-ex-premium-collection",
+          "matched_name": "6 \u00d7 Cynthia's Garchomp ex Premium Collection",
+          "confidence": 0.708,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 650725,
-              "name": "Koraidon ex (Unnumbered)",
-              "score": 0.183
+              "productId": 635323,
+              "name": "Code Card - Cynthia's Garchomp ex Premium Collection",
+              "score": 0.588
             },
             {
-              "productId": 211493,
-              "name": "Zoroark and Legendary Pokemon (World of Illusions Promo)",
-              "score": 0.12
+              "productId": 526914,
+              "name": "Gyarados ex Premium Collection",
+              "score": 0.539
             },
             {
-              "productId": 247376,
-              "name": "Zacian V-UNION [Set of 4]",
-              "score": 0.111
+              "productId": 576482,
+              "name": "Ogerpon ex Premium Collection",
+              "score": 0.532
             }
           ],
-          "counted": true
+          "counted": false
         },
-        "cardmarket": null
+        "cardmarket": {
+          "price": 338.39,
+          "eur": 301.92,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 6,
+          "matched_name": "6 \u00d7 Cynthia's Garchomp ex Premium Collection",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Cynthia%27s%20Garchomp%20ex%20Premium%20Collection",
+          "confidence": 1.0,
+          "counted": true
+        }
       },
-      "market": 16.44,
-      "value": 16.44,
-      "gain": -433.51,
-      "gain_pct": -96.3,
+      "market": 338.39,
+      "value": 338.39,
+      "gain": -111.56,
+      "gain_pct": -24.8,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -2967,9 +2997,9 @@
       ]
     },
     {
-      "key": "unova-victini-illustration-collection-case-6-boxes-scarlet-violet-promo-cards",
+      "key": "unova-victini-illustration-collection-case-6-boxes-miscellaneous-cards-products",
       "name": "Unova Victini Illustration Collection Case (6 Boxes)",
-      "set": "Scarlet & Violet Promo Cards",
+      "set": "Miscellaneous Cards & Products",
       "type": "Collection Case",
       "qty": 2,
       "unit_cost": 299.95,
@@ -2977,46 +3007,47 @@
       "purchase_date": "2025-06-11",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100761400",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/164235_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/226133_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 187.68,
-          "unit_price": 31.28,
+          "price": 2397.0,
+          "unit_price": 399.5,
           "multiplier": 6,
-          "basis": "market",
-          "low": 20.0,
-          "mid": 35.0,
-          "url": "https://www.tcgplayer.com/product/164235/pokemon-jumbo-cards-raikou-entei-and-suicune",
-          "matched_name": "6 \u00d7 Raikou, Entei & Suicune",
-          "confidence": 0.065,
+          "basis": "listing",
+          "low": 374.0,
+          "mid": 399.5,
+          "url": "https://www.tcgplayer.com/product/226133/pokemon-miscellaneous-cards-and-products-jirachi-gx-collection",
+          "matched_name": "6 \u00d7 Jirachi GX Collection",
+          "confidence": 0.232,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 250251,
-              "name": "Greninja V-UNION",
-              "score": 0.149
+              "productId": 657884,
+              "name": "Latias ex Special Collection",
+              "score": 0.31
             },
             {
-              "productId": 247376,
-              "name": "Zacian V-UNION [Set of 4]",
-              "score": 0.143
+              "productId": 653192,
+              "name": "Snorlax & Lapras VMAX Collection",
+              "score": 0.303
             },
             {
-              "productId": 268449,
-              "name": "Morpeko V-UNION (SWSH215-218)",
-              "score": 0.126
+              "productId": 594896,
+              "name": "Grand Adventure Collection",
+              "score": 0.302
             }
           ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 187.68,
-      "value": 375.36,
-      "gain": -224.54,
-      "gain_pct": -37.4,
+      "market": 2397.0,
+      "value": 4794.0,
+      "gain": 4194.1,
+      "gain_pct": 699.1,
       "spread_pct": null,
       "flags": [
+        "listing_price",
         "check_match"
       ]
     },

@@ -513,34 +513,6 @@
       "query": "Sun & Moon Elite Trainer Box|SM Base Set|x2",
       "multiplier": 2
     },
-    "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards": {
-      "productId": 210576,
-      "groupId": 2585,
-      "name": "Snorlax Pin Collection",
-      "url": "https://www.tcgplayer.com/product/210576/pokemon-swsh01-sword-and-shield-base-set-snorlax-pin-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/210576_200w.jpg",
-      "confidence": 0.196,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 251472,
-          "name": "Code Card - Snorlax Pin Collection",
-          "score": 0.293
-        },
-        {
-          "productId": 210577,
-          "name": "Morpeko Pin Collection",
-          "score": 0.283
-        },
-        {
-          "productId": 251471,
-          "name": "Code Card - Morpeko Pin Collection",
-          "score": 0.283
-        }
-      ],
-      "query": "Ultra Premium Collection Charizard|Sword & Shield Promo Cards|x4",
-      "multiplier": 4
-    },
     "astral-radiance-booster-box-case-6-boxes-astral-radiance": {
       "productId": 265519,
       "groupId": 3040,
@@ -653,34 +625,6 @@
       "query": "Crown Zenith Special Collection Pikachu VMAX|Crown Zenith|x6",
       "multiplier": 6
     },
-    "paldea-collection-case-6-boxes-scarlet-violet-base-set": {
-      "productId": 475653,
-      "groupId": 22873,
-      "name": "Code Card - Paldea Collection [Quaxly]",
-      "url": "https://www.tcgplayer.com/product/475653/pokemon-sv01-scarlet-and-violet-base-set-code-card-paldea-collection-quaxly",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475653_200w.jpg",
-      "confidence": 0.393,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 475651,
-          "name": "Code Card - Paldea Collection [Fuecoco]",
-          "score": 0.489
-        },
-        {
-          "productId": 91598,
-          "name": "Sylveon Collection",
-          "score": 0.477
-        },
-        {
-          "productId": 475652,
-          "name": "Code Card - Paldea Collection [Sprigatito]",
-          "score": 0.476
-        }
-      ],
-      "query": "Paldea Collection|Scarlet & Violet Base Set|x6",
-      "multiplier": 6
-    },
     "crown-zenith-elite-trainer-box-case-10-etbs-crown-zenith": {
       "productId": 453470,
       "groupId": 17688,
@@ -708,34 +652,6 @@
       ],
       "query": "Crown Zenith Elite Trainer Box|Crown Zenith|x10",
       "multiplier": 10
-    },
-    "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards-2": {
-      "productId": 210576,
-      "groupId": 2585,
-      "name": "Snorlax Pin Collection",
-      "url": "https://www.tcgplayer.com/product/210576/pokemon-swsh01-sword-and-shield-base-set-snorlax-pin-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/210576_200w.jpg",
-      "confidence": 0.196,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 251472,
-          "name": "Code Card - Snorlax Pin Collection",
-          "score": 0.293
-        },
-        {
-          "productId": 210577,
-          "name": "Morpeko Pin Collection",
-          "score": 0.283
-        },
-        {
-          "productId": 251471,
-          "name": "Code Card - Morpeko Pin Collection",
-          "score": 0.283
-        }
-      ],
-      "query": "Ultra Premium Collection Charizard|Sword & Shield Promo Cards|x4",
-      "multiplier": 4
     },
     "scarlet-violet-elite-trainer-box-case-10-etbs-scarlet-violet-base-set": {
       "productId": 488776,
@@ -1073,34 +989,6 @@
       "query": "Lost Origin Booster Box|Lost Origin|x6",
       "multiplier": 6
     },
-    "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards-3": {
-      "productId": 210576,
-      "groupId": 2585,
-      "name": "Snorlax Pin Collection",
-      "url": "https://www.tcgplayer.com/product/210576/pokemon-swsh01-sword-and-shield-base-set-snorlax-pin-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/210576_200w.jpg",
-      "confidence": 0.196,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 251472,
-          "name": "Code Card - Snorlax Pin Collection",
-          "score": 0.293
-        },
-        {
-          "productId": 210577,
-          "name": "Morpeko Pin Collection",
-          "score": 0.283
-        },
-        {
-          "productId": 251471,
-          "name": "Code Card - Morpeko Pin Collection",
-          "score": 0.283
-        }
-      ],
-      "query": "Ultra Premium Collection Charizard|Sword & Shield Promo Cards|x4",
-      "multiplier": 4
-    },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith-3": {
       "productId": 616290,
       "groupId": 17688,
@@ -1213,34 +1101,6 @@
       "query": "Paldea Evolved Elite Trainer Box|Paldea Evolved|x1",
       "multiplier": 1
     },
-    "cyrus-klara-premium-tournament-collection-display-2-boxes-sword-shield-promo-cards": {
-      "productId": 210577,
-      "groupId": 2585,
-      "name": "Morpeko Pin Collection",
-      "url": "https://www.tcgplayer.com/product/210577/pokemon-swsh01-sword-and-shield-base-set-morpeko-pin-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/210577_200w.jpg",
-      "confidence": 0.236,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 210576,
-          "name": "Snorlax Pin Collection",
-          "score": 0.322
-        },
-        {
-          "productId": 251471,
-          "name": "Code Card - Morpeko Pin Collection",
-          "score": 0.265
-        },
-        {
-          "productId": 251472,
-          "name": "Code Card - Snorlax Pin Collection",
-          "score": 0.254
-        }
-      ],
-      "query": "Premium Tournament Collection|Sword & Shield Promo Cards|x2",
-      "multiplier": 2
-    },
     "scarlet-violet-151-poster-collection-case-6-boxes-scarlet-violet-151": {
       "productId": 502001,
       "groupId": 23237,
@@ -1324,62 +1184,6 @@
       ],
       "query": "151 Elite Trainer Box|Scarlet & Violet 151|x10",
       "multiplier": 10
-    },
-    "charizard-ex-premium-collection-case-6-boxes-scarlet-violet-promo-cards": {
-      "productId": 599657,
-      "groupId": 1528,
-      "name": "Miraidon ex (Unnumbered)",
-      "url": "https://www.tcgplayer.com/product/599657/pokemon-jumbo-cards-miraidon-ex-unnumbered",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599657_200w.jpg",
-      "confidence": 0.127,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 650725,
-          "name": "Koraidon ex (Unnumbered)",
-          "score": 0.227
-        },
-        {
-          "productId": 247376,
-          "name": "Zacian V-UNION [Set of 4]",
-          "score": 0.13
-        },
-        {
-          "productId": 211494,
-          "name": "Zorua and Celebi (Black and White Tour Promo)",
-          "score": 0.117
-        }
-      ],
-      "query": "Charizard ex Premium Collection|Scarlet & Violet Promo Cards|x6",
-      "multiplier": 6
-    },
-    "2023-summer-collector-chest-tin-case-9-tins-scarlet-violet-promo-cards": {
-      "productId": 211494,
-      "groupId": 1528,
-      "name": "Zorua and Celebi (Black and White Tour Promo)",
-      "url": "https://www.tcgplayer.com/product/211494/pokemon-jumbo-cards-zorua-and-celebi-black-and-white-tour-promo",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/211494_200w.jpg",
-      "confidence": 0.027,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 251099,
-          "name": "Pikachu V-Union [Set of 4]",
-          "score": 0.108
-        },
-        {
-          "productId": 170121,
-          "name": "Tornadus, Thundurus & Landorus (Forces of Nature Promo)",
-          "score": 0.107
-        },
-        {
-          "productId": 250252,
-          "name": "Mewtwo V-UNION",
-          "score": 0.097
-        }
-      ],
-      "query": "Collector Chest|Scarlet & Violet Promo Cards|x9",
-      "multiplier": 9
     },
     "paldean-fates-tin-case-6-tins-paldean-fates": {
       "productId": 688258,
@@ -1577,34 +1381,6 @@
       "query": "Journey Together Elite Trainer Box|Journey Together|x10",
       "multiplier": 10
     },
-    "cynthia-s-garchomp-ex-premium-collection-case-6-boxes-scarlet-violet-promo-cards": {
-      "productId": 599657,
-      "groupId": 1528,
-      "name": "Miraidon ex (Unnumbered)",
-      "url": "https://www.tcgplayer.com/product/599657/pokemon-jumbo-cards-miraidon-ex-unnumbered",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599657_200w.jpg",
-      "confidence": 0.083,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 650725,
-          "name": "Koraidon ex (Unnumbered)",
-          "score": 0.183
-        },
-        {
-          "productId": 211493,
-          "name": "Zoroark and Legendary Pokemon (World of Illusions Promo)",
-          "score": 0.12
-        },
-        {
-          "productId": 247376,
-          "name": "Zacian V-UNION [Set of 4]",
-          "score": 0.111
-        }
-      ],
-      "query": "Cynthia's Garchomp ex Premium Collection|Scarlet & Violet Promo Cards|x6",
-      "multiplier": 6
-    },
     "destined-rivals-booster-bundle-case-25-bundles-destined-rivals": {
       "productId": 625670,
       "groupId": 24269,
@@ -1745,34 +1521,6 @@
       "query": "Black Bolt Elite Trainer Box|Black Bolt|x10",
       "multiplier": 10
     },
-    "unova-victini-illustration-collection-case-6-boxes-scarlet-violet-promo-cards": {
-      "productId": 164235,
-      "groupId": 1528,
-      "name": "Raikou, Entei & Suicune",
-      "url": "https://www.tcgplayer.com/product/164235/pokemon-jumbo-cards-raikou-entei-and-suicune",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/164235_200w.jpg",
-      "confidence": 0.065,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 250251,
-          "name": "Greninja V-UNION",
-          "score": 0.149
-        },
-        {
-          "productId": 247376,
-          "name": "Zacian V-UNION [Set of 4]",
-          "score": 0.143
-        },
-        {
-          "productId": 268449,
-          "name": "Morpeko V-UNION (SWSH215-218)",
-          "score": 0.126
-        }
-      ],
-      "query": "Victini Illustration Collection|Scarlet & Violet Promo Cards|x6",
-      "multiplier": 6
-    },
     "pitch-black-booster-box-pitch-black": {
       "productId": 692939,
       "groupId": 24688,
@@ -1828,6 +1576,258 @@
       ],
       "query": "Destined Rivals Elite Trainer Box|Destined Rivals|x10",
       "multiplier": 10
+    },
+    "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products": {
+      "productId": 654213,
+      "groupId": 2374,
+      "name": "Mega Charizard X ex Ultra Premium Collection",
+      "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
+      "confidence": 0.677,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 285424,
+          "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
+          "score": 0.587
+        },
+        {
+          "productId": 594491,
+          "name": "Greninja ex Ultra-Premium Collection",
+          "score": 0.565
+        },
+        {
+          "productId": 575198,
+          "name": "Terapagos ex Ultra-Premium Collection",
+          "score": 0.562
+        }
+      ],
+      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "multiplier": 4
+    },
+    "paldea-collection-case-6-boxes-miscellaneous-cards-products": {
+      "productId": 477174,
+      "groupId": 2374,
+      "name": "Paldea Collection [Set of 6]",
+      "url": "https://www.tcgplayer.com/product/477174/pokemon-miscellaneous-cards-and-products-paldea-collection-set-of-6",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/477174_200w.jpg",
+      "confidence": 0.537,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 451120,
+          "name": "Paldea Collection [Quaxly/Miraidon ex]",
+          "score": 0.485
+        },
+        {
+          "productId": 477171,
+          "name": "Paldea Collection [Quaxly/Koraidon ex]",
+          "score": 0.485
+        },
+        {
+          "productId": 451119,
+          "name": "Paldea Collection [Fuecoco/Koraidon ex]",
+          "score": 0.48
+        }
+      ],
+      "query": "Paldea Collection|Miscellaneous Cards & Products|x6",
+      "multiplier": 6
+    },
+    "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-2": {
+      "productId": 654213,
+      "groupId": 2374,
+      "name": "Mega Charizard X ex Ultra Premium Collection",
+      "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
+      "confidence": 0.677,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 285424,
+          "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
+          "score": 0.587
+        },
+        {
+          "productId": 594491,
+          "name": "Greninja ex Ultra-Premium Collection",
+          "score": 0.565
+        },
+        {
+          "productId": 575198,
+          "name": "Terapagos ex Ultra-Premium Collection",
+          "score": 0.562
+        }
+      ],
+      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "multiplier": 4
+    },
+    "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-3": {
+      "productId": 654213,
+      "groupId": 2374,
+      "name": "Mega Charizard X ex Ultra Premium Collection",
+      "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
+      "confidence": 0.677,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 285424,
+          "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
+          "score": 0.587
+        },
+        {
+          "productId": 594491,
+          "name": "Greninja ex Ultra-Premium Collection",
+          "score": 0.565
+        },
+        {
+          "productId": 575198,
+          "name": "Terapagos ex Ultra-Premium Collection",
+          "score": 0.562
+        }
+      ],
+      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "multiplier": 4
+    },
+    "cyrus-klara-premium-tournament-collection-display-2-boxes-miscellaneous-cards-products": {
+      "productId": 632691,
+      "groupId": 2374,
+      "name": "Code Card - Lillie Premium Tournament Collection",
+      "url": "https://www.tcgplayer.com/product/632691/pokemon-miscellaneous-cards-and-products-code-card-lillie-premium-tournament-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/632691_200w.jpg",
+      "confidence": 0.596,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 594539,
+          "name": "Tera Team Premium Collection",
+          "score": 0.542
+        },
+        {
+          "productId": 249689,
+          "name": "Vaporeon VMAX Premium Collection",
+          "score": 0.524
+        },
+        {
+          "productId": 276701,
+          "name": "Code Card - Professor Juniper Premium Tournament Collection",
+          "score": 0.515
+        }
+      ],
+      "query": "Premium Tournament Collection|Miscellaneous Cards & Products|x2",
+      "multiplier": 2
+    },
+    "charizard-ex-premium-collection-case-6-boxes-miscellaneous-cards-products": {
+      "productId": 516576,
+      "groupId": 2374,
+      "name": "Charizard ex Premium Collection",
+      "url": "https://www.tcgplayer.com/product/516576/pokemon-miscellaneous-cards-and-products-charizard-ex-premium-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/516576_200w.jpg",
+      "confidence": 1.0,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 523957,
+          "name": "Code Card - Charizard ex Premium Collection",
+          "score": 0.735
+        },
+        {
+          "productId": 539305,
+          "name": "Armarouge ex Premium Collection",
+          "score": 0.684
+        },
+        {
+          "productId": 576482,
+          "name": "Ogerpon ex Premium Collection",
+          "score": 0.635
+        }
+      ],
+      "query": "Charizard ex Premium Collection|Miscellaneous Cards & Products|x6",
+      "multiplier": 6
+    },
+    "2023-summer-collector-chest-tin-case-9-tins-miscellaneous-cards-products": {
+      "productId": 516647,
+      "groupId": 2374,
+      "name": "Fall 2023 Collector Chest",
+      "url": "https://www.tcgplayer.com/product/516647/pokemon-miscellaneous-cards-and-products-fall-2023-collector-chest",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/516647_200w.jpg",
+      "confidence": 0.487,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 575706,
+          "name": "Fall 2024 Collector Chest",
+          "score": 0.587
+        },
+        {
+          "productId": 654593,
+          "name": "Fall 2025 Collector Chest",
+          "score": 0.587
+        },
+        {
+          "productId": 265252,
+          "name": "Spring 2022 Collector Chest",
+          "score": 0.575
+        }
+      ],
+      "query": "Collector Chest|Miscellaneous Cards & Products|x9",
+      "multiplier": 9
+    },
+    "cynthia-s-garchomp-ex-premium-collection-case-6-boxes-miscellaneous-cards-products": {
+      "productId": 625952,
+      "groupId": 2374,
+      "name": "Cynthia's Garchomp ex Premium Collection",
+      "url": "https://www.tcgplayer.com/product/625952/pokemon-miscellaneous-cards-and-products-cynthias-garchomp-ex-premium-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/625952_200w.jpg",
+      "confidence": 0.708,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 635323,
+          "name": "Code Card - Cynthia's Garchomp ex Premium Collection",
+          "score": 0.588
+        },
+        {
+          "productId": 526914,
+          "name": "Gyarados ex Premium Collection",
+          "score": 0.539
+        },
+        {
+          "productId": 576482,
+          "name": "Ogerpon ex Premium Collection",
+          "score": 0.532
+        }
+      ],
+      "query": "Cynthia's Garchomp ex Premium Collection|Miscellaneous Cards & Products|x6",
+      "multiplier": 6
+    },
+    "unova-victini-illustration-collection-case-6-boxes-miscellaneous-cards-products": {
+      "productId": 226133,
+      "groupId": 2374,
+      "name": "Jirachi GX Collection",
+      "url": "https://www.tcgplayer.com/product/226133/pokemon-miscellaneous-cards-and-products-jirachi-gx-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/226133_200w.jpg",
+      "confidence": 0.232,
+      "method": "auto",
+      "alternatives": [
+        {
+          "productId": 657884,
+          "name": "Latias ex Special Collection",
+          "score": 0.31
+        },
+        {
+          "productId": 653192,
+          "name": "Snorlax & Lapras VMAX Collection",
+          "score": 0.303
+        },
+        {
+          "productId": 594896,
+          "name": "Grand Adventure Collection",
+          "score": 0.302
+        }
+      ],
+      "query": "Victini Illustration Collection|Miscellaneous Cards & Products|x6",
+      "multiplier": 6
     }
   },
   "cardmarket": {
@@ -2544,12 +2544,6 @@
         }
       ]
     },
-    "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards": {
-      "query": "Ultra Premium Collection Charizard|Sword & Shield Promo Cards|x4",
-      "idProduct": null,
-      "multiplier": 4,
-      "candidates": []
-    },
     "astral-radiance-booster-box-case-6-boxes-astral-radiance": {
       "query": "Astral Radiance Booster Box|Astral Radiance|x6",
       "idProduct": 611352,
@@ -2687,38 +2681,6 @@
       "confidence": 1.0,
       "method": "auto"
     },
-    "paldea-collection-case-6-boxes-scarlet-violet-base-set": {
-      "query": "Paldea Collection|Scarlet & Violet Base Set|x6",
-      "idProduct": null,
-      "multiplier": 6,
-      "candidates": [
-        {
-          "idProduct": 286573,
-          "name": "Expedition Base Set: Electric Garden Theme Deck",
-          "score": 0.156
-        },
-        {
-          "idProduct": 669867,
-          "name": "Base Set WotC Sealed Promotional Box",
-          "score": 0.143
-        },
-        {
-          "idProduct": 286572,
-          "name": "Expedition Base Set: Echo Theme Deck",
-          "score": 0.13
-        },
-        {
-          "idProduct": 288702,
-          "name": "Base Set 2: Pikachu Coin (Theme Decks)",
-          "score": 0.13
-        },
-        {
-          "idProduct": 757827,
-          "name": "Base Set: Venusaur 1-Pack Blister",
-          "score": 0.122
-        }
-      ]
-    },
     "crown-zenith-elite-trainer-box-case-10-etbs-crown-zenith": {
       "query": "Crown Zenith Elite Trainer Box|Crown Zenith|x10",
       "idProduct": 683009,
@@ -2753,12 +2715,6 @@
       "name": "Crown Zenith Elite Trainer Box",
       "confidence": 1.0,
       "method": "auto"
-    },
-    "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards-2": {
-      "query": "Ultra Premium Collection Charizard|Sword & Shield Promo Cards|x4",
-      "idProduct": null,
-      "multiplier": 4,
-      "candidates": []
     },
     "scarlet-violet-elite-trainer-box-case-10-etbs-scarlet-violet-base-set": {
       "query": "Scarlet & Violet Elite Trainer Box|Scarlet & Violet Base Set|x10",
@@ -3171,12 +3127,6 @@
       "confidence": 1.0,
       "method": "auto"
     },
-    "charizard-ultra-premium-collection-case-4-boxes-sword-shield-promo-cards-3": {
-      "query": "Ultra Premium Collection Charizard|Sword & Shield Promo Cards|x4",
-      "idProduct": null,
-      "multiplier": 4,
-      "candidates": []
-    },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith-3": {
       "query": "Crown Zenith Tin|Crown Zenith|x6",
       "idProduct": null,
@@ -3314,12 +3264,6 @@
       "confidence": 1.0,
       "method": "auto"
     },
-    "cyrus-klara-premium-tournament-collection-display-2-boxes-sword-shield-promo-cards": {
-      "query": "Premium Tournament Collection|Sword & Shield Promo Cards|x2",
-      "idProduct": null,
-      "multiplier": 2,
-      "candidates": []
-    },
     "scarlet-violet-151-poster-collection-case-6-boxes-scarlet-violet-151": {
       "query": "151 Poster Collection|Scarlet & Violet 151|x6",
       "idProduct": 719696,
@@ -3424,60 +3368,6 @@
       "name": "151 Elite Trainer Box",
       "confidence": 1.0,
       "method": "auto"
-    },
-    "charizard-ex-premium-collection-case-6-boxes-scarlet-violet-promo-cards": {
-      "query": "Charizard ex Premium Collection|Scarlet & Violet Promo Cards|x6",
-      "idProduct": null,
-      "multiplier": 6,
-      "candidates": [
-        {
-          "idProduct": 858262,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 2 Booster (2 Cards)",
-          "score": 0.084
-        },
-        {
-          "idProduct": 838382,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 1 Booster (2 Cards)",
-          "score": 0.082
-        },
-        {
-          "idProduct": 871019,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 3 Booster (2 Cards)",
-          "score": 0.082
-        },
-        {
-          "idProduct": 888194,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 4 Booster (2 Cards)",
-          "score": 0.082
-        }
-      ]
-    },
-    "2023-summer-collector-chest-tin-case-9-tins-scarlet-violet-promo-cards": {
-      "query": "Collector Chest|Scarlet & Violet Promo Cards|x9",
-      "idProduct": null,
-      "multiplier": 9,
-      "candidates": [
-        {
-          "idProduct": 858262,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 2 Booster (2 Cards)",
-          "score": 0.1
-        },
-        {
-          "idProduct": 838382,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 1 Booster (2 Cards)",
-          "score": 0.095
-        },
-        {
-          "idProduct": 871019,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 3 Booster (2 Cards)",
-          "score": 0.095
-        },
-        {
-          "idProduct": 888194,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 4 Booster (2 Cards)",
-          "score": 0.095
-        }
-      ]
     },
     "paldean-fates-tin-case-6-tins-paldean-fates": {
       "query": "Paldean Fates Tin|Paldean Fates|x6",
@@ -3721,33 +3611,6 @@
       "confidence": 1.0,
       "method": "auto"
     },
-    "cynthia-s-garchomp-ex-premium-collection-case-6-boxes-scarlet-violet-promo-cards": {
-      "query": "Cynthia's Garchomp ex Premium Collection|Scarlet & Violet Promo Cards|x6",
-      "idProduct": null,
-      "multiplier": 6,
-      "candidates": [
-        {
-          "idProduct": 858262,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 2 Booster (2 Cards)",
-          "score": 0.031
-        },
-        {
-          "idProduct": 838382,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 1 Booster (2 Cards)",
-          "score": 0.03
-        },
-        {
-          "idProduct": 871019,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 3 Booster (2 Cards)",
-          "score": 0.03
-        },
-        {
-          "idProduct": 888194,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 4 Booster (2 Cards)",
-          "score": 0.03
-        }
-      ]
-    },
     "destined-rivals-booster-bundle-case-25-bundles-destined-rivals": {
       "query": "Destined Rivals Booster Bundle|Destined Rivals|x25",
       "idProduct": 818578,
@@ -3923,33 +3786,6 @@
       "confidence": 1.0,
       "method": "auto"
     },
-    "unova-victini-illustration-collection-case-6-boxes-scarlet-violet-promo-cards": {
-      "query": "Victini Illustration Collection|Scarlet & Violet Promo Cards|x6",
-      "idProduct": null,
-      "multiplier": 6,
-      "candidates": [
-        {
-          "idProduct": 858262,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 2 Booster (2 Cards)",
-          "score": 0.036
-        },
-        {
-          "idProduct": 838382,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 1 Booster (2 Cards)",
-          "score": 0.035
-        },
-        {
-          "idProduct": 871019,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 3 Booster (2 Cards)",
-          "score": 0.035
-        },
-        {
-          "idProduct": 888194,
-          "name": "Pok\u00e9mon Card Gym Promo MEGA Vol. 4 Booster (2 Cards)",
-          "score": 0.035
-        }
-      ]
-    },
     "pitch-black-booster-box-pitch-black": {
       "query": "Pitch Black Booster Box|Pitch Black|x1",
       "idProduct": 885545,
@@ -4019,6 +3855,318 @@
       "name": "Destined Rivals Elite Trainer Box",
       "confidence": 1.0,
       "method": "auto"
+    },
+    "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products": {
+      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "idProduct": 670732,
+      "multiplier": 4,
+      "candidates": [
+        {
+          "idProduct": 670732,
+          "name": "Sword & Shield Ultra-Premium Collection - Charizard",
+          "score": 0.727
+        },
+        {
+          "idProduct": 301684,
+          "name": "Charizard GX Premium Collection",
+          "score": 0.692
+        },
+        {
+          "idProduct": 725585,
+          "name": "Charizard ex Premium Collection",
+          "score": 0.692
+        },
+        {
+          "idProduct": 846718,
+          "name": "Mega Charizard X ex Ultra-Premium Collection",
+          "score": 0.677
+        },
+        {
+          "idProduct": 719698,
+          "name": "151 Ultra-Premium Collection",
+          "score": 0.672
+        }
+      ],
+      "name": "Sword & Shield Ultra-Premium Collection - Charizard",
+      "confidence": 0.727,
+      "method": "auto"
+    },
+    "paldea-collection-case-6-boxes-miscellaneous-cards-products": {
+      "query": "Paldea Collection|Miscellaneous Cards & Products|x6",
+      "idProduct": 681218,
+      "multiplier": 6,
+      "candidates": [
+        {
+          "idProduct": 681218,
+          "name": "Quaxly Paldea Collection",
+          "score": 0.724
+        },
+        {
+          "idProduct": 681217,
+          "name": "Fuecoco Paldea Collection",
+          "score": 0.717
+        },
+        {
+          "idProduct": 681216,
+          "name": "Sprigatito Paldea Collection",
+          "score": 0.698
+        },
+        {
+          "idProduct": 287055,
+          "name": "DP Collection",
+          "score": 0.497
+        },
+        {
+          "idProduct": 287014,
+          "name": "Xerneas Collection",
+          "score": 0.477
+        }
+      ],
+      "name": "Quaxly Paldea Collection",
+      "confidence": 0.724,
+      "method": "auto"
+    },
+    "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-2": {
+      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "idProduct": 670732,
+      "multiplier": 4,
+      "candidates": [
+        {
+          "idProduct": 670732,
+          "name": "Sword & Shield Ultra-Premium Collection - Charizard",
+          "score": 0.727
+        },
+        {
+          "idProduct": 301684,
+          "name": "Charizard GX Premium Collection",
+          "score": 0.692
+        },
+        {
+          "idProduct": 725585,
+          "name": "Charizard ex Premium Collection",
+          "score": 0.692
+        },
+        {
+          "idProduct": 846718,
+          "name": "Mega Charizard X ex Ultra-Premium Collection",
+          "score": 0.677
+        },
+        {
+          "idProduct": 719698,
+          "name": "151 Ultra-Premium Collection",
+          "score": 0.672
+        }
+      ],
+      "name": "Sword & Shield Ultra-Premium Collection - Charizard",
+      "confidence": 0.727,
+      "method": "auto"
+    },
+    "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-3": {
+      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "idProduct": 670732,
+      "multiplier": 4,
+      "candidates": [
+        {
+          "idProduct": 670732,
+          "name": "Sword & Shield Ultra-Premium Collection - Charizard",
+          "score": 0.727
+        },
+        {
+          "idProduct": 301684,
+          "name": "Charizard GX Premium Collection",
+          "score": 0.692
+        },
+        {
+          "idProduct": 725585,
+          "name": "Charizard ex Premium Collection",
+          "score": 0.692
+        },
+        {
+          "idProduct": 846718,
+          "name": "Mega Charizard X ex Ultra-Premium Collection",
+          "score": 0.677
+        },
+        {
+          "idProduct": 719698,
+          "name": "151 Ultra-Premium Collection",
+          "score": 0.672
+        }
+      ],
+      "name": "Sword & Shield Ultra-Premium Collection - Charizard",
+      "confidence": 0.727,
+      "method": "auto"
+    },
+    "cyrus-klara-premium-tournament-collection-display-2-boxes-miscellaneous-cards-products": {
+      "query": "Premium Tournament Collection|Miscellaneous Cards & Products|x2",
+      "idProduct": 751837,
+      "multiplier": 2,
+      "candidates": [
+        {
+          "idProduct": 751837,
+          "name": "Iono Premium Tournament Collection",
+          "score": 0.81
+        },
+        {
+          "idProduct": 691019,
+          "name": "Cyrus Premium Tournament Collection",
+          "score": 0.805
+        },
+        {
+          "idProduct": 691021,
+          "name": "Klara Premium Tournament Collection",
+          "score": 0.805
+        },
+        {
+          "idProduct": 810414,
+          "name": "Lillie Premium Tournament Collection",
+          "score": 0.8
+        },
+        {
+          "idProduct": 751834,
+          "name": "Iono Premium Tournament Collection Coin",
+          "score": 0.689
+        }
+      ],
+      "name": "Iono Premium Tournament Collection",
+      "confidence": 0.81,
+      "method": "auto"
+    },
+    "charizard-ex-premium-collection-case-6-boxes-miscellaneous-cards-products": {
+      "query": "Charizard ex Premium Collection|Miscellaneous Cards & Products|x6",
+      "idProduct": 725585,
+      "multiplier": 6,
+      "candidates": [
+        {
+          "idProduct": 725585,
+          "name": "Charizard ex Premium Collection",
+          "score": 1.0
+        },
+        {
+          "idProduct": 779168,
+          "name": "Charizard ex Super-Premium Collection",
+          "score": 0.839
+        },
+        {
+          "idProduct": 301684,
+          "name": "Charizard GX Premium Collection",
+          "score": 0.729
+        },
+        {
+          "idProduct": 757835,
+          "name": "Charizard ex Premium Collection Chinese Box",
+          "score": 0.727
+        },
+        {
+          "idProduct": 807398,
+          "name": "Charizard ex Special Collection",
+          "score": 0.695
+        }
+      ],
+      "name": "Charizard ex Premium Collection",
+      "confidence": 1.0,
+      "method": "auto"
+    },
+    "2023-summer-collector-chest-tin-case-9-tins-miscellaneous-cards-products": {
+      "query": "Collector Chest|Miscellaneous Cards & Products|x9",
+      "idProduct": 709528,
+      "multiplier": 9,
+      "candidates": [
+        {
+          "idProduct": 709528,
+          "name": "Pok\u00e9mon TCG 2023 Collector Chest",
+          "score": 0.733
+        },
+        {
+          "idProduct": 570908,
+          "name": "Celebrations Collector Chest",
+          "score": 0.678
+        },
+        {
+          "idProduct": 371781,
+          "name": "Fall 2018 Collector Chest",
+          "score": 0.587
+        },
+        {
+          "idProduct": 412294,
+          "name": "Fall 2019 Collector Chest",
+          "score": 0.587
+        },
+        {
+          "idProduct": 494519,
+          "name": "Fall 2020 Collector Chest",
+          "score": 0.587
+        }
+      ],
+      "name": "Pok\u00e9mon TCG 2023 Collector Chest",
+      "confidence": 0.733,
+      "method": "auto"
+    },
+    "cynthia-s-garchomp-ex-premium-collection-case-6-boxes-miscellaneous-cards-products": {
+      "query": "Cynthia's Garchomp ex Premium Collection|Miscellaneous Cards & Products|x6",
+      "idProduct": 819412,
+      "multiplier": 6,
+      "candidates": [
+        {
+          "idProduct": 819412,
+          "name": "Cynthia's Garchomp ex Premium Collection",
+          "score": 1.0
+        },
+        {
+          "idProduct": 293329,
+          "name": "MGarchomp EX Premium Collection",
+          "score": 0.574
+        },
+        {
+          "idProduct": 807399,
+          "name": "Iono's Bellibolt ex Premium Collection",
+          "score": 0.549
+        },
+        {
+          "idProduct": 739424,
+          "name": "Gyarados ex Premium Collection",
+          "score": 0.539
+        },
+        {
+          "idProduct": 786054,
+          "name": "Ogerpon ex Premium Collection",
+          "score": 0.532
+        }
+      ],
+      "name": "Cynthia's Garchomp ex Premium Collection",
+      "confidence": 1.0,
+      "method": "auto"
+    },
+    "unova-victini-illustration-collection-case-6-boxes-miscellaneous-cards-products": {
+      "query": "Victini Illustration Collection|Miscellaneous Cards & Products|x6",
+      "idProduct": null,
+      "multiplier": 6,
+      "candidates": [
+        {
+          "idProduct": 289585,
+          "name": "Mythical Pok\u00e9mon Collection: Victini",
+          "score": 0.578
+        },
+        {
+          "idProduct": 876895,
+          "name": "Card Illustration Figure Collection",
+          "score": 0.504
+        },
+        {
+          "idProduct": 824106,
+          "name": "Black Bolt & White Flare: Unova Victini Illustration Collection",
+          "score": 0.482
+        },
+        {
+          "idProduct": 770967,
+          "name": "Shrouded Fable: Kingambit Illustration Collection",
+          "score": 0.456
+        },
+        {
+          "idProduct": 865393,
+          "name": "First Partner Illustration Collection Series 1",
+          "score": 0.413
+        }
+      ]
     }
   }
 }
