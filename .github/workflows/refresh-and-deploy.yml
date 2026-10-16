@@ -20,6 +20,7 @@ concurrency:
 jobs:
   refresh-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -34,6 +35,11 @@ jobs:
         env:
           PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
         run: python scripts/update_prices.py
+
+      - name: Backfill price history from archives
+        run: |
+          command -v 7z >/dev/null || sudo apt-get install -y -qq p7zip-full
+          python scripts/backfill_history.py
 
       - name: Commit updated price data
         run: |

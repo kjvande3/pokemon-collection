@@ -23,9 +23,19 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import history  # noqa: E402
+
+LOCAL_TZ = ZoneInfo("America/Chicago")
+
+
+def local_today() -> date:
+    return datetime.now(LOCAL_TZ).date()
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -167,7 +177,7 @@ def read_collection() -> list[dict]:
             row = {(k or "").strip().lower(): (v or "").strip() for k, v in raw.items()}
             if not row.get("name"):
                 continue
-            base = slug(row.get("id") or f"{row['name']}-{row.get('set','')}-{row.get('purchase_date','')}")
+            base = slug(row.get("id") or f"{row['name']}-{row.get('set','')}")
             seen[base] = seen.get(base, 0) + 1
             row["key"] = base if seen[base] == 1 else f"{base}-{seen[base]}"
             try:
@@ -512,18 +522,24 @@ def main() -> int:
         "items": items,
     })
 
-    history = load_json(HISTORY, [])
-    today = now.date().isoformat()
-    history = [h for h in history if h.get("date") != today]
-    history.append({
-        "date": today,
-        "cost": cost_priced,
-        "value": value_priced,
-        "items": {i["key"]: i["market"] for i in priced},
-    })
-    history.sort(key=lambda h: h["date"])
-    save_json(HISTORY, history)
+    # drop matches for rows that no longer exist (renamed, sold, edited)
+    keys = {i["key"] for i in items}
+    for src in ("tcgplayer", "pricecharting"):
+        if src in cache:
+            cache[src] = {k: v for k, v in cache[src].items() if k in keys}
     save_json(CACHE, cache)
+
+    # record today's TCGplayer prices, then rebuild the chart series
+    today = local_today()
+    ph = history.load_price_history()
+    day = ph["prices"].setdefault(today.isoformat(), {})
+    for i in items:
+        m = cache.get("tcgplayer", {}).get(i["key"])
+        q = i["prices"].get("tcgplayer")
+        if m and q and q.get("price") is not None and not q.get("stale"):
+            day[str(m["productId"])] = q["price"]
+    history.save_price_history(ph)
+    history.rebuild(today)
 
     log(f"Done: value ${value_priced:,.2f} vs cost ${cost_priced:,.2f} ({len(priced)}/{len(items)} priced)")
     return 0

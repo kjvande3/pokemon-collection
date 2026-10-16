@@ -99,24 +99,30 @@
   function renderTrend() {
     const o = baseOptions();
     const s1 = css("--series-1"), cost = css("--series-cost");
-    const pts = history.length ? history : [{ date: portfolio.generated_at.slice(0, 10), value: portfolio.totals.value, cost: portfolio.totals.cost_priced }];
-    const labels = pts.map((h) => h.date);
+    const pts = (history.length ? history : [{ date: portfolio.generated_at.slice(0, 10), value: portfolio.totals.value, cost: portfolio.totals.cost_priced }])
+      .map((h) => ({ ...h, t: new Date(h.date + "T12:00:00").getTime() }));
+    const day = (t, opts) => new Date(t).toLocaleDateString(undefined, opts);
     $("#trend-legend").innerHTML = `
       <span><i class="swatch" style="background:${s1}"></i>Market value</span>
       <span><i class="swatch dashed"></i>Invested</span>`;
     const note = $("#trend-note");
+    const firstValue = pts.find((p) => p.value != null);
     if (pts.length < 2) {
       note.hidden = false;
-      note.textContent = `Tracking started ${new Date(pts[0].date + "T12:00:00").toLocaleDateString(undefined, { dateStyle: "medium" })}. The line grows with each daily price refresh.`;
+      note.textContent = `Tracking started ${day(pts[0].t, { dateStyle: "medium" })}. The line grows with each daily price refresh.`;
+    } else if (firstValue && firstValue.t > pts[0].t) {
+      note.hidden = false;
+      note.textContent = `Starts at your first purchase (${day(pts[0].t, { dateStyle: "medium" })}). TCGplayer price history is only available from ${day(firstValue.t, { dateStyle: "medium" })}, so market value begins there.`;
     } else note.hidden = true;
-    const many = pts.length > 40;
+    const span = pts[pts.length - 1].t - pts[0].t;
+    const longRange = span > 150 * 864e5;
+    const few = pts.filter((p) => p.value != null).length <= 40;
     charts.push(new Chart($("#trend"), {
       type: "line",
       data: {
-        labels,
         datasets: [
-          { label: "Market value", data: pts.map((h) => h.value), borderColor: s1, backgroundColor: s1, borderWidth: 2, pointRadius: many ? 0 : 4, pointHoverRadius: 6, tension: 0.25 },
-          { label: "Invested", data: pts.map((h) => h.cost), borderColor: cost, backgroundColor: cost, borderWidth: 2, borderDash: [5, 4], pointRadius: 0, pointHoverRadius: 5, tension: 0, stepped: true },
+          { label: "Market value", data: pts.map((h) => ({ x: h.t, y: h.value })), borderColor: s1, backgroundColor: s1, borderWidth: 2, pointRadius: few ? 3 : 0, pointHoverRadius: 6, tension: 0.2, spanGaps: false },
+          { label: "Invested", data: pts.map((h) => ({ x: h.t, y: h.cost })), borderColor: cost, backgroundColor: cost, borderWidth: 2, borderDash: [5, 4], pointRadius: 0, pointHoverRadius: 5, tension: 0, stepped: "before" },
         ],
       },
       options: {
@@ -126,19 +132,25 @@
           ...o.plugins,
           tooltip: {
             ...o.plugins.tooltip,
+            filter: (c) => c.parsed.y != null,
             callbacks: {
-              title: (c) => new Date(c[0].label + "T12:00:00").toLocaleDateString(undefined, { dateStyle: "medium" }),
+              title: (c) => day(c[0].parsed.x, { dateStyle: "medium" }),
               label: (c) => ` ${c.dataset.label}: ${fmt(c.parsed.y)}`,
               afterBody: (c) => {
-                const v = c[0]?.chart.data.datasets[0].data[c[0].dataIndex];
-                const k = c[0]?.chart.data.datasets[1].data[c[0].dataIndex];
+                const i = c[0]?.dataIndex;
+                const v = pts[i]?.value, k = pts[i]?.cost;
                 return v != null && k ? `Gain: ${fmt(v - k)} (${pct(((v - k) / k) * 100)})` : "";
               },
             },
           },
         },
         scales: {
-          x: { grid: { display: false }, border: { color: css("--axis") }, ticks: { maxRotation: 0, autoSkipPadding: 24, callback(v) { return new Date(this.getLabelForValue(v) + "T12:00:00").toLocaleDateString(undefined, { month: "short", day: "numeric" }); } } },
+          x: {
+            type: "linear", min: pts[0].t, max: pts[pts.length - 1].t,
+            grid: { display: false }, border: { color: css("--axis") },
+            ticks: { maxRotation: 0, autoSkipPadding: 24, maxTicksLimit: 8,
+              callback: (v) => day(v, longRange ? { month: "short", year: "numeric" } : { month: "short", day: "numeric" }) },
+          },
           y: { beginAtZero: true, grid: { color: o._grid }, border: { display: false }, ticks: { callback: (v) => usd0.format(v), maxTicksLimit: 6 } },
         },
       },
