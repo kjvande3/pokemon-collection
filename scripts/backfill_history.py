@@ -48,9 +48,20 @@ def sample_dates(start: date, end: date) -> list[date]:
 
 
 def download(d: date, dest: Path) -> bool:
-    req = urllib.request.Request(ARCHIVE_URL.format(d=d.isoformat()), headers={"User-Agent": USER_AGENT})
+    url = ARCHIVE_URL.format(d=d.isoformat())
+    if shutil.which("curl"):
+        r = subprocess.run(["curl", "-sS", "-L", "--retry", "2", "-A", USER_AGENT, "-o", str(dest),
+                            "-w", "%{http_code}", "--max-time", "300", url],
+                           capture_output=True, text=True)
+        code = r.stdout.strip()
+        if code == "404":
+            return False
+        if r.returncode != 0 or code != "200":
+            raise RuntimeError(f"HTTP {code or '?'} {r.stderr.strip()[:200]}")
+        return True
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
-        with urllib.request.urlopen(req, timeout=180) as resp, dest.open("wb") as fh:
+        with urllib.request.urlopen(req, timeout=300) as resp, dest.open("wb") as fh:
             shutil.copyfileobj(resp, fh, 1 << 20)
         return True
     except urllib.error.HTTPError as err:
@@ -64,8 +75,12 @@ def extract_prices(archive: Path, d: date, groups: set[int], workdir: Path) -> d
     out_dir = workdir / "x"
     shutil.rmtree(out_dir, ignore_errors=True)
     wanted = [f"{d.isoformat()}/{POKEMON}/{g}/prices" for g in sorted(groups)]
-    subprocess.run(["7z", "x", "-y", f"-o{out_dir}", str(archive), *wanted],
-                   check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    r = subprocess.run(["7z", "x", "-y", f"-o{out_dir}", str(archive), *wanted],
+                       check=False, capture_output=True, text=True)
+    if not out_dir.exists():
+        log(f"  7z extracted nothing (exit {r.returncode}): {(r.stderr or r.stdout).strip()[-300:]}")
+        listing = subprocess.run(["7z", "l", str(archive)], capture_output=True, text=True).stdout.splitlines()
+        log("  archive sample: " + " | ".join(l.strip()[-60:] for l in listing[20:26]))
     found: dict[int, dict] = {}
     for g in groups:
         f = out_dir / d.isoformat() / str(POKEMON) / str(g) / "prices"
@@ -82,15 +97,32 @@ def extract_prices(archive: Path, d: date, groups: set[int], workdir: Path) -> d
     return found
 
 
+LOG_LINES: list[str] = []
+
+
+def log(msg: str) -> None:
+    print(msg, flush=True)
+    LOG_LINES.append(msg)
+
+
 def main() -> int:
+    try:
+        return run()
+    finally:
+        (history.DATA / "backfill_log.txt").write_text(
+            f"Last backfill run: {datetime.now(ZoneInfo('America/Chicago')).isoformat(timespec='seconds')}\n"
+            + "\n".join(LOG_LINES[-200:]) + "\n")
+
+
+def run() -> int:
     if not shutil.which("7z"):
-        print("7z not installed; skipping backfill")
+        log("7z not installed; skipping backfill")
         return 0
     portfolio = json.loads(history.PORTFOLIO.read_text())
     cache = json.loads(history.CACHE.read_text())
     products = history.tracked_products(portfolio, cache)
     if not products:
-        print("No TCGplayer-matched products; nothing to backfill")
+        log("No TCGplayer-matched products; nothing to backfill")
         return 0
 
     today = datetime.now(ZoneInfo("America/Chicago")).date()
@@ -104,24 +136,26 @@ def main() -> int:
         need = {pid for pid, p in products.items() if p["since"] <= d and pid not in checked}
         if need:
             todo[d] = need
-    print(f"{len(products)} product(s), {len(todo)} archive date(s) to look up")
+    log(f"{len(products)} product(s), {len(todo)} archive date(s) to look up")
 
     done = 0
     with tempfile.TemporaryDirectory() as tmp:
         work = Path(tmp)
         for d, pids in sorted(todo.items()):
             if done >= MAX_DOWNLOADS:
-                print(f"Reached {MAX_DOWNLOADS} downloads; the rest will be fetched next run")
+                log(f"Reached {MAX_DOWNLOADS} downloads; the rest will be fetched next run")
                 break
             archive = work / "a.7z"
             try:
                 ok = download(d, archive)
             except Exception as err:  # noqa: BLE001 - transient; retry next run
-                print(f"  {d}: download failed ({err}); will retry next run")
+                log(f"  {d}: download failed ({err}); will retry next run")
                 continue
             done += 1
             key = d.isoformat()
             if ok:
+                if done == 1:
+                    log(f"  first archive {d}: {archive.stat().st_size / 1e6:.1f} MB")
                 rows = extract_prices(archive, d, {products[p]["groupId"] for p in pids}, work)
                 day = ph["prices"].setdefault(key, {})
                 for pid in pids:
@@ -131,15 +165,15 @@ def main() -> int:
                         day[str(pid)] = round(float(price), 2)
                 if not day:
                     ph["prices"].pop(key, None)
-                print(f"  {d}: {len(day) if day else 0}/{len(pids)} priced")
+                log(f"  {d}: {len(day) if day else 0}/{len(pids)} priced")
             else:
-                print(f"  {d}: no archive")
+                log(f"  {d}: no archive")
             ph["checked"][key] = sorted(set(ph["checked"].get(key, [])) | pids)
             archive.unlink(missing_ok=True)
             history.save_price_history(ph)  # save as we go
 
     series = history.rebuild(today)
-    print(f"History rebuilt: {len(series)} points from {series[0]['date'] if series else '-'}")
+    log(f"History rebuilt: {len(series)} points from {series[0]['date'] if series else '-'}")
     return 0
 
 
