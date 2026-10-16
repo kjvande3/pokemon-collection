@@ -33,6 +33,8 @@ ARCHIVE_URL = os.environ.get("ARCHIVE_URL", "https://tcgcsv.com/archive/tcgplaye
 USER_AGENT = "pokemon-collection-dashboard/1.0 (+https://github.com/kjvande3/pokemon-collection)"
 POKEMON = 3
 MAX_DOWNLOADS = int(os.environ.get("BACKFILL_MAX_DOWNLOADS", "90"))
+SEVEN_ZIP = shutil.which("7z") or next(
+    (p for p in (r"C:\Program Files\7-Zip\7z.exe", r"C:\Program Files (x86)\7-Zip\7z.exe") if os.path.exists(p)), None)
 MAX_FAILURES = 3  # stop early if the archive host is refusing us
 
 
@@ -76,11 +78,11 @@ def extract_prices(archive: Path, d: date, groups: set[int], workdir: Path) -> d
     out_dir = workdir / "x"
     shutil.rmtree(out_dir, ignore_errors=True)
     wanted = [f"{d.isoformat()}/{POKEMON}/{g}/prices" for g in sorted(groups)]
-    r = subprocess.run(["7z", "x", "-y", f"-o{out_dir}", str(archive), *wanted],
+    r = subprocess.run([SEVEN_ZIP, "x", "-y", f"-o{out_dir}", str(archive), *wanted],
                        check=False, capture_output=True, text=True)
     if not out_dir.exists():
         log(f"  7z extracted nothing (exit {r.returncode}): {(r.stderr or r.stdout).strip()[-300:]}")
-        listing = subprocess.run(["7z", "l", str(archive)], capture_output=True, text=True).stdout.splitlines()
+        listing = subprocess.run([SEVEN_ZIP, "l", str(archive)], capture_output=True, text=True).stdout.splitlines()
         log("  archive sample: " + " | ".join(l.strip()[-60:] for l in listing[20:26]))
     found: dict[int, dict] = {}
     for g in groups:
@@ -116,7 +118,7 @@ def main() -> int:
 
 
 def run() -> int:
-    if not shutil.which("7z"):
+    if not SEVEN_ZIP:
         log("7z not installed; skipping backfill")
         return 0
     portfolio = json.loads(history.PORTFOLIO.read_text())

@@ -40,6 +40,23 @@ Sold something? Lower `qty` or delete the row.
 
 The blended **market price** is a weighted average of whichever sources have a price; change the weights in `config.json`.
 
+## Past prices (one-time backfill)
+
+The value-over-time chart starts at your earliest purchase. Past market values come from TCGCSV's daily archives (available from Feb 8, 2024), but the archive host refuses GitHub's servers, so the backfill has to run once from your own computer:
+
+1. Install [Python 3](https://www.python.org/downloads/) (tick "Add python.exe to PATH"), [7-Zip](https://www.7-zip.org/) and [Git](https://git-scm.com/downloads).
+2. In a terminal:
+   ```
+   git clone https://github.com/kjvande3/pokemon-collection
+   cd pokemon-collection
+   python scripts/backfill_history.py
+   git add data
+   git commit -m "Backfill price history"
+   git push
+   ```
+
+It samples the 1st and 15th of each month and only downloads what's missing, so re-run it after adding an item with an older purchase date. The daily GitHub run also retries a few dates each day in case access opens up; `data/backfill_log.txt` shows the last result.
+
 ## Run it now
 
 **Actions → Refresh prices & deploy → Run workflow.**
