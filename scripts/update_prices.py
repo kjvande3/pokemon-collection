@@ -282,6 +282,7 @@ class TCGplayer:
         cached = self.cache.get(key)
         if cached:
             if explicit_id is not None and cached.get("productId") == explicit_id and cached.get("multiplier", 1) == mult:
+                cached.update({"method": "id", "confidence": 1.0})
                 return cached
             if explicit_id is None and cached.get("method") == "auto" and cached.get("query") == query_key:
                 return cached
