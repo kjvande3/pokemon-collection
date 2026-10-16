@@ -237,6 +237,7 @@
 
   function sortVal(i, key) {
     if (key.startsWith("p_")) return i.prices?.[key.slice(2)]?.price ?? null;
+    if (key === "purchase_date") return i.purchase_date || null;
     return i[key];
   }
 
@@ -269,7 +270,7 @@
       const bought = i.purchase_date && !isNaN(new Date(i.purchase_date + "T12:00:00"))
         ? new Date(i.purchase_date + "T12:00:00").toLocaleDateString(undefined, { dateStyle: "medium" })
         : i.purchase_date;
-      const meta = [i.set, i.type, bought && `bought ${bought}`, i.bought_from].filter(Boolean).map(esc).join(" · ");
+      const meta = [i.set, i.type, i.bought_from].filter(Boolean).map(esc).join(" · ");
       return `<tr>
         <td class="left"><div class="prod">${img}<div>
           <div class="pname">${esc(i.name)}</div>
@@ -277,6 +278,7 @@
           ${i.notes ? `<div class="pmeta" title="${esc(i.notes)}">${esc(i.notes)}</div>` : ""}
           ${tags ? `<div class="tags">${tags}</div>` : ""}
         </div></div></td>
+        <td class="date">${bought ? esc(bought) : '<span class="na">—</span>'}</td>
         <td>${i.qty}</td>
         <td>${fmt(i.unit_cost)}</td>
         ${sourceCell(i, "tcgplayer")}
@@ -287,7 +289,7 @@
         <td>${delta(i.gain_pct, pct(i.gain_pct))}</td>
       </tr>`;
     }).join("");
-    $("#holdings tbody").innerHTML = body || `<tr class="empty-row"><td colspan="9">No products match.</td></tr>`;
+    $("#holdings tbody").innerHTML = body || `<tr class="empty-row"><td colspan="10">No products match.</td></tr>`;
 
     const priced = rows.filter((i) => i.value != null);
     const cost = priced.reduce((s, i) => s + i.cost, 0);
@@ -295,7 +297,7 @@
     const units = rows.reduce((s, i) => s + i.qty, 0);
     $("#holdings tfoot").innerHTML = rows.length > 1 ? `<tr>
       <td class="left">Total${rows.length !== portfolio.items.length ? " (filtered)" : ""}</td>
-      <td>${units}</td><td>${fmt(cost)}</td><td></td><td></td><td></td>
+      <td></td><td>${units}</td><td>${fmt(cost)}</td><td></td><td></td><td></td>
       <td>${fmt(value)}</td>
       <td>${delta(value - cost, fmt(Math.abs(value - cost)))}</td>
       <td>${cost ? delta(value - cost, pct(((value - cost) / cost) * 100)) : "—"}</td>
@@ -310,7 +312,7 @@
     document.querySelectorAll("#holdings th").forEach((th) => th.addEventListener("click", () => {
       const k = th.dataset.sort;
       if (state.sort === k) state.dir *= -1;
-      else { state.sort = k; state.dir = k === "name" ? 1 : -1; }
+      else { state.sort = k; state.dir = k === "name" || k === "purchase_date" ? 1 : -1; }
       renderTable();
     }));
   }

@@ -137,7 +137,7 @@ code { font-size: 0.9em; background: var(--tag-bg); padding: 1px 5px; border-rad
 .filters input { width: 220px; }
 .table-wrap { overflow-x: auto; margin: 0 -20px; padding: 0 20px; }
 table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 14px; }
-th, td { padding: 10px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--grid); }
+th, td { padding: 10px 8px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--grid); }
 th.left, td.left { text-align: left; }
 th { font-size: 12px; font-weight: 600; color: var(--ink-2); cursor: pointer; user-select: none; position: relative; }
 th:hover { color: var(--ink); }
@@ -145,7 +145,7 @@ th[aria-sort="ascending"]::after { content: " ↑"; }
 th[aria-sort="descending"]::after { content: " ↓"; }
 tbody tr:hover { background: var(--row-hover); }
 tfoot td { font-weight: 650; border-bottom: 0; border-top: 2px solid var(--axis); }
-.prod { display: flex; align-items: center; gap: 12px; white-space: normal; min-width: 260px; }
+.prod { display: flex; align-items: center; gap: 12px; white-space: normal; min-width: 220px; }
 .thumb { width: 44px; height: 44px; border-radius: 8px; object-fit: contain; background: #fff; box-shadow: inset 0 0 0 1px var(--ring); flex: none; }
 .thumb.blank { display: grid; place-items: center; color: var(--muted); font-size: 18px; }
 .pname { font-weight: 600; line-height: 1.3; }
@@ -157,6 +157,7 @@ tfoot td { font-weight: 650; border-bottom: 0; border-top: 2px solid var(--axis)
 .src a:hover { border-bottom-color: var(--ink); }
 .src small { display: block; font-size: 11px; color: var(--muted); }
 .na { color: var(--muted); }
+td.date { color: var(--ink-2); }
 .strong { font-weight: 650; }
 .empty-row td { text-align: center; color: var(--muted); padding: 28px; }
 
@@ -176,8 +177,9 @@ tfoot td { font-weight: 650; border-bottom: 0; border-top: 2px solid var(--axis)
   .table-wrap { margin: 0 -16px; padding: 0 16px; }
   .filters, .filters input, .filters select { width: 100%; }
   /* phones: keep product, qty, value, gain % — full detail on wider screens */
-  #holdings th:nth-child(n+3):nth-child(-n+6), #holdings td:nth-child(n+3):nth-child(-n+6),
-  #holdings th:nth-child(8), #holdings td:nth-child(8) { display: none; }
+  #holdings th:nth-child(2), #holdings td:nth-child(2),
+  #holdings th:nth-child(n+4):nth-child(-n+7), #holdings td:nth-child(n+4):nth-child(-n+7),
+  #holdings th:nth-child(9), #holdings td:nth-child(9) { display: none; }
   .prod { min-width: 0; gap: 0; }
   .pmeta { overflow-wrap: anywhere; }
   .thumb { display: none; }
