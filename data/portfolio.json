@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:46:28+00:00",
+  "generated_at": "2026-10-16T02:47:50+00:00",
   "status": {
     "pricecharting": "off - add a PRICECHARTING_TOKEN secret to enable",
     "ebay": "manual - from the ebay_price column",
@@ -15,9 +15,9 @@
   "totals": {
     "cost": 2219.9,
     "cost_priced": 2219.9,
-    "value": 17505.52,
-    "gain": 15285.62,
-    "gain_pct": 688.6,
+    "value": 15503.58,
+    "gain": 13283.68,
+    "gain_pct": 598.4,
     "units": 2,
     "products": 2,
     "priced_products": 2
@@ -43,27 +43,29 @@
           "mid": 5700.0,
           "url": "https://www.tcgplayer.com/product/243722/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-case",
           "matched_name": "Evolving Skies Elite Trainer Box Case",
-          "confidence": 1.0
+          "confidence": 1.0,
+          "counted": true
         },
         "cardmarket": {
           "price": 7061.04,
           "eur": 6300.0,
           "basis": "low",
+          "listing_only": true,
+          "multiplier": 1,
           "matched_name": "Evolving Skies 10 Elite Trainer Box Case",
           "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Evolving%20Skies%2010%20Elite%20Trainer%20Box%20Case",
-          "confidence": 0.848
+          "confidence": 0.848,
+          "counted": false
         },
         "pricecharting": null,
         "ebay": null
       },
-      "market": 5505.52,
-      "value": 5505.52,
-      "gain": 4715.57,
-      "gain_pct": 596.9,
-      "spread_pct": 56.5,
-      "flags": [
-        "sources_disagree"
-      ]
+      "market": 3950.0,
+      "value": 3950.0,
+      "gain": 3160.05,
+      "gain_pct": 400.0,
+      "spread_pct": null,
+      "flags": []
     },
     {
       "key": "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151",
@@ -85,17 +87,28 @@
           "mid": 13499.5,
           "url": "https://www.tcgplayer.com/product/513409/pokemon-sv-scarlet-and-violet-151-151-booster-bundle-display-case",
           "matched_name": "151 Booster Bundle Display Case",
-          "confidence": 1.0
+          "confidence": 1.0,
+          "counted": true
         },
-        "cardmarket": null,
+        "cardmarket": {
+          "price": 11107.15,
+          "eur": 9910.02,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 6,
+          "matched_name": "6 \u00d7 151 Booster Bundle Display",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=151%20Booster%20Bundle%20Display",
+          "confidence": 1.0,
+          "counted": true
+        },
         "pricecharting": null,
         "ebay": null
       },
-      "market": 12000.0,
-      "value": 12000.0,
-      "gain": 10570.05,
-      "gain_pct": 739.2,
-      "spread_pct": null,
+      "market": 11553.58,
+      "value": 11553.58,
+      "gain": 10123.63,
+      "gain_pct": 708.0,
+      "spread_pct": 7.7,
       "flags": []
     }
   ]
