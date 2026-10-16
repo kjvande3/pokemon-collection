@@ -177,6 +177,11 @@ def match_text(row: dict) -> str:
     return (row.get("match_name") or "").strip() or row["name"]
 
 
+# words that change what's in the box; a product match must agree on all of them
+KIND_WORDS = {"case", "display", "bundle", "box", "pack", "packs", "blister", "tin", "collection", "half",
+              "build", "premium", "ultra", "super", "center", "elite", "trainer", "booster", "sleeved", "mini"}
+
+
 # ----------------------------------------------------------------------------- collection
 
 def read_collection() -> list[dict]:
@@ -243,6 +248,10 @@ class TCGplayer:
                 # prefer full coverage, main sets, tighter names
                 scored.append((cover, not g.get("isSupplemental", False), -len(have), g))
         scored.sort(key=lambda s: s[:3], reverse=True)
+        if scored and scored[0][0] == 1.0:
+            # a group that contains every word of the set name beats partial matches
+            # (so "Chilling Reign" never searches "Delta Reign")
+            scored = [s for s in scored if s[0] == 1.0]
         return [s[3] for s in scored[:4]]
 
     def _record(self, product: dict, confidence: float, method: str, candidates=None) -> dict:
@@ -304,6 +313,11 @@ class TCGplayer:
                 scored.append((similarity(query, p.get("cleanName") or p.get("name", ""), ignore), p))
         if not scored:
             return None
+        # an ETB is not an ETB case: keep candidates whose product kind matches, when any do
+        q_kind = tokens(query) & KIND_WORDS
+        same_kind = [x for x in scored if (tokens(x[1].get("cleanName") or x[1].get("name", "")) & KIND_WORDS) == q_kind]
+        if same_kind:
+            scored = same_kind
         scored.sort(key=lambda s: s[0], reverse=True)
         best_score, best = scored[0]
         alts = [{"productId": p["productId"], "name": p.get("name"), "score": s} for s, p in scored[1:4]]
@@ -357,8 +371,7 @@ class Cardmarket:
     """
 
     BASE = "https://downloads.s3.cardmarket.com/productCatalog"
-    # words that change what's in the box; a match must agree on all of them
-    KIND_WORDS = {"case", "display", "bundle", "box", "pack", "packs", "blister", "tin", "collection", "set", "half", "build", "battle", "premium", "ultra", "super", "center", "elite", "trainer", "booster", "sleeved", "mini"}
+    KIND_WORDS = None  # set below from the module-level KIND_WORDS
 
     def __init__(self, cache: dict, min_conf: float):
         self.cache = cache.setdefault("cardmarket", {})
@@ -384,22 +397,31 @@ class Cardmarket:
         if cached and cached.get("query") == query_key:
             return cached if cached.get("idProduct") else None
 
-        set_words = tokens(row.get("set", ""))
+        generic = {"base", "set", "sv", "swsh", "sm", "me", "promo", "promos", "cards", "products", "miscellaneous"}
+        strict = set(norm(row.get("set", "")).split()) - generic - {"and", "the", "pokemon"}
+        lenient = tokens(row.get("set", "")) - generic
         name = re.sub(r"\([^)]*\)", " ", match_text(row))  # drop notes like "(10 ETBs)"
-        query = name if set_words <= tokens(name) else f"{name} {row.get('set','')}"
-        qt = tokens(query)
-        q_kind = qt & self.KIND_WORDS
-        best, best_score = None, 0.0
-        near = []
-        for p, pt in self._index:
-            if set_words and not set_words <= pt:
-                continue  # must be the same set
-            s = similarity(query, p.get("name", ""), set_words)
-            near.append((s, p))
-            if (pt & self.KIND_WORDS) != q_kind:
-                continue  # an ETB is not an ETB case
-            if s > best_score:
-                best, best_score = p, s
+        best, best_score, near = None, 0.0, []
+        # strict: every word of the set name ("Scarlet & Violet" keeps out the 1999 Base Set);
+        # lenient: Cardmarket often drops the series name ("151 Booster Bundle Display")
+        for set_words in (strict, lenient):
+            if best or (set_words is lenient and lenient == strict):
+                break
+            query = name if set_words <= tokens(name, drop_stop=False) else f"{name} {row.get('set','')}"
+            q_kind = tokens(query) & KIND_WORDS
+            near = []
+            for p, pt in self._index:
+                pt_all = tokens(p.get("name", ""), drop_stop=False)
+                if set_words and not set_words <= pt_all:
+                    continue  # must be the same set
+                s = similarity(query, p.get("name", ""), set_words)
+                near.append((s, p))
+                if (pt & KIND_WORDS) != q_kind:
+                    continue  # an ETB is not an ETB case
+                if s > best_score:
+                    best, best_score = p, s
+            if best and best_score < self.min_conf:
+                best, best_score = None, 0.0
         near.sort(key=lambda x: x[0], reverse=True)
         rec = {"query": query_key, "idProduct": None, "multiplier": mult,
                "candidates": [{"idProduct": p["idProduct"], "name": p.get("name"), "score": sc} for sc, p in near[:5]]}
