@@ -26,6 +26,15 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/513409_200w.jpg",
       "confidence": 1.0,
       "method": "id"
+    },
+    "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151-2023-07-10": {
+      "productId": 513409,
+      "groupId": 23237,
+      "name": "151 Booster Bundle Display Case",
+      "url": "https://www.tcgplayer.com/product/513409/pokemon-sv-scarlet-and-violet-151-151-booster-bundle-display-case",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/513409_200w.jpg",
+      "confidence": 1.0,
+      "method": "id"
     }
   }
 }

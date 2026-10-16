@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:09:30+00:00",
+  "generated_at": "2026-10-16T00:10:22+00:00",
   "status": {
     "pricecharting": "off - add a PRICECHARTING_TOKEN secret to enable",
     "ebay": "manual - from the ebay_price column",
@@ -56,14 +56,14 @@
       ]
     },
     {
-      "key": "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151",
+      "key": "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151-2023-07-10",
       "name": "Scarlet & Violet 151 Booster Bundle Display Case (6 Displays)",
       "set": "Scarlet & Violet 151",
       "type": "Booster Bundle Case",
       "qty": 1,
       "unit_cost": 1429.95,
       "cost": 1429.95,
-      "purchase_date": "",
+      "purchase_date": "2023-07-10",
       "bought_from": "",
       "notes": "Order SKU PKSCARLET151BUNCS",
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/513409_200w.jpg",
