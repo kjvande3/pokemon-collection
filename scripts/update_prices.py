@@ -356,10 +356,12 @@ class Cardmarket:
         self._index = [(p, tokens(p.get("name", ""))) for p in self.products]
 
     def resolve(self, row: dict) -> dict | None:
-        explicit = re.sub(r"\D", "", row.get("cardmarket_id", ""))
-        if explicit:
-            p = next((p for p in self.products if str(p.get("idProduct")) == explicit), None)
-            return {"idProduct": int(explicit), "name": p.get("name") if p else None, "confidence": 1.0, "method": "id"}
+        # "794902" pins a product; "794902x6" prices this row as 6 of that product (e.g. a case of displays)
+        m = re.match(r"\s*(\d+)\s*(?:[x×*]\s*(\d+))?\s*$", row.get("cardmarket_id", "") or "")
+        if m:
+            pid, mult = int(m.group(1)), int(m.group(2) or 1)
+            p = next((p for p in self.products if p.get("idProduct") == pid), None)
+            return {"idProduct": pid, "name": p.get("name") if p else None, "confidence": 1.0, "method": "id", "multiplier": mult}
         query_key = f"{row['name']}|{row.get('set','')}"
         cached = self.cache.get(row["key"])
         if cached and cached.get("query") == query_key:
@@ -393,18 +395,23 @@ class Cardmarket:
         g = self.guide.get(rec["idProduct"])
         if not g:
             return None
-        for field in ("avg30", "avg7", "trend", "avg", "low"):
+        # sale-based fields first; "low" is only the cheapest current listing
+        for field in ("avg30", "avg7", "avg1", "avg", "trend", "low"):
             eur = g.get(field)
             if eur:
                 break
         else:
             return None
+        mult = rec.get("multiplier") or 1
         name = rec.get("name") or ""
+        eur = float(eur) * mult
         return {
-            "price": round(float(eur) * self.eur_usd, 2),
-            "eur": round(float(eur), 2),
+            "price": round(eur * self.eur_usd, 2),
+            "eur": round(eur, 2),
             "basis": field,
-            "matched_name": name,
+            "listing_only": field == "low",
+            "multiplier": mult,
+            "matched_name": f"{mult} × {name}" if mult > 1 else name,
             "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=" + urllib.parse.quote(name),
             "confidence": rec.get("confidence"),
         }
@@ -574,15 +581,19 @@ def main() -> int:
         if ebay is not None:
             prices["ebay"] = {"price": ebay}
 
-        # A low-confidence TCGplayer match is shown but not counted, unless it's the only source
+        # Low-confidence matches and asking-price-only quotes are shown but not counted,
+        # unless nothing better exists for the item
+        def weak(q):
+            return bool(q and (q.get("uncertain") or q.get("listing_only")))
         counted = dict(prices)
-        if prices["tcgplayer"] and prices["tcgplayer"].get("uncertain") and any(
-            prices[s] for s in ("cardmarket", "pricecharting", "ebay")
-        ):
-            counted["tcgplayer"] = None
+        if any(q and not weak(q) for q in prices.values()):
+            counted = {k: (None if weak(q) else q) for k, q in prices.items()}
         market = blend(counted, weights)
+        for k, q in prices.items():
+            if q:
+                q["counted"] = counted.get(k) is not None
 
-        quoted = [q["price"] for q in prices.values() if q and q.get("price")]
+        quoted = [q["price"] for q in counted.values() if q and q.get("price")]
         spread = None
         if len(quoted) >= 2:
             lo, hi = min(quoted), max(quoted)

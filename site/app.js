@@ -225,10 +225,12 @@
     const q = item.prices?.[src];
     if (!q || q.price == null) return `<td class="src na">—</td>`;
     const notes = [];
-    if (q.basis === "listing") notes.push("listing");
+    if (q.basis === "listing" || q.listing_only) notes.push("lowest listing");
+    if (q.multiplier > 1) notes.push(`${q.multiplier} × unit price`);
+    if (q.counted === false) notes.push("not counted");
     if (q.uncertain) notes.push("unconfirmed");
     if (q.stale) notes.push("last known");
-    const title = [q.matched_name && `Matched: ${q.matched_name}`, q.eur && `€${q.eur.toFixed(2)} (${q.basis === "avg30" ? "30-day avg" : q.basis})`].filter(Boolean).join(" · ");
+    const title = [q.matched_name && `Matched: ${q.matched_name}`, q.eur && `€${q.eur.toFixed(2)} (${({ avg30: "30-day avg sale", avg7: "7-day avg sale", avg1: "1-day avg sale", avg: "avg sale", trend: "trend", low: "lowest listing" })[q.basis] || q.basis})`].filter(Boolean).join(" · ");
     const val = q.url ? `<a href="${esc(q.url)}" target="_blank" rel="noopener" title="${esc(title)}">${fmt(q.price)}</a>` : fmt(q.price);
     return `<td class="src">${val}${notes.length ? `<small>${notes.join(", ")}</small>` : ""}</td>`;
   }
