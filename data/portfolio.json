@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:10:22+00:00",
+  "generated_at": "2026-10-16T00:15:04+00:00",
   "status": {
     "pricecharting": "off - add a PRICECHARTING_TOKEN secret to enable",
     "ebay": "manual - from the ebay_price column",
@@ -22,7 +22,7 @@
   },
   "items": [
     {
-      "key": "evolving-skies-elite-trainer-box-case-10-etbs-evolving-skies-2023-02-14",
+      "key": "evolving-skies-elite-trainer-box-case-10-etbs-evolving-skies",
       "name": "Evolving Skies Elite Trainer Box Case (10 ETBs)",
       "set": "Evolving Skies",
       "type": "ETB Case",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "key": "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151-2023-07-10",
+      "key": "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151",
       "name": "Scarlet & Violet 151 Booster Bundle Display Case (6 Displays)",
       "set": "Scarlet & Violet 151",
       "type": "Booster Bundle Case",
