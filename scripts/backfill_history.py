@@ -33,6 +33,7 @@ ARCHIVE_URL = os.environ.get("ARCHIVE_URL", "https://tcgcsv.com/archive/tcgplaye
 USER_AGENT = "pokemon-collection-dashboard/1.0 (+https://github.com/kjvande3/pokemon-collection)"
 POKEMON = 3
 MAX_DOWNLOADS = int(os.environ.get("BACKFILL_MAX_DOWNLOADS", "90"))
+MAX_FAILURES = 3  # stop early if the archive host is refusing us
 
 
 def sample_dates(start: date, end: date) -> list[date]:
@@ -50,7 +51,7 @@ def sample_dates(start: date, end: date) -> list[date]:
 def download(d: date, dest: Path) -> bool:
     url = ARCHIVE_URL.format(d=d.isoformat())
     if shutil.which("curl"):
-        r = subprocess.run(["curl", "-sS", "-L", "--retry", "2", "-A", USER_AGENT, "-o", str(dest),
+        r = subprocess.run(["curl", "-sS", "-L", "--retry", "2", "-o", str(dest),
                             "-w", "%{http_code}", "--max-time", "300", url],
                            capture_output=True, text=True)
         code = r.stdout.strip()
@@ -138,7 +139,7 @@ def run() -> int:
             todo[d] = need
     log(f"{len(products)} product(s), {len(todo)} archive date(s) to look up")
 
-    done = 0
+    done = failures = 0
     with tempfile.TemporaryDirectory() as tmp:
         work = Path(tmp)
         for d, pids in sorted(todo.items()):
@@ -150,6 +151,10 @@ def run() -> int:
                 ok = download(d, archive)
             except Exception as err:  # noqa: BLE001 - transient; retry next run
                 log(f"  {d}: download failed ({err}); will retry next run")
+                failures += 1
+                if failures >= MAX_FAILURES:
+                    log("  stopping after repeated failures")
+                    break
                 continue
             done += 1
             key = d.isoformat()
