@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:01:56+00:00",
+  "generated_at": "2026-10-16T04:09:48+00:00",
   "status": {
     "cardmarket": "ok",
     "tcgplayer": "ok"
@@ -11,9 +11,9 @@
   "totals": {
     "cost": 38677.35,
     "cost_priced": 38677.35,
-    "value": 126389.03,
-    "gain": 87711.68,
-    "gain_pct": 226.8,
+    "value": 126445.5,
+    "gain": 87768.15,
+    "gain_pct": 226.9,
     "units": 81,
     "products": 68,
     "priced_products": 68
@@ -2510,26 +2510,8 @@
           "mid": 85.0,
           "url": "https://www.tcgplayer.com/product/625952/pokemon-miscellaneous-cards-and-products-cynthias-garchomp-ex-premium-collection",
           "matched_name": "6 \u00d7 Cynthia's Garchomp ex Premium Collection",
-          "confidence": 0.708,
-          "uncertain": true,
-          "alternatives": [
-            {
-              "productId": 526914,
-              "name": "Gyarados ex Premium Collection",
-              "score": 0.539
-            },
-            {
-              "productId": 576482,
-              "name": "Ogerpon ex Premium Collection",
-              "score": 0.532
-            },
-            {
-              "productId": 516576,
-              "name": "Charizard ex Premium Collection",
-              "score": 0.486
-            }
-          ],
-          "counted": false
+          "confidence": 1.0,
+          "counted": true
         },
         "cardmarket": {
           "price": 338.39,
@@ -2543,13 +2525,13 @@
           "counted": true
         }
       },
-      "market": 338.39,
-      "value": 338.39,
-      "gain": -111.56,
-      "gain_pct": -24.8,
-      "spread_pct": null,
+      "market": 394.86,
+      "value": 394.86,
+      "gain": -55.09,
+      "gain_pct": -12.2,
+      "spread_pct": 28.6,
       "flags": [
-        "check_match"
+        "sources_disagree"
       ]
     },
     {
