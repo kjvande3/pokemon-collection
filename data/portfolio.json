@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T03:10:30+00:00",
+  "generated_at": "2026-10-16T03:39:50+00:00",
   "status": {
     "cardmarket": "ok",
     "tcgplayer": "ok"
@@ -9,14 +9,14 @@
     "cardmarket": 1
   },
   "totals": {
-    "cost": 2349.9,
-    "cost_priced": 2349.9,
-    "value": 15645.46,
-    "gain": 13295.56,
-    "gain_pct": 565.8,
-    "units": 3,
-    "products": 3,
-    "priced_products": 3
+    "cost": 3727.76,
+    "cost_priced": 3727.76,
+    "value": 21291.47,
+    "gain": 17563.71,
+    "gain_pct": 471.2,
+    "units": 4,
+    "products": 4,
+    "priced_products": 4
   },
   "items": [
     {
@@ -34,6 +34,8 @@
       "prices": {
         "tcgplayer": {
           "price": 3950.0,
+          "unit_price": 3950.0,
+          "multiplier": 1,
           "basis": "market",
           "low": 5600.0,
           "mid": 5700.0,
@@ -76,6 +78,8 @@
       "prices": {
         "tcgplayer": {
           "price": 12000.0,
+          "unit_price": 12000.0,
+          "multiplier": 1,
           "basis": "market",
           "low": 11997.96,
           "mid": 13499.5,
@@ -118,6 +122,8 @@
       "prices": {
         "tcgplayer": {
           "price": 144.99,
+          "unit_price": 144.99,
+          "multiplier": 1,
           "basis": "market",
           "low": 136.01,
           "mid": 178.88,
@@ -143,6 +149,50 @@
       "gain": 11.88,
       "gain_pct": 9.1,
       "spread_pct": 4.4,
+      "flags": []
+    },
+    {
+      "key": "hidden-fates-elite-trainer-box-case-10-etbs-hidden-fates",
+      "name": "Hidden Fates Elite Trainer Box Case (10 ETBs)",
+      "set": "Hidden Fates",
+      "type": "ETB Case",
+      "qty": 1,
+      "unit_cost": 1377.86,
+      "cost": 1377.86,
+      "purchase_date": "2023-03-20",
+      "bought_from": "",
+      "notes": "",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/194729_200w.jpg",
+      "prices": {
+        "tcgplayer": {
+          "price": 5519.9,
+          "unit_price": 551.99,
+          "multiplier": 10,
+          "basis": "market",
+          "low": 544.0,
+          "mid": 649.95,
+          "url": "https://www.tcgplayer.com/product/194729/pokemon-hidden-fates-hidden-fates-elite-trainer-box",
+          "matched_name": "10 \u00d7 Hidden Fates Elite Trainer Box",
+          "confidence": 1.0,
+          "counted": true
+        },
+        "cardmarket": {
+          "price": 5772.12,
+          "eur": 5150.0,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 1,
+          "matched_name": "Hidden Fates 10 Elite Trainer Box Case",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hidden%20Fates%2010%20Elite%20Trainer%20Box%20Case",
+          "confidence": 0.848,
+          "counted": true
+        }
+      },
+      "market": 5646.01,
+      "value": 5646.01,
+      "gain": 4268.15,
+      "gain_pct": 309.8,
+      "spread_pct": 4.5,
       "flags": []
     }
   ]

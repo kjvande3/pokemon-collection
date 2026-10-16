@@ -26,6 +26,16 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668496_200w.jpg",
       "confidence": 1.0,
       "method": "id"
+    },
+    "hidden-fates-elite-trainer-box-case-10-etbs-hidden-fates": {
+      "productId": 194729,
+      "groupId": 2480,
+      "name": "Hidden Fates Elite Trainer Box",
+      "url": "https://www.tcgplayer.com/product/194729/pokemon-hidden-fates-hidden-fates-elite-trainer-box",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/194729_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
+      "multiplier": 10
     }
   },
   "cardmarket": {
@@ -126,6 +136,40 @@
       ],
       "name": "Ascended Heroes Elite Trainer Box",
       "confidence": 1.0,
+      "method": "auto"
+    },
+    "hidden-fates-elite-trainer-box-case-10-etbs-hidden-fates": {
+      "query": "Hidden Fates Elite Trainer Box Case (10 ETBs)|Hidden Fates",
+      "idProduct": 690875,
+      "candidates": [
+        {
+          "idProduct": 690875,
+          "name": "Hidden Fates 10 Elite Trainer Box Case",
+          "score": 0.848
+        },
+        {
+          "idProduct": 381198,
+          "name": "Hidden Fates Elite Trainer Box",
+          "score": 0.793
+        },
+        {
+          "idProduct": 381210,
+          "name": "Hidden Fates: Gyarados GX Tin",
+          "score": 0.151
+        },
+        {
+          "idProduct": 381201,
+          "name": "Hidden Fates Booster",
+          "score": 0.145
+        },
+        {
+          "idProduct": 565882,
+          "name": "Empty Hidden Fates: Gyarados GX Tin",
+          "score": 0.13
+        }
+      ],
+      "name": "Hidden Fates 10 Elite Trainer Box Case",
+      "confidence": 0.848,
       "method": "auto"
     }
   }
