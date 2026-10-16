@@ -52,7 +52,7 @@ USER_AGENT = "pokemon-collection-dashboard/1.0 (+https://github.com/kjvande3/pok
 FIXTURES = os.environ.get("FIXTURE_DIR")  # offline testing: serve URLs from local files
 
 DEFAULT_CONFIG = {
-    "weights": {"tcgplayer": 1, "pricecharting": 1, "ebay": 1},
+    "weights": {"tcgplayer": 1, "cardmarket": 1, "pricecharting": 1, "ebay": 1},
     "tcgplayer_price_field": "marketPrice",
     "pricecharting_price_field": "loose-price",
     "match_min_confidence": 0.72,
@@ -333,6 +333,98 @@ class TCGplayer:
 
 # ----------------------------------------------------------------------------- PriceCharting
 
+class Cardmarket:
+    """Cardmarket (EU) public daily price guide for Pokémon sealed product. Free, no key.
+
+    products_nonsingles_6.json -> idProduct + name for sealed product
+    price_guide_6.json         -> avg / low / trend / avg1 / avg7 / avg30 (EUR) per idProduct
+    """
+
+    BASE = "https://downloads.s3.cardmarket.com/productCatalog"
+    # words that change what's in the box; a match must agree on all of them
+    KIND_WORDS = {"case", "display", "bundle", "box", "pack", "packs", "blister", "tin", "collection", "set", "half", "build", "battle", "premium", "ultra", "super", "center", "elite", "trainer", "booster", "sleeved", "mini"}
+
+    def __init__(self, cache: dict, min_conf: float):
+        self.cache = cache.setdefault("cardmarket", {})
+        self.min_conf = min_conf
+        catalog = fetch_json(f"{self.BASE}/productList/products_nonsingles_6.json")
+        self.products = catalog.get("products") or []
+        guide = fetch_json(f"{self.BASE}/priceGuide/price_guide_6.json")
+        self.guide = {g["idProduct"]: g for g in guide.get("priceGuides") or []}
+        self.updated = guide.get("createdAt")
+        self.eur_usd = eur_to_usd()
+        self._index = [(p, tokens(p.get("name", ""))) for p in self.products]
+
+    def resolve(self, row: dict) -> dict | None:
+        explicit = re.sub(r"\D", "", row.get("cardmarket_id", ""))
+        if explicit:
+            p = next((p for p in self.products if str(p.get("idProduct")) == explicit), None)
+            return {"idProduct": int(explicit), "name": p.get("name") if p else None, "confidence": 1.0, "method": "id"}
+        query_key = f"{row['name']}|{row.get('set','')}"
+        cached = self.cache.get(row["key"])
+        if cached and cached.get("query") == query_key:
+            return cached if cached.get("idProduct") else None
+
+        set_words = tokens(row.get("set", ""))
+        name = re.sub(r"\([^)]*\)", " ", row["name"])  # drop notes like "(10 ETBs)"
+        query = name if set_words <= tokens(name) else f"{name} {row.get('set','')}"
+        qt = tokens(query)
+        q_kind = qt & self.KIND_WORDS
+        best, best_score = None, 0.0
+        near = []
+        for p, pt in self._index:
+            if set_words and not set_words <= pt:
+                continue  # must be the same set
+            s = similarity(query, p.get("name", ""), set_words)
+            near.append((s, p))
+            if (pt & self.KIND_WORDS) != q_kind:
+                continue  # an ETB is not an ETB case
+            if s > best_score:
+                best, best_score = p, s
+        near.sort(key=lambda x: x[0], reverse=True)
+        rec = {"query": query_key, "idProduct": None,
+               "candidates": [{"idProduct": p["idProduct"], "name": p.get("name"), "score": sc} for sc, p in near[:5]]}
+        if best and best_score >= self.min_conf:
+            rec.update({"idProduct": best["idProduct"], "name": best.get("name"), "confidence": best_score, "method": "auto"})
+        self.cache[row["key"]] = rec
+        return rec if rec["idProduct"] else None
+
+    def quote(self, rec: dict) -> dict | None:
+        g = self.guide.get(rec["idProduct"])
+        if not g:
+            return None
+        for field in ("avg30", "avg7", "trend", "avg", "low"):
+            eur = g.get(field)
+            if eur:
+                break
+        else:
+            return None
+        name = rec.get("name") or ""
+        return {
+            "price": round(float(eur) * self.eur_usd, 2),
+            "eur": round(float(eur), 2),
+            "basis": field,
+            "matched_name": name,
+            "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=" + urllib.parse.quote(name),
+            "confidence": rec.get("confidence"),
+        }
+
+
+def eur_to_usd() -> float:
+    """Latest ECB reference rate (via Frankfurter, falling back to the ECB's own feed)."""
+    try:
+        return float(fetch_json("https://api.frankfurter.app/latest?from=EUR&to=USD")["rates"]["USD"])
+    except Exception:  # noqa: BLE001
+        pass
+    req = urllib.request.Request("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml", headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        xml = resp.read().decode("utf-8")
+    m = re.search(r"currency='USD'\s+rate='([\d.]+)'", xml)
+    if not m:
+        raise RuntimeError("no EUR/USD rate")
+    return float(m.group(1))
+
+
 class PriceCharting:
     def __init__(self, token: str, cache: dict, price_field: str):
         self.token = token
@@ -405,12 +497,20 @@ def main() -> int:
     pc = PriceCharting(pc_token, cache, cfg["pricecharting_price_field"]) if pc_token else None
     status["pricecharting"] = "ok" if pc else "off - add a PRICECHARTING_TOKEN secret to enable"
     status["ebay"] = "manual - from the ebay_price column"
+    try:
+        cm = Cardmarket(cache, cfg["match_min_confidence"])
+        status["cardmarket"] = "ok"
+        log(f"Cardmarket: {len(cm.products)} sealed products, guide {cm.updated}, EUR->USD {cm.eur_usd}")
+    except Exception as err:  # noqa: BLE001
+        cm = None
+        status["cardmarket"] = f"unavailable ({err}) - showing last known prices"
+        log(f"! Cardmarket unavailable: {err}")
 
     tcg_errors = pc_errors = 0
     items = []
     for row in rows:
         log(f"- {row['name']}")
-        prices: dict[str, dict | None] = {"tcgplayer": None, "pricecharting": None, "ebay": None}
+        prices: dict[str, dict | None] = {"tcgplayer": None, "cardmarket": None, "pricecharting": None, "ebay": None}
         flags: list[str] = []
         image = None
         prev = previous.get(row["key"], {})
@@ -452,6 +552,23 @@ def main() -> int:
                 if old:
                     prices["pricecharting"] = {**old, "stale": True}
 
+        # Cardmarket
+        if cm:
+            try:
+                rec = cm.resolve(row)
+                if rec:
+                    prices["cardmarket"] = cm.quote(rec)
+                    if prices["cardmarket"]:
+                        log(f"  Cardmarket: {rec.get('name')} -> ${prices['cardmarket']['price']}")
+                else:
+                    log("  Cardmarket: no confident match (add cardmarket_id to pin one)")
+            except Exception as err:  # noqa: BLE001
+                log(f"  ! Cardmarket: {err}")
+        else:
+            old = (prev.get("prices") or {}).get("cardmarket")
+            if old:
+                prices["cardmarket"] = {**old, "stale": True}
+
         # eBay (manual)
         ebay = money(row.get("ebay_price"))
         if ebay is not None:
@@ -460,7 +577,7 @@ def main() -> int:
         # A low-confidence TCGplayer match is shown but not counted, unless it's the only source
         counted = dict(prices)
         if prices["tcgplayer"] and prices["tcgplayer"].get("uncertain") and any(
-            prices[s] for s in ("pricecharting", "ebay")
+            prices[s] for s in ("cardmarket", "pricecharting", "ebay")
         ):
             counted["tcgplayer"] = None
         market = blend(counted, weights)
@@ -532,7 +649,7 @@ def main() -> int:
 
     # drop matches for rows that no longer exist (renamed, sold, edited)
     keys = {i["key"] for i in items}
-    for src in ("tcgplayer", "pricecharting"):
+    for src in ("tcgplayer", "cardmarket", "pricecharting"):
         if src in cache:
             cache[src] = {k: v for k, v in cache[src].items() if k in keys}
     save_json(CACHE, cache)

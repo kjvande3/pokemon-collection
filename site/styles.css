@@ -176,12 +176,8 @@ tfoot td { font-weight: 650; border-bottom: 0; border-top: 2px solid var(--axis)
   .table-wrap { margin: 0 -16px; padding: 0 16px; }
   .filters, .filters input, .filters select { width: 100%; }
   /* phones: keep product, qty, value, gain % — full detail on wider screens */
-  #holdings th:nth-child(3), #holdings td:nth-child(3),
-  #holdings th:nth-child(4), #holdings td:nth-child(4),
-  #holdings th:nth-child(5), #holdings td:nth-child(5),
-  #holdings th:nth-child(6), #holdings td:nth-child(6),
-  #holdings th:nth-child(7), #holdings td:nth-child(7),
-  #holdings th:nth-child(9), #holdings td:nth-child(9) { display: none; }
+  #holdings th:nth-child(n+3):nth-child(-n+8), #holdings td:nth-child(n+3):nth-child(-n+8),
+  #holdings th:nth-child(10), #holdings td:nth-child(10) { display: none; }
   .prod { min-width: 0; gap: 0; }
   .pmeta { overflow-wrap: anywhere; }
   .thumb { display: none; }
