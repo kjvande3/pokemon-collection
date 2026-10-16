@@ -82,26 +82,13 @@
       "multiplier": 1
     },
     "chilling-reign-elite-trainer-box-chilling-reign": {
-      "productId": 244410,
+      "productId": 236260,
       "groupId": 2807,
-      "name": "Chilling Reign Elite Trainer Box [Set of 2]",
-      "url": "https://www.tcgplayer.com/product/244410/pokemon-swsh06-chilling-reign-chilling-reign-elite-trainer-box-set-of-2",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/244410_200w.jpg",
-      "confidence": 0.602,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 236260,
-          "name": "Chilling Reign Elite Trainer Box [Ice Rider Calyrex]",
-          "score": 0.554
-        },
-        {
-          "productId": 236261,
-          "name": "Chilling Reign Elite Trainer Box [Shadow Rider Calyrex]",
-          "score": 0.541
-        }
-      ],
-      "query": "v2|Chilling Reign Elite Trainer Box|Chilling Reign|x1",
+      "name": "Chilling Reign Elite Trainer Box [Ice Rider Calyrex]",
+      "url": "https://www.tcgplayer.com/product/236260/pokemon-swsh06-chilling-reign-chilling-reign-elite-trainer-box-ice-rider-calyrex",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/236260_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
       "multiplier": 1
     },
     "celebrations-ultra-premium-collection-celebrations": {
@@ -127,49 +114,23 @@
       "multiplier": 1
     },
     "battle-styles-elite-trainer-box-battle-styles": {
-      "productId": 244414,
+      "productId": 229284,
       "groupId": 2765,
-      "name": "Battle Styles Elite Trainer Box [Set of 2]",
-      "url": "https://www.tcgplayer.com/product/244414/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-set-of-2",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/244414_200w.jpg",
-      "confidence": 0.602,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 229284,
-          "name": "Battle Styles Elite Trainer Box [Single Strike Urshifu] (Red)",
-          "score": 0.477
-        },
-        {
-          "productId": 229285,
-          "name": "Battle Styles Elite Trainer Box [Rapid Strike Urshifu] (Blue)",
-          "score": 0.477
-        }
-      ],
-      "query": "v2|Battle Styles Elite Trainer Box|Battle Styles|x1",
+      "name": "Battle Styles Elite Trainer Box [Single Strike Urshifu] (Red)",
+      "url": "https://www.tcgplayer.com/product/229284/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-single-strike-urshifu-red",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/229284_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
       "multiplier": 1
     },
     "evolving-skies-elite-trainer-box-evolving-skies": {
-      "productId": 243721,
+      "productId": 242434,
       "groupId": 2848,
-      "name": "Evolving Skies Elite Trainer Box [Set of 2]",
-      "url": "https://www.tcgplayer.com/product/243721/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-set-of-2",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/243721_200w.jpg",
-      "confidence": 0.602,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 242434,
-          "name": "Evolving Skies Elite Trainer Box [Flareon/Jolteon/Umbreon/Leafeon]",
-          "score": 0.459
-        },
-        {
-          "productId": 242443,
-          "name": "Evolving Skies Elite Trainer Box [Glaceon/Vaporeon/Sylveon/Espeon]",
-          "score": 0.459
-        }
-      ],
-      "query": "v2|Evolving Skies Elite Trainer Box|Evolving Skies|x1",
+      "name": "Evolving Skies Elite Trainer Box [Flareon/Jolteon/Umbreon/Leafeon]",
+      "url": "https://www.tcgplayer.com/product/242434/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/242434_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
       "multiplier": 1
     },
     "evolving-skies-booster-box-evolving-skies": {
@@ -195,32 +156,14 @@
       "multiplier": 144
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith": {
-      "productId": 475630,
+      "productId": 475634,
       "groupId": 17688,
-      "name": "Crown Zenith Tin [Galarian Zapdos]",
-      "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
-      "confidence": 0.212,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 475629,
-          "name": "Crown Zenith Tin [Galarian Moltres]",
-          "score": 0.308
-        },
-        {
-          "productId": 475628,
-          "name": "Crown Zenith Tin [Galarian Articuno]",
-          "score": 0.304
-        },
-        {
-          "productId": 475634,
-          "name": "Crown Zenith Tin [Set of 3]",
-          "score": 0.302
-        }
-      ],
-      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
-      "multiplier": 6
+      "name": "Crown Zenith Tin [Set of 3]",
+      "url": "https://www.tcgplayer.com/product/475634/pokemon-swsh-crown-zenith-crown-zenith-tin-set-of-3",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475634_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
+      "multiplier": 2
     },
     "silver-tempest-booster-box-silver-tempest": {
       "productId": 283389,
@@ -279,31 +222,13 @@
       "multiplier": 1
     },
     "sun-moon-elite-trainer-box-2-box-lot-sm-base-set": {
-      "productId": 126091,
+      "productId": 126089,
       "groupId": 1863,
-      "name": "Sun & Moon Elite Trainer Box [Lunala]",
-      "url": "https://www.tcgplayer.com/product/126091/pokemon-sm-base-set-sun-and-moon-elite-trainer-box-lunala",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/126091_200w.jpg",
-      "confidence": 0.75,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 126089,
-          "name": "Sun & Moon Elite Trainer Box [Solgaleo]",
-          "score": 0.84
-        },
-        {
-          "productId": 478335,
-          "name": "Scarlet & Violet Elite Trainer Box [Koraidon]",
-          "score": 0.608
-        },
-        {
-          "productId": 478336,
-          "name": "Scarlet & Violet Elite Trainer Box [Miraidon]",
-          "score": 0.608
-        }
-      ],
-      "query": "v2|Sun & Moon Elite Trainer Box|SM Base Set|x2",
+      "name": "Sun & Moon Elite Trainer Box [Solgaleo]",
+      "url": "https://www.tcgplayer.com/product/126089/pokemon-sm-base-set-sun-and-moon-elite-trainer-box-solgaleo",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/126089_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
       "multiplier": 2
     },
     "astral-radiance-booster-box-case-6-boxes-astral-radiance": {
@@ -329,32 +254,14 @@
       "multiplier": 1
     },
     "crown-zenith-premium-figure-collection-case-6-boxes-crown-zenith": {
-      "productId": 475647,
+      "productId": 475648,
       "groupId": 17688,
-      "name": "Crown Zenith Premium Figure Collection [Shiny Zacian]",
-      "url": "https://www.tcgplayer.com/product/475647/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-shiny-zacian",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475647_200w.jpg",
-      "confidence": 0.568,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 475646,
-          "name": "Crown Zenith Premium Figure Collection [Shiny Zamazenta]",
-          "score": 0.655
-        },
-        {
-          "productId": 475648,
-          "name": "Crown Zenith Premium Figure Collection [Set of 2]",
-          "score": 0.622
-        },
-        {
-          "productId": 527796,
-          "name": "Pikachu VMAX Premium Collection",
-          "score": 0.522
-        }
-      ],
-      "query": "v2|Crown Zenith Premium Figure Collection|Crown Zenith|x6",
-      "multiplier": 6
+      "name": "Crown Zenith Premium Figure Collection [Set of 2]",
+      "url": "https://www.tcgplayer.com/product/475648/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-set-of-2",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475648_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
+      "multiplier": 3
     },
     "crown-zenith-pikachu-vmax-special-collection-case-6-boxes-crown-zenith": {
       "productId": 454452,
@@ -396,31 +303,13 @@
       "multiplier": 10
     },
     "scarlet-violet-elite-trainer-box-case-10-etbs-scarlet-violet-base-set": {
-      "productId": 97747,
-      "groupId": 1387,
-      "name": "XY Elite Trainer Box [Xerneas]",
-      "url": "https://www.tcgplayer.com/product/97747/pokemon-xy-base-set-xy-elite-trainer-box-xerneas",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97747_200w.jpg",
-      "confidence": 0.671,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 97748,
-          "name": "XY Elite Trainer Box [Yveltal]",
-          "score": 0.771
-        },
-        {
-          "productId": 478335,
-          "name": "Scarlet & Violet Elite Trainer Box [Koraidon]",
-          "score": 0.764
-        },
-        {
-          "productId": 478336,
-          "name": "Scarlet & Violet Elite Trainer Box [Miraidon]",
-          "score": 0.764
-        }
-      ],
-      "query": "v2|Scarlet & Violet Elite Trainer Box|Scarlet & Violet Base Set|x10",
+      "productId": 478335,
+      "groupId": 22873,
+      "name": "Scarlet & Violet Elite Trainer Box [Koraidon]",
+      "url": "https://www.tcgplayer.com/product/478335/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-elite-trainer-box-koraidon",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/478335_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
       "multiplier": 10
     },
     "scarlet-violet-booster-box-case-6-boxes-scarlet-violet-base-set": {
@@ -518,60 +407,24 @@
       "multiplier": 6
     },
     "crown-zenith-premium-figure-collection-case-6-boxes-crown-zenith-2": {
-      "productId": 475647,
+      "productId": 475648,
       "groupId": 17688,
-      "name": "Crown Zenith Premium Figure Collection [Shiny Zacian]",
-      "url": "https://www.tcgplayer.com/product/475647/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-shiny-zacian",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475647_200w.jpg",
-      "confidence": 0.568,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 475646,
-          "name": "Crown Zenith Premium Figure Collection [Shiny Zamazenta]",
-          "score": 0.655
-        },
-        {
-          "productId": 475648,
-          "name": "Crown Zenith Premium Figure Collection [Set of 2]",
-          "score": 0.622
-        },
-        {
-          "productId": 527796,
-          "name": "Pikachu VMAX Premium Collection",
-          "score": 0.522
-        }
-      ],
-      "query": "v2|Crown Zenith Premium Figure Collection|Crown Zenith|x6",
-      "multiplier": 6
+      "name": "Crown Zenith Premium Figure Collection [Set of 2]",
+      "url": "https://www.tcgplayer.com/product/475648/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-set-of-2",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475648_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
+      "multiplier": 3
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith-2": {
-      "productId": 475630,
+      "productId": 475634,
       "groupId": 17688,
-      "name": "Crown Zenith Tin [Galarian Zapdos]",
-      "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
-      "confidence": 0.212,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 475629,
-          "name": "Crown Zenith Tin [Galarian Moltres]",
-          "score": 0.308
-        },
-        {
-          "productId": 475628,
-          "name": "Crown Zenith Tin [Galarian Articuno]",
-          "score": 0.304
-        },
-        {
-          "productId": 475634,
-          "name": "Crown Zenith Tin [Set of 3]",
-          "score": 0.302
-        }
-      ],
-      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
-      "multiplier": 6
+      "name": "Crown Zenith Tin [Set of 3]",
+      "url": "https://www.tcgplayer.com/product/475634/pokemon-swsh-crown-zenith-crown-zenith-tin-set-of-3",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475634_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
+      "multiplier": 2
     },
     "battle-styles-booster-box-case-6-boxes-battle-styles": {
       "productId": 229277,
@@ -596,32 +449,14 @@
       "multiplier": 6
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith-3": {
-      "productId": 475630,
+      "productId": 475634,
       "groupId": 17688,
-      "name": "Crown Zenith Tin [Galarian Zapdos]",
-      "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
-      "confidence": 0.212,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 475629,
-          "name": "Crown Zenith Tin [Galarian Moltres]",
-          "score": 0.308
-        },
-        {
-          "productId": 475628,
-          "name": "Crown Zenith Tin [Galarian Articuno]",
-          "score": 0.304
-        },
-        {
-          "productId": 475634,
-          "name": "Crown Zenith Tin [Set of 3]",
-          "score": 0.302
-        }
-      ],
-      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
-      "multiplier": 6
+      "name": "Crown Zenith Tin [Set of 3]",
+      "url": "https://www.tcgplayer.com/product/475634/pokemon-swsh-crown-zenith-crown-zenith-tin-set-of-3",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475634_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
+      "multiplier": 2
     },
     "vivid-voltage-booster-box-vivid-voltage": {
       "productId": 221313,
@@ -707,31 +542,13 @@
       "multiplier": 10
     },
     "paldean-fates-tin-case-6-tins-paldean-fates": {
-      "productId": 528056,
+      "productId": 528057,
       "groupId": 23353,
-      "name": "Paldean Fates Tin [Charizard ex]",
-      "url": "https://www.tcgplayer.com/product/528056/pokemon-sv-paldean-fates-paldean-fates-tin-charizard-ex",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/528056_200w.jpg",
-      "confidence": 0.327,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 528057,
-          "name": "Paldean Fates Tin [Great Tusk ex]",
-          "score": 0.268
-        },
-        {
-          "productId": 528058,
-          "name": "Paldean Fates Tin [Iron Treads ex]",
-          "score": 0.263
-        },
-        {
-          "productId": 528063,
-          "name": "Paldean Fates International Tin [Charizard ex]",
-          "score": 0.226
-        }
-      ],
-      "query": "v2|Paldean Fates Tin|Paldean Fates|x6",
+      "name": "Paldean Fates Tin [Great Tusk ex]",
+      "url": "https://www.tcgplayer.com/product/528057/pokemon-sv-paldean-fates-paldean-fates-tin-great-tusk-ex",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/528057_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
       "multiplier": 6
     },
     "paradox-rift-booster-box-paradox-rift": {
