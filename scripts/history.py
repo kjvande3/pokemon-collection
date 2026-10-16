@@ -172,6 +172,7 @@ def rebuild(today: date) -> list[dict]:
             "qty": it["qty"],
             "cost": it["cost"],
             "pid": str(m["productId"]) if m else None,
+            "mult": (m or {}).get("multiplier") or 1,
         })
 
     price_dates = sorted(d for d, v in ph["prices"].items() if v)
@@ -195,7 +196,7 @@ def rebuild(today: date) -> list[dict]:
         else:
             # items with no market price yet count at what was paid for them
             value = round(sum(
-                h["qty"] * last_price[h["pid"]] if h["pid"] and h["pid"] in last_price else h["cost"]
+                h["qty"] * h["mult"] * last_price[h["pid"]] if h["pid"] and h["pid"] in last_price else h["cost"]
                 for h in owned), 2)
         series.append({"date": d, "cost": cost, "value": value})
 

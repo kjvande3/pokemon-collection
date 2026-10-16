@@ -248,12 +248,14 @@ class TCGplayer:
 
     def resolve(self, row: dict) -> dict | None:
         key = row["key"]
-        explicit = row.get("tcgplayer_id", "").strip()
-        explicit_id = int(re.sub(r"\D", "", explicit)) if re.search(r"\d", explicit) else None
+        # "194729" pins a product; "194729x10" prices this row as 10 of that product (e.g. a case of ETBs)
+        m = re.match(r"\s*(\d+)\s*(?:[x×*]\s*(\d+))?\s*$", row.get("tcgplayer_id", "") or "")
+        explicit_id = int(m.group(1)) if m else None
+        mult = int(m.group(2) or 1) if m else 1
         query_key = f"{row['name']}|{row.get('set','')}"
         cached = self.cache.get(key)
         if cached:
-            if explicit_id is not None and cached.get("productId") == explicit_id:
+            if explicit_id is not None and cached.get("productId") == explicit_id and cached.get("multiplier", 1) == mult:
                 return cached
             if explicit_id is None and cached.get("method") == "auto" and cached.get("query") == query_key:
                 return cached
@@ -266,6 +268,7 @@ class TCGplayer:
                 for p in self.products(g["groupId"]):
                     if p.get("productId") == explicit_id:
                         rec = self._record(p, 1.0, "id")
+                        rec["multiplier"] = mult
                         self.cache[key] = rec
                         return rec
             log(f"  ! TCGplayer id {explicit_id} not found for {row['name']}")
@@ -317,13 +320,16 @@ class TCGplayer:
             price, basis = p["midPrice"], "listing"
         if price is None:
             return None
+        mult = rec.get("multiplier") or 1
         return {
-            "price": round(float(price), 2),
+            "price": round(float(price) * mult, 2),
+            "unit_price": round(float(price), 2),
+            "multiplier": mult,
             "basis": basis,
             "low": p.get("lowPrice"),
             "mid": p.get("midPrice"),
             "url": rec.get("url"),
-            "matched_name": rec.get("name"),
+            "matched_name": f"{mult} × {rec.get('name')}" if mult > 1 else rec.get("name"),
             "confidence": rec.get("confidence"),
         }
 
@@ -599,7 +605,7 @@ def main() -> int:
         m = cache.get("tcgplayer", {}).get(i["key"])
         q = i["prices"].get("tcgplayer")
         if m and q and q.get("price") is not None and not q.get("stale"):
-            day[str(m["productId"])] = q["price"]
+            day[str(m["productId"])] = q.get("unit_price", q["price"])
     history.save_price_history(ph)
     history.rebuild(today)
 
