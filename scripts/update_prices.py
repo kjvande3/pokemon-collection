@@ -272,6 +272,8 @@ class TCGplayer:
 
     def resolve(self, row: dict) -> dict | None:
         key = row["key"]
+        if (row.get("tcgplayer_id") or "").strip().lower() in ("none", "skip", "-"):
+            return None  # this product isn't sold on TCGplayer (or only the wrong one is)
         # "194729" pins a product; "194729x10" prices this row as 10 of that product (e.g. a case of ETBs)
         m = re.match(r"\s*(\d+)\s*(?:[x×*]\s*(\d+))?\s*$", row.get("tcgplayer_id", "") or "")
         explicit_id = int(m.group(1)) if m else None
@@ -387,6 +389,8 @@ class Cardmarket:
         self._index = [(p, tokens(p.get("name", ""))) for p in self.products]
 
     def resolve(self, row: dict) -> dict | None:
+        if (row.get("cardmarket_id") or "").strip().lower() in ("none", "skip", "-"):
+            return None
         # "794902" pins a product; "794902x6" prices this row as 6 of that product (e.g. a case of displays)
         m = re.match(r"\s*(\d+)\s*(?:[x×*]\s*(\d+))?\s*$", row.get("cardmarket_id", "") or "")
         if m:
