@@ -26,8 +26,7 @@ Edit `collection.csv` on GitHub (pencil icon → commit). The site updates a min
 | `purchase_date` | | `YYYY-MM-DD` |
 | `source` | | Where you bought it. |
 | `tcgplayer_id` | | The number in a TCGplayer product URL (`tcgplayer.com/product/243722/...`). Optional, but pins the exact product. |
-| `pricecharting_id` | | Optional; found automatically when PriceCharting is enabled. |
-| `ebay_price` | | Your average of recent eBay **sold** listings, if you want eBay included. |
+| `cardmarket_id` | | Optional Cardmarket product ID to pin a match. `794902x6` prices the row as 6 of that product (e.g. a case of displays). |
 | `notes` | | Anything. |
 
 Sold something? Lower `qty` or delete the row.
@@ -35,8 +34,7 @@ Sold something? Lower `qty` or delete the row.
 ## Price sources
 
 - **TCGplayer** — market price (recent sales) from [TCGCSV](https://tcgcsv.com), a free daily mirror of TCGplayer data. If a product has no recent sales, the middle listing price is used and marked "listing".
-- **PriceCharting** — off until you add a subscription token: repo **Settings → Secrets and variables → Actions → New repository secret**, name `PRICECHARTING_TOKEN`.
-- **eBay** — manual, from the `ebay_price` column (eBay's sold-items API isn't available to individuals).
+- **Cardmarket** — Europe's largest TCG marketplace, from its free daily price guide. Uses the 30-day average sale price (falling back to shorter averages); converted from EUR at the ECB daily rate. A lowest-listing price is shown but not counted.
 
 The blended **market price** is a weighted average of whichever sources have a price; change the weights in `config.json`.
 

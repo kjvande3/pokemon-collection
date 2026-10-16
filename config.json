@@ -2,12 +2,9 @@
   "_help": "Weights decide how much each source counts in the blended market price. Set a weight to 0 to ignore that source. Only sources that have a price for an item are averaged.",
   "weights": {
     "tcgplayer": 1,
-    "cardmarket": 1,
-    "pricecharting": 1,
-    "ebay": 1
+    "cardmarket": 1
   },
   "tcgplayer_price_field": "marketPrice",
-  "pricecharting_price_field": "loose-price",
   "match_min_confidence": 0.72,
   "spread_warning_pct": 25
 }

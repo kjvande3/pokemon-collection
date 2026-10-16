@@ -67,8 +67,6 @@
               <th data-sort="unit_cost">Paid ea.</th>
               <th data-sort="p_tcgplayer">TCGplayer</th>
               <th data-sort="p_cardmarket">Cardmarket</th>
-              <th data-sort="p_pricecharting">PriceCharting</th>
-              <th data-sort="p_ebay">eBay sold</th>
               <th data-sort="market">Market ea.</th>
               <th data-sort="value">Value</th>
               <th data-sort="gain">Gain</th>
@@ -88,13 +86,11 @@
         <li><strong>TCGplayer</strong> uses TCGplayer's market price (based on completed sales), refreshed daily. If TCGplayer has no market price at all, it falls back to the middle listing price, marked <span class="tag">listing</span>.</li>
         <li><strong>Value over time</strong> comes from TCGplayer's weekly market-price history. Before a product has any price history, it counts at what you paid.</li>
         <li><strong>Cardmarket</strong> is Europe's largest TCG marketplace. It uses the 30-day average sell price from Cardmarket's free daily price guide, converted from euros at the European Central Bank's daily rate (hover a price to see the euro amount).</li>
-        <li><strong>PriceCharting</strong> fills in once a <code>PRICECHARTING_TOKEN</code> secret is added to the repo.</li>
-        <li><strong>eBay sold</strong> comes from the <code>ebay_price</code> column in <code>collection.csv</code>; enter an average of recent sold listings for items you want it on.</li>
         <li><span class="tag warn">check match</span> means the product was matched by name with low confidence; add its TCGplayer ID to the CSV to pin it. <span class="tag warn">sources disagree</span> means prices differ by 25%+.</li>
       </ul>
     </section>
 
-    <footer class="foot">Prices from TCGplayer (via TCGCSV), Cardmarket, PriceCharting and manual eBay comps. Not financial advice.</footer>
+    <footer class="foot">Prices from TCGplayer (via TCGCSV) and Cardmarket. Not financial advice.</footer>
   </div>
 
   <script src="vendor/chart.umd.min.js"></script>

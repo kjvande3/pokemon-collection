@@ -32,8 +32,6 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch prices
-        env:
-          PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
         run: python scripts/update_prices.py
 
       - name: Backfill price history from archives

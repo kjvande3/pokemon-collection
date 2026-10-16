@@ -4,12 +4,11 @@
 Reads   collection.csv, config.json
 Writes  data/portfolio.json   (everything the dashboard shows)
         data/history.json     (one snapshot per day, for the value-over-time chart)
-        data/match_cache.json (resolved TCGplayer / PriceCharting product IDs)
+        data/match_cache.json (resolved TCGplayer / Cardmarket product IDs)
 
 Sources
   TCGplayer      - market price via TCGCSV (free daily mirror of TCGplayer prices)
-  PriceCharting  - official API; only used when PRICECHARTING_TOKEN is set
-  eBay           - the ebay_price column in collection.csv (manual sold-comps average)
+  Cardmarket     - free daily EU price guide (EUR, converted at the ECB rate)
 
 Standard library only, so the GitHub Action needs no pip install.
 """
@@ -47,14 +46,12 @@ CACHE = DATA / "match_cache.json"
 
 TCGCSV = "https://tcgcsv.com/tcgplayer"
 POKEMON_CATEGORY = 3
-PRICECHARTING = "https://www.pricecharting.com"
 USER_AGENT = "pokemon-collection-dashboard/1.0 (+https://github.com/kjvande3/pokemon-collection)"
 FIXTURES = os.environ.get("FIXTURE_DIR")  # offline testing: serve URLs from local files
 
 DEFAULT_CONFIG = {
-    "weights": {"tcgplayer": 1, "cardmarket": 1, "pricecharting": 1, "ebay": 1},
+    "weights": {"tcgplayer": 1, "cardmarket": 1},
     "tcgplayer_price_field": "marketPrice",
-    "pricecharting_price_field": "loose-price",
     "match_min_confidence": 0.72,
     "spread_warning_pct": 25,
 }
@@ -331,8 +328,6 @@ class TCGplayer:
         }
 
 
-# ----------------------------------------------------------------------------- PriceCharting
-
 class Cardmarket:
     """Cardmarket (EU) public daily price guide for Pokémon sealed product. Free, no key.
 
@@ -432,51 +427,6 @@ def eur_to_usd() -> float:
     return float(m.group(1))
 
 
-class PriceCharting:
-    def __init__(self, token: str, cache: dict, price_field: str):
-        self.token = token
-        self.cache = cache.setdefault("pricecharting", {})
-        self.price_field = price_field
-
-    def _api(self, path: str, **params):
-        params["t"] = self.token
-        return fetch_json(f"{PRICECHARTING}/api/{path}?{urllib.parse.urlencode(params)}", redact=self.token)
-
-    def resolve(self, row: dict) -> str | None:
-        explicit = re.sub(r"\D", "", row.get("pricecharting_id", ""))
-        if explicit:
-            return explicit
-        cached = self.cache.get(row["key"])
-        if cached:
-            return cached.get("id")
-        q = f"{row['name']}"
-        res = self._api("products", q=q)
-        best, best_score = None, 0.0
-        for p in res.get("products", [])[:20]:
-            if "pokemon" not in (p.get("console-name") or "").lower():
-                continue
-            s = similarity(q, p.get("product-name", ""))
-            if s > best_score:
-                best, best_score = p, s
-        if best and best_score >= 0.6:
-            self.cache[row["key"]] = {"id": str(best["id"]), "name": best.get("product-name"), "confidence": best_score}
-            return str(best["id"])
-        return None
-
-    def quote(self, product_id: str) -> dict | None:
-        p = self._api("product", id=product_id)
-        if p.get("status") == "error":
-            raise RuntimeError(p.get("error-message", "PriceCharting error"))
-        pennies = p.get(self.price_field) or p.get("loose-price") or p.get("new-price")
-        if not pennies:
-            return None
-        return {
-            "price": round(pennies / 100, 2),
-            "url": f"{PRICECHARTING}/game/{product_id}",
-            "matched_name": p.get("product-name"),
-        }
-
-
 # ----------------------------------------------------------------------------- main
 
 def blend(prices: dict, weights: dict) -> float | None:
@@ -500,10 +450,6 @@ def main() -> int:
     status: dict[str, str] = {}
 
     tcg = TCGplayer(cache, cfg["match_min_confidence"], cfg["tcgplayer_price_field"])
-    pc_token = os.environ.get("PRICECHARTING_TOKEN", "").strip()
-    pc = PriceCharting(pc_token, cache, cfg["pricecharting_price_field"]) if pc_token else None
-    status["pricecharting"] = "ok" if pc else "off - add a PRICECHARTING_TOKEN secret to enable"
-    status["ebay"] = "manual - from the ebay_price column"
     try:
         cm = Cardmarket(cache, cfg["match_min_confidence"])
         status["cardmarket"] = "ok"
@@ -513,11 +459,11 @@ def main() -> int:
         status["cardmarket"] = f"unavailable ({err}) - showing last known prices"
         log(f"! Cardmarket unavailable: {err}")
 
-    tcg_errors = pc_errors = 0
+    tcg_errors = 0
     items = []
     for row in rows:
         log(f"- {row['name']}")
-        prices: dict[str, dict | None] = {"tcgplayer": None, "cardmarket": None, "pricecharting": None, "ebay": None}
+        prices: dict[str, dict | None] = {"tcgplayer": None, "cardmarket": None}
         flags: list[str] = []
         image = None
         prev = previous.get(row["key"], {})
@@ -546,19 +492,6 @@ def main() -> int:
                 prices["tcgplayer"] = {**old, "stale": True}
                 image = prev.get("image")
 
-        # PriceCharting
-        if pc:
-            try:
-                pid = pc.resolve(row)
-                if pid:
-                    prices["pricecharting"] = pc.quote(pid)
-            except Exception as err:  # noqa: BLE001
-                pc_errors += 1
-                log(f"  ! PriceCharting: {err}")
-                old = (prev.get("prices") or {}).get("pricecharting")
-                if old:
-                    prices["pricecharting"] = {**old, "stale": True}
-
         # Cardmarket
         if cm:
             try:
@@ -575,11 +508,6 @@ def main() -> int:
             old = (prev.get("prices") or {}).get("cardmarket")
             if old:
                 prices["cardmarket"] = {**old, "stale": True}
-
-        # eBay (manual)
-        ebay = money(row.get("ebay_price"))
-        if ebay is not None:
-            prices["ebay"] = {"price": ebay}
 
         # Low-confidence matches and asking-price-only quotes are shown but not counted,
         # unless nothing better exists for the item
@@ -631,8 +559,6 @@ def main() -> int:
         })
 
     status["tcgplayer"] = "ok" if tcg_errors == 0 else f"{tcg_errors} lookup(s) failed - showing last known prices"
-    if pc and pc_errors:
-        status["pricecharting"] = f"{pc_errors} lookup(s) failed - showing last known prices"
 
     priced = [i for i in items if i["value"] is not None]
     cost_all = round(sum(i["cost"] for i in items), 2)
@@ -660,7 +586,7 @@ def main() -> int:
 
     # drop matches for rows that no longer exist (renamed, sold, edited)
     keys = {i["key"] for i in items}
-    for src in ("tcgplayer", "cardmarket", "pricecharting"):
+    for src in ("tcgplayer", "cardmarket"):
         if src in cache:
             cache[src] = {k: v for k, v in cache[src].items() if k in keys}
     save_json(CACHE, cache)

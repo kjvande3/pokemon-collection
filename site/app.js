@@ -9,7 +9,7 @@
   const pct = (n) => (n == null ? "—" : `${n > 0 ? "+" : ""}${n.toFixed(1)}%`);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
-  const SOURCE_LABELS = { tcgplayer: "TCGplayer", cardmarket: "Cardmarket", pricecharting: "PriceCharting", ebay: "eBay" };
+  const SOURCE_LABELS = { tcgplayer: "TCGplayer", cardmarket: "Cardmarket" };
   const FLAG_LABELS = {
     check_match: ["check match", "warn"],
     no_tcgplayer_match: ["not on TCGplayer", "warn"],
@@ -281,15 +281,13 @@
         <td>${fmt(i.unit_cost)}</td>
         ${sourceCell(i, "tcgplayer")}
         ${sourceCell(i, "cardmarket")}
-        ${sourceCell(i, "pricecharting")}
-        ${sourceCell(i, "ebay")}
         <td class="strong">${fmt(i.market)}</td>
         <td class="strong">${fmt(i.value)}</td>
         <td>${delta(i.gain, i.gain == null ? "" : fmt(Math.abs(i.gain)))}</td>
         <td>${delta(i.gain_pct, pct(i.gain_pct))}</td>
       </tr>`;
     }).join("");
-    $("#holdings tbody").innerHTML = body || `<tr class="empty-row"><td colspan="11">No products match.</td></tr>`;
+    $("#holdings tbody").innerHTML = body || `<tr class="empty-row"><td colspan="9">No products match.</td></tr>`;
 
     const priced = rows.filter((i) => i.value != null);
     const cost = priced.reduce((s, i) => s + i.cost, 0);
@@ -297,7 +295,7 @@
     const units = rows.reduce((s, i) => s + i.qty, 0);
     $("#holdings tfoot").innerHTML = rows.length > 1 ? `<tr>
       <td class="left">Total${rows.length !== portfolio.items.length ? " (filtered)" : ""}</td>
-      <td>${units}</td><td>${fmt(cost)}</td><td></td><td></td><td></td><td></td><td></td>
+      <td>${units}</td><td>${fmt(cost)}</td><td></td><td></td><td></td>
       <td>${fmt(value)}</td>
       <td>${delta(value - cost, fmt(Math.abs(value - cost)))}</td>
       <td>${cost ? delta(value - cost, pct(((value - cost) / cost) * 100)) : "—"}</td>
