@@ -45,24 +45,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/247671_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 256271,
-          "name": "Fusion Strike Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 257526,
-          "name": "Code Card - Fusion Strike Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 247673,
-          "name": "Fusion Strike Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Fusion Strike Elite Trainer Box|Fusion Strike|x10",
+      "query": "v2|Fusion Strike Elite Trainer Box|Fusion Strike|x10",
       "multiplier": 10
     },
     "fusion-strike-booster-box-case-6-boxes-fusion-strike": {
@@ -73,24 +56,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/247654_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 247655,
-          "name": "Fusion Strike Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 247646,
-          "name": "Fusion Strike Booster Pack",
-          "score": 0.46
-        },
-        {
-          "productId": 247659,
-          "name": "Fusion Strike Build & Battle Box",
-          "score": 0.344
-        }
-      ],
-      "query": "Fusion Strike Booster Box|Fusion Strike|x6",
+      "query": "v2|Fusion Strike Booster Box|Fusion Strike|x6",
       "multiplier": 6
     },
     "astral-radiance-blister-pack-case-144-packs-astral-radiance": {
@@ -101,24 +67,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/265526_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 496130,
-          "name": "Astral Radiance Sleeved Booster Pack Case",
-          "score": 0.799
-        },
-        {
-          "productId": 265521,
-          "name": "Astral Radiance Booster Pack",
-          "score": 0.696
-        },
-        {
-          "productId": 265544,
-          "name": "Astral Radiance Sleeved Booster Pack Bundle [Set of 8]",
-          "score": 0.529
-        }
-      ],
-      "query": "Astral Radiance Sleeved Booster Pack|Astral Radiance|x144",
+      "query": "v2|Astral Radiance Sleeved Booster Pack|Astral Radiance|x144",
       "multiplier": 144
     },
     "astral-radiance-elite-trainer-box-astral-radiance": {
@@ -129,52 +78,30 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/265527_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 265545,
-          "name": "Astral Radiance Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 273446,
-          "name": "Code Card - Astral Radiance Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 265528,
-          "name": "Astral Radiance Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Astral Radiance Elite Trainer Box|Astral Radiance|x1",
+      "query": "v2|Astral Radiance Elite Trainer Box|Astral Radiance|x1",
       "multiplier": 1
     },
     "chilling-reign-elite-trainer-box-chilling-reign": {
-      "productId": 712102,
-      "groupId": 24831,
-      "name": "Delta Reign Elite Trainer Box",
-      "url": "https://www.tcgplayer.com/product/712102/pokemon-me06-delta-reign-delta-reign-elite-trainer-box",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/712102_200w.jpg",
-      "confidence": 1.0,
+      "productId": 244410,
+      "groupId": 2807,
+      "name": "Chilling Reign Elite Trainer Box [Set of 2]",
+      "url": "https://www.tcgplayer.com/product/244410/pokemon-swsh06-chilling-reign-chilling-reign-elite-trainer-box-set-of-2",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/244410_200w.jpg",
+      "confidence": 0.602,
       "method": "auto",
       "alternatives": [
         {
-          "productId": 236263,
-          "name": "Chilling Reign Elite Trainer Box Case",
-          "score": 0.793
+          "productId": 236260,
+          "name": "Chilling Reign Elite Trainer Box [Ice Rider Calyrex]",
+          "score": 0.554
         },
         {
-          "productId": 712103,
-          "name": "Delta Reign Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 712104,
-          "name": "Delta Reign Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
+          "productId": 236261,
+          "name": "Chilling Reign Elite Trainer Box [Shadow Rider Calyrex]",
+          "score": 0.541
         }
       ],
-      "query": "Chilling Reign Elite Trainer Box|Chilling Reign|x1",
+      "query": "v2|Chilling Reign Elite Trainer Box|Chilling Reign|x1",
       "multiplier": 1
     },
     "celebrations-ultra-premium-collection-celebrations": {
@@ -185,24 +112,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/245140_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 518638,
-          "name": "Celebrations Ultra-Premium Collection Case",
-          "score": 0.804
-        },
-        {
-          "productId": 251056,
-          "name": "Code Card - Celebrations Ultra-Premium Collection",
-          "score": 0.68
-        },
-        {
-          "productId": 245139,
-          "name": "Celebrations Premium Figure Collection [Pikachu VMAX]",
-          "score": 0.442
-        }
-      ],
-      "query": "Celebrations Ultra Premium Collection|Celebrations|x1",
+      "query": "v2|Celebrations Ultra Premium Collection|Celebrations|x1",
       "multiplier": 1
     },
     "pokemon-go-elite-trainer-box-pokemon-go": {
@@ -213,40 +123,18 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/270708_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 271513,
-          "name": "Pokemon GO Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 271515,
-          "name": "Code Card - Pokemon GO Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 270709,
-          "name": "Pokemon GO Pokemon Center Elite Trainer Box Plus (Exclusive)",
-          "score": 0.537
-        }
-      ],
-      "query": "Pokemon GO Elite Trainer Box|Pokemon GO|x1",
+      "query": "v2|Pokemon GO Elite Trainer Box|Pokemon GO|x1",
       "multiplier": 1
     },
     "battle-styles-elite-trainer-box-battle-styles": {
-      "productId": 235284,
+      "productId": 244414,
       "groupId": 2765,
-      "name": "Battle Styles Elite Trainer Box Case",
-      "url": "https://www.tcgplayer.com/product/235284/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/235284_200w.jpg",
-      "confidence": 0.793,
+      "name": "Battle Styles Elite Trainer Box [Set of 2]",
+      "url": "https://www.tcgplayer.com/product/244414/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-set-of-2",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/244414_200w.jpg",
+      "confidence": 0.602,
       "method": "auto",
       "alternatives": [
-        {
-          "productId": 244414,
-          "name": "Battle Styles Elite Trainer Box [Set of 2]",
-          "score": 0.602
-        },
         {
           "productId": 229284,
           "name": "Battle Styles Elite Trainer Box [Single Strike Urshifu] (Red)",
@@ -258,35 +146,30 @@
           "score": 0.477
         }
       ],
-      "query": "Battle Styles Elite Trainer Box|Battle Styles|x1",
+      "query": "v2|Battle Styles Elite Trainer Box|Battle Styles|x1",
       "multiplier": 1
     },
     "evolving-skies-elite-trainer-box-evolving-skies": {
-      "productId": 98028,
-      "groupId": 1534,
-      "name": "XY Roaring Skies Elite Trainer Box",
-      "url": "https://www.tcgplayer.com/product/98028/pokemon-xy-roaring-skies-xy-roaring-skies-elite-trainer-box",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/98028_200w.jpg",
-      "confidence": 1.0,
+      "productId": 243721,
+      "groupId": 2848,
+      "name": "Evolving Skies Elite Trainer Box [Set of 2]",
+      "url": "https://www.tcgplayer.com/product/243721/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-set-of-2",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/243721_200w.jpg",
+      "confidence": 0.602,
       "method": "auto",
       "alternatives": [
         {
-          "productId": 243722,
-          "name": "Evolving Skies Elite Trainer Box Case",
-          "score": 0.793
+          "productId": 242434,
+          "name": "Evolving Skies Elite Trainer Box [Flareon/Jolteon/Umbreon/Leafeon]",
+          "score": 0.459
         },
         {
-          "productId": 280474,
-          "name": "Code Card - XY Roaring Skies Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 243721,
-          "name": "Evolving Skies Elite Trainer Box [Set of 2]",
-          "score": 0.602
+          "productId": 242443,
+          "name": "Evolving Skies Elite Trainer Box [Glaceon/Vaporeon/Sylveon/Espeon]",
+          "score": 0.459
         }
       ],
-      "query": "Evolving Skies Elite Trainer Box|Evolving Skies|x1",
+      "query": "v2|Evolving Skies Elite Trainer Box|Evolving Skies|x1",
       "multiplier": 1
     },
     "evolving-skies-booster-box-evolving-skies": {
@@ -295,26 +178,9 @@
       "name": "Evolving Skies Booster Box",
       "url": "https://www.tcgplayer.com/product/242436/pokemon-swsh07-evolving-skies-evolving-skies-booster-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/242436_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 98026,
-          "name": "XY Roaring Skies Booster Box",
-          "score": 1.0
-        },
-        {
-          "productId": 248124,
-          "name": "Evolving Skies Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 641794,
-          "name": "Evolving Skies Half Booster Box",
-          "score": 0.719
-        }
-      ],
-      "query": "Evolving Skies Booster Box|Evolving Skies|x1",
+      "query": "v2|Evolving Skies Booster Box|Evolving Skies|x1",
       "multiplier": 1
     },
     "brilliant-stars-blister-pack-case-144-packs-brilliant-stars": {
@@ -325,52 +191,35 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/256125_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 599964,
-          "name": "Brilliant Stars Sleeved Booster Pack Case",
-          "score": 0.799
-        },
-        {
-          "productId": 256124,
-          "name": "Brilliant Stars Booster Pack",
-          "score": 0.696
-        },
-        {
-          "productId": 256136,
-          "name": "Brilliant Stars Sleeved Booster Pack Bundle [Set of 8]",
-          "score": 0.529
-        }
-      ],
-      "query": "Brilliant Stars Sleeved Booster Pack|Brilliant Stars|x144",
+      "query": "v2|Brilliant Stars Sleeved Booster Pack|Brilliant Stars|x144",
       "multiplier": 144
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith": {
-      "productId": 616290,
+      "productId": 475630,
       "groupId": 17688,
-      "name": "Crown Zenith Tin Case",
-      "url": "https://www.tcgplayer.com/product/616290/pokemon-swsh-crown-zenith-crown-zenith-tin-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/616290_200w.jpg",
-      "confidence": 0.516,
+      "name": "Crown Zenith Tin [Galarian Zapdos]",
+      "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
+      "confidence": 0.212,
       "method": "auto",
       "alternatives": [
-        {
-          "productId": 453493,
-          "name": "Crown Zenith Mini Tin Display",
-          "score": 0.327
-        },
-        {
-          "productId": 475630,
-          "name": "Crown Zenith Tin [Galarian Zapdos]",
-          "score": 0.312
-        },
         {
           "productId": 475629,
           "name": "Crown Zenith Tin [Galarian Moltres]",
           "score": 0.308
+        },
+        {
+          "productId": 475628,
+          "name": "Crown Zenith Tin [Galarian Articuno]",
+          "score": 0.304
+        },
+        {
+          "productId": 475634,
+          "name": "Crown Zenith Tin [Set of 3]",
+          "score": 0.302
         }
       ],
-      "query": "Crown Zenith Tin|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
       "multiplier": 6
     },
     "silver-tempest-booster-box-silver-tempest": {
@@ -381,24 +230,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/283389_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 283391,
-          "name": "Silver Tempest Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 283396,
-          "name": "Silver Tempest Booster Bundle",
-          "score": 0.469
-        },
-        {
-          "productId": 283388,
-          "name": "Silver Tempest Booster Pack",
-          "score": 0.46
-        }
-      ],
-      "query": "Silver Tempest Booster Box|Silver Tempest|x1",
+      "query": "v2|Silver Tempest Booster Box|Silver Tempest|x1",
       "multiplier": 1
     },
     "lost-origin-elite-trainer-box-lost-origin": {
@@ -407,26 +239,9 @@
       "name": "Lost Origin Elite Trainer Box",
       "url": "https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/277335_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 175511,
-          "name": "Lost Thunder Elite Trainer Box",
-          "score": 1.0
-        },
-        {
-          "productId": 278796,
-          "name": "Lost Origin Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 277673,
-          "name": "Code Card - Lost Origin Elite Trainer Box",
-          "score": 0.66
-        }
-      ],
-      "query": "Lost Origin Elite Trainer Box|Lost Origin|x1",
+      "query": "v2|Lost Origin Elite Trainer Box|Lost Origin|x1",
       "multiplier": 1
     },
     "darkness-ablaze-elite-trainer-box-darkness-ablaze": {
@@ -437,24 +252,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/216856_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 266951,
-          "name": "Darkness Ablaze Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 251508,
-          "name": "Code Card - Darkness Ablaze Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 216853,
-          "name": "Darkness Ablaze Booster Box",
-          "score": 0.237
-        }
-      ],
-      "query": "Darkness Ablaze Elite Trainer Box|Darkness Ablaze|x1",
+      "query": "v2|Darkness Ablaze Elite Trainer Box|Darkness Ablaze|x1",
       "multiplier": 1
     },
     "vivid-voltage-elite-trainer-box-vivid-voltage": {
@@ -467,50 +265,45 @@
       "method": "auto",
       "alternatives": [
         {
-          "productId": 278642,
-          "name": "Vivid Voltage Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 252532,
-          "name": "Code Card - Vivid Voltage Elite Trainer Box",
-          "score": 0.66
-        },
-        {
           "productId": 222987,
           "name": "Sword & Shield Elite Trainer Box Plus [Zacian]",
           "score": 0.48
+        },
+        {
+          "productId": 222986,
+          "name": "Sword & Shield Elite Trainer Box Plus [Zamazenta]",
+          "score": 0.471
         }
       ],
-      "query": "Vivid Voltage Elite Trainer Box|Vivid Voltage|x1",
+      "query": "v2|Vivid Voltage Elite Trainer Box|Vivid Voltage|x1",
       "multiplier": 1
     },
     "sun-moon-elite-trainer-box-2-box-lot-sm-base-set": {
-      "productId": 243052,
+      "productId": 126091,
       "groupId": 1863,
-      "name": "Sun & Moon Elite Trainer Box Case",
-      "url": "https://www.tcgplayer.com/product/243052/pokemon-sm-base-set-sun-and-moon-elite-trainer-box-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/243052_200w.jpg",
-      "confidence": 0.761,
+      "name": "Sun & Moon Elite Trainer Box [Lunala]",
+      "url": "https://www.tcgplayer.com/product/126091/pokemon-sm-base-set-sun-and-moon-elite-trainer-box-lunala",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/126091_200w.jpg",
+      "confidence": 0.75,
       "method": "auto",
       "alternatives": [
-        {
-          "productId": 126091,
-          "name": "Sun & Moon Elite Trainer Box [Lunala]",
-          "score": 0.85
-        },
         {
           "productId": 126089,
           "name": "Sun & Moon Elite Trainer Box [Solgaleo]",
           "score": 0.84
         },
         {
-          "productId": 279926,
-          "name": "Code Card - Sun & Moon Elite Trainer Box",
-          "score": 0.758
+          "productId": 478335,
+          "name": "Scarlet & Violet Elite Trainer Box [Koraidon]",
+          "score": 0.608
+        },
+        {
+          "productId": 478336,
+          "name": "Scarlet & Violet Elite Trainer Box [Miraidon]",
+          "score": 0.608
         }
       ],
-      "query": "Sun & Moon Elite Trainer Box|SM Base Set|x2",
+      "query": "v2|Sun & Moon Elite Trainer Box|SM Base Set|x2",
       "multiplier": 2
     },
     "astral-radiance-booster-box-case-6-boxes-astral-radiance": {
@@ -521,24 +314,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/265519_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 265520,
-          "name": "Astral Radiance Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 704916,
-          "name": "Astral Radiance Half Booster Box",
-          "score": 0.719
-        },
-        {
-          "productId": 265521,
-          "name": "Astral Radiance Booster Pack",
-          "score": 0.46
-        }
-      ],
-      "query": "Astral Radiance Booster Box|Astral Radiance|x6",
+      "query": "v2|Astral Radiance Booster Box|Astral Radiance|x6",
       "multiplier": 6
     },
     "astral-radiance-elite-trainer-box-astral-radiance-2": {
@@ -549,40 +325,18 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/265527_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 265545,
-          "name": "Astral Radiance Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 273446,
-          "name": "Code Card - Astral Radiance Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 265528,
-          "name": "Astral Radiance Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Astral Radiance Elite Trainer Box|Astral Radiance|x1",
+      "query": "v2|Astral Radiance Elite Trainer Box|Astral Radiance|x1",
       "multiplier": 1
     },
     "crown-zenith-premium-figure-collection-case-6-boxes-crown-zenith": {
-      "productId": 664978,
+      "productId": 475647,
       "groupId": 17688,
-      "name": "Crown Zenith Premium Figure Collection Case",
-      "url": "https://www.tcgplayer.com/product/664978/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/664978_200w.jpg",
-      "confidence": 0.806,
+      "name": "Crown Zenith Premium Figure Collection [Shiny Zacian]",
+      "url": "https://www.tcgplayer.com/product/475647/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-shiny-zacian",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475647_200w.jpg",
+      "confidence": 0.568,
       "method": "auto",
       "alternatives": [
-        {
-          "productId": 475647,
-          "name": "Crown Zenith Premium Figure Collection [Shiny Zacian]",
-          "score": 0.668
-        },
         {
           "productId": 475646,
           "name": "Crown Zenith Premium Figure Collection [Shiny Zamazenta]",
@@ -592,9 +346,14 @@
           "productId": 475648,
           "name": "Crown Zenith Premium Figure Collection [Set of 2]",
           "score": 0.622
+        },
+        {
+          "productId": 527796,
+          "name": "Pikachu VMAX Premium Collection",
+          "score": 0.522
         }
       ],
-      "query": "Crown Zenith Premium Figure Collection|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Premium Figure Collection|Crown Zenith|x6",
       "multiplier": 6
     },
     "crown-zenith-pikachu-vmax-special-collection-case-6-boxes-crown-zenith": {
@@ -607,22 +366,22 @@
       "method": "auto",
       "alternatives": [
         {
-          "productId": 485423,
-          "name": "Pikachu VMAX Special Collection Case",
-          "score": 0.844
+          "productId": 505916,
+          "name": "Crown Zenith Special Collection [Unown V & Lugia V]",
+          "score": 0.441
         },
         {
-          "productId": 485432,
-          "name": "Code Card - Pikachu VMAX Special Collection",
-          "score": 0.735
+          "productId": 453467,
+          "name": "Crown Zenith Collection [Regieleki V]",
+          "score": 0.32
         },
         {
-          "productId": 527796,
-          "name": "Pikachu VMAX Premium Collection",
-          "score": 0.695
+          "productId": 453468,
+          "name": "Crown Zenith Collection [Regidrago V]",
+          "score": 0.306
         }
       ],
-      "query": "Crown Zenith Special Collection Pikachu VMAX|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Special Collection Pikachu VMAX|Crown Zenith|x6",
       "multiplier": 6
     },
     "crown-zenith-elite-trainer-box-case-10-etbs-crown-zenith": {
@@ -631,42 +390,20 @@
       "name": "Crown Zenith Elite Trainer Box",
       "url": "https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/453470_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 557350,
-          "name": "Stellar Crown Elite Trainer Box",
-          "score": 1.0
-        },
-        {
-          "productId": 453471,
-          "name": "Crown Zenith Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 559102,
-          "name": "Stellar Crown Elite Trainer Box Case",
-          "score": 0.793
-        }
-      ],
-      "query": "Crown Zenith Elite Trainer Box|Crown Zenith|x10",
+      "query": "v2|Crown Zenith Elite Trainer Box|Crown Zenith|x10",
       "multiplier": 10
     },
     "scarlet-violet-elite-trainer-box-case-10-etbs-scarlet-violet-base-set": {
-      "productId": 488776,
-      "groupId": 22873,
-      "name": "Scarlet & Violet Elite Trainer Box Case",
-      "url": "https://www.tcgplayer.com/product/488776/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-elite-trainer-box-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/488776_200w.jpg",
-      "confidence": 0.693,
+      "productId": 97747,
+      "groupId": 1387,
+      "name": "XY Elite Trainer Box [Xerneas]",
+      "url": "https://www.tcgplayer.com/product/97747/pokemon-xy-base-set-xy-elite-trainer-box-xerneas",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97747_200w.jpg",
+      "confidence": 0.671,
       "method": "auto",
       "alternatives": [
-        {
-          "productId": 97747,
-          "name": "XY Elite Trainer Box [Xerneas]",
-          "score": 0.771
-        },
         {
           "productId": 97748,
           "name": "XY Elite Trainer Box [Yveltal]",
@@ -676,9 +413,14 @@
           "productId": 478335,
           "name": "Scarlet & Violet Elite Trainer Box [Koraidon]",
           "score": 0.764
+        },
+        {
+          "productId": 478336,
+          "name": "Scarlet & Violet Elite Trainer Box [Miraidon]",
+          "score": 0.764
         }
       ],
-      "query": "Scarlet & Violet Elite Trainer Box|Scarlet & Violet Base Set|x10",
+      "query": "v2|Scarlet & Violet Elite Trainer Box|Scarlet & Violet Base Set|x10",
       "multiplier": 10
     },
     "scarlet-violet-booster-box-case-6-boxes-scarlet-violet-base-set": {
@@ -696,17 +438,17 @@
           "score": 1.0
         },
         {
-          "productId": 476453,
-          "name": "Scarlet & Violet Booster Box Case",
-          "score": 0.719
+          "productId": 126048,
+          "name": "Sun & Moon Booster Box",
+          "score": 0.573
         },
         {
-          "productId": 649407,
-          "name": "Scarlet & Violet Half Booster Box",
-          "score": 0.719
+          "productId": 185731,
+          "name": "Base Set Booster Box [Revised Unlimited Edition]",
+          "score": 0.42
         }
       ],
-      "query": "Scarlet & Violet Booster Box|Scarlet & Violet Base Set|x6",
+      "query": "v2|Scarlet & Violet Booster Box|Scarlet & Violet Base Set|x6",
       "multiplier": 6
     },
     "astral-radiance-elite-trainer-box-case-10-etbs-astral-radiance": {
@@ -717,24 +459,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/265527_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 265545,
-          "name": "Astral Radiance Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 273446,
-          "name": "Code Card - Astral Radiance Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 265528,
-          "name": "Astral Radiance Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Astral Radiance Elite Trainer Box|Astral Radiance|x10",
+      "query": "v2|Astral Radiance Elite Trainer Box|Astral Radiance|x10",
       "multiplier": 10
     },
     "lost-origin-elite-trainer-box-case-10-etbs-lost-origin": {
@@ -743,26 +468,9 @@
       "name": "Lost Origin Elite Trainer Box",
       "url": "https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/277335_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 175511,
-          "name": "Lost Thunder Elite Trainer Box",
-          "score": 1.0
-        },
-        {
-          "productId": 278796,
-          "name": "Lost Origin Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 277673,
-          "name": "Code Card - Lost Origin Elite Trainer Box",
-          "score": 0.66
-        }
-      ],
-      "query": "Lost Origin Elite Trainer Box|Lost Origin|x10",
+      "query": "v2|Lost Origin Elite Trainer Box|Lost Origin|x10",
       "multiplier": 10
     },
     "fusion-strike-elite-trainer-box-case-10-etbs-fusion-strike-2": {
@@ -773,24 +481,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/247671_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 256271,
-          "name": "Fusion Strike Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 257526,
-          "name": "Code Card - Fusion Strike Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 247673,
-          "name": "Fusion Strike Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Fusion Strike Elite Trainer Box|Fusion Strike|x10",
+      "query": "v2|Fusion Strike Elite Trainer Box|Fusion Strike|x10",
       "multiplier": 10
     },
     "silver-tempest-elite-trainer-box-case-10-etbs-silver-tempest": {
@@ -801,24 +492,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/283401_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 285777,
-          "name": "Silver Tempest Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 477032,
-          "name": "Code Card - Silver Tempest Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 285860,
-          "name": "Silver Tempest Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Silver Tempest Elite Trainer Box|Silver Tempest|x10",
+      "query": "v2|Silver Tempest Elite Trainer Box|Silver Tempest|x10",
       "multiplier": 10
     },
     "astral-radiance-booster-box-case-6-boxes-astral-radiance-2": {
@@ -829,24 +503,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/265519_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 265520,
-          "name": "Astral Radiance Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 704916,
-          "name": "Astral Radiance Half Booster Box",
-          "score": 0.719
-        },
-        {
-          "productId": 265521,
-          "name": "Astral Radiance Booster Pack",
-          "score": 0.46
-        }
-      ],
-      "query": "Astral Radiance Booster Box|Astral Radiance|x6",
+      "query": "v2|Astral Radiance Booster Box|Astral Radiance|x6",
       "multiplier": 6
     },
     "silver-tempest-booster-box-case-6-boxes-silver-tempest": {
@@ -857,40 +514,18 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/283389_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 283391,
-          "name": "Silver Tempest Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 283396,
-          "name": "Silver Tempest Booster Bundle",
-          "score": 0.469
-        },
-        {
-          "productId": 283388,
-          "name": "Silver Tempest Booster Pack",
-          "score": 0.46
-        }
-      ],
-      "query": "Silver Tempest Booster Box|Silver Tempest|x6",
+      "query": "v2|Silver Tempest Booster Box|Silver Tempest|x6",
       "multiplier": 6
     },
     "crown-zenith-premium-figure-collection-case-6-boxes-crown-zenith-2": {
-      "productId": 664978,
+      "productId": 475647,
       "groupId": 17688,
-      "name": "Crown Zenith Premium Figure Collection Case",
-      "url": "https://www.tcgplayer.com/product/664978/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/664978_200w.jpg",
-      "confidence": 0.806,
+      "name": "Crown Zenith Premium Figure Collection [Shiny Zacian]",
+      "url": "https://www.tcgplayer.com/product/475647/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-shiny-zacian",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475647_200w.jpg",
+      "confidence": 0.568,
       "method": "auto",
       "alternatives": [
-        {
-          "productId": 475647,
-          "name": "Crown Zenith Premium Figure Collection [Shiny Zacian]",
-          "score": 0.668
-        },
         {
           "productId": 475646,
           "name": "Crown Zenith Premium Figure Collection [Shiny Zamazenta]",
@@ -900,37 +535,42 @@
           "productId": 475648,
           "name": "Crown Zenith Premium Figure Collection [Set of 2]",
           "score": 0.622
+        },
+        {
+          "productId": 527796,
+          "name": "Pikachu VMAX Premium Collection",
+          "score": 0.522
         }
       ],
-      "query": "Crown Zenith Premium Figure Collection|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Premium Figure Collection|Crown Zenith|x6",
       "multiplier": 6
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith-2": {
-      "productId": 616290,
+      "productId": 475630,
       "groupId": 17688,
-      "name": "Crown Zenith Tin Case",
-      "url": "https://www.tcgplayer.com/product/616290/pokemon-swsh-crown-zenith-crown-zenith-tin-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/616290_200w.jpg",
-      "confidence": 0.516,
+      "name": "Crown Zenith Tin [Galarian Zapdos]",
+      "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
+      "confidence": 0.212,
       "method": "auto",
       "alternatives": [
-        {
-          "productId": 453493,
-          "name": "Crown Zenith Mini Tin Display",
-          "score": 0.327
-        },
-        {
-          "productId": 475630,
-          "name": "Crown Zenith Tin [Galarian Zapdos]",
-          "score": 0.312
-        },
         {
           "productId": 475629,
           "name": "Crown Zenith Tin [Galarian Moltres]",
           "score": 0.308
+        },
+        {
+          "productId": 475628,
+          "name": "Crown Zenith Tin [Galarian Articuno]",
+          "score": 0.304
+        },
+        {
+          "productId": 475634,
+          "name": "Crown Zenith Tin [Set of 3]",
+          "score": 0.302
         }
       ],
-      "query": "Crown Zenith Tin|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
       "multiplier": 6
     },
     "battle-styles-booster-box-case-6-boxes-battle-styles": {
@@ -941,24 +581,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/229277_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 233335,
-          "name": "Battle Styles Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 229276,
-          "name": "Battle Styles Booster Pack",
-          "score": 0.46
-        },
-        {
-          "productId": 251879,
-          "name": "Battle Styles Sleeved Booster Pack",
-          "score": 0.343
-        }
-      ],
-      "query": "Battle Styles Booster Box|Battle Styles|x6",
+      "query": "v2|Battle Styles Booster Box|Battle Styles|x6",
       "multiplier": 6
     },
     "lost-origin-booster-box-case-6-boxes-lost-origin": {
@@ -967,54 +590,37 @@
       "name": "Lost Origin Booster Box",
       "url": "https://www.tcgplayer.com/product/277324/pokemon-swsh11-lost-origin-lost-origin-booster-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/277324_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 175509,
-          "name": "Lost Thunder Booster Box",
-          "score": 1.0
-        },
-        {
-          "productId": 278793,
-          "name": "Lost Origin Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 278819,
-          "name": "Lost Origin Booster Bundle",
-          "score": 0.469
-        }
-      ],
-      "query": "Lost Origin Booster Box|Lost Origin|x6",
+      "query": "v2|Lost Origin Booster Box|Lost Origin|x6",
       "multiplier": 6
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith-3": {
-      "productId": 616290,
+      "productId": 475630,
       "groupId": 17688,
-      "name": "Crown Zenith Tin Case",
-      "url": "https://www.tcgplayer.com/product/616290/pokemon-swsh-crown-zenith-crown-zenith-tin-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/616290_200w.jpg",
-      "confidence": 0.516,
+      "name": "Crown Zenith Tin [Galarian Zapdos]",
+      "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
+      "confidence": 0.212,
       "method": "auto",
       "alternatives": [
-        {
-          "productId": 453493,
-          "name": "Crown Zenith Mini Tin Display",
-          "score": 0.327
-        },
-        {
-          "productId": 475630,
-          "name": "Crown Zenith Tin [Galarian Zapdos]",
-          "score": 0.312
-        },
         {
           "productId": 475629,
           "name": "Crown Zenith Tin [Galarian Moltres]",
           "score": 0.308
+        },
+        {
+          "productId": 475628,
+          "name": "Crown Zenith Tin [Galarian Articuno]",
+          "score": 0.304
+        },
+        {
+          "productId": 475634,
+          "name": "Crown Zenith Tin [Set of 3]",
+          "score": 0.302
         }
       ],
-      "query": "Crown Zenith Tin|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
       "multiplier": 6
     },
     "vivid-voltage-booster-box-vivid-voltage": {
@@ -1025,24 +631,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/221313_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 243051,
-          "name": "Vivid Voltage Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 221312,
-          "name": "Vivid Voltage Booster Pack",
-          "score": 0.46
-        },
-        {
-          "productId": 221748,
-          "name": "Vivid Voltage Build & Battle Box",
-          "score": 0.344
-        }
-      ],
-      "query": "Vivid Voltage Booster Box|Vivid Voltage|x1",
+      "query": "v2|Vivid Voltage Booster Box|Vivid Voltage|x1",
       "multiplier": 1
     },
     "paldea-evolved-booster-box-paldea-evolved": {
@@ -1053,24 +642,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/493975_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 496905,
-          "name": "Paldea Evolved Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 649413,
-          "name": "Paldea Evolved Half Booster Box",
-          "score": 0.719
-        },
-        {
-          "productId": 496914,
-          "name": "Paldea Evolved Booster Bundle",
-          "score": 0.469
-        }
-      ],
-      "query": "Paldea Evolved Booster Box|Paldea Evolved|x1",
+      "query": "v2|Paldea Evolved Booster Box|Paldea Evolved|x1",
       "multiplier": 1
     },
     "paldea-evolved-elite-trainer-box-paldea-evolved": {
@@ -1081,24 +653,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/493974_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 496911,
-          "name": "Paldea Evolved Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 500847,
-          "name": "Code Card - Paldea Evolved Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 493973,
-          "name": "Paldea Evolved Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Paldea Evolved Elite Trainer Box|Paldea Evolved|x1",
+      "query": "v2|Paldea Evolved Elite Trainer Box|Paldea Evolved|x1",
       "multiplier": 1
     },
     "scarlet-violet-151-poster-collection-case-6-boxes-scarlet-violet-151": {
@@ -1111,22 +666,22 @@
       "method": "auto",
       "alternatives": [
         {
-          "productId": 502002,
-          "name": "151 Poster Collection Case",
-          "score": 0.738
-        },
-        {
-          "productId": 517553,
-          "name": "Code Card -151 Poster Collection",
-          "score": 0.595
-        },
-        {
           "productId": 502007,
           "name": "151: Zapdos ex Collection",
           "score": 0.427
+        },
+        {
+          "productId": 502004,
+          "name": "151 Binder Collection",
+          "score": 0.423
+        },
+        {
+          "productId": 502006,
+          "name": "151: Alakazam ex Collection",
+          "score": 0.378
         }
       ],
-      "query": "151 Poster Collection|Scarlet & Violet 151|x6",
+      "query": "v2|151 Poster Collection|Scarlet & Violet 151|x6",
       "multiplier": 6
     },
     "scarlet-violet-151-ultra-premium-collection-case-4-boxes-scarlet-violet-151": {
@@ -1137,24 +692,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/502005_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 515970,
-          "name": "151 Ultra-Premium Collection Case",
-          "score": 0.804
-        },
-        {
-          "productId": 518464,
-          "name": "Code Card - 151 Ultra-Premium Collection",
-          "score": 0.68
-        },
-        {
-          "productId": 609597,
-          "name": "Blooming Waters Premium Collection",
-          "score": 0.513
-        }
-      ],
-      "query": "151 Ultra Premium Collection|Scarlet & Violet 151|x4",
+      "query": "v2|151 Ultra Premium Collection|Scarlet & Violet 151|x4",
       "multiplier": 4
     },
     "scarlet-violet-151-elite-trainer-box-case-10-etbs-scarlet-violet-151": {
@@ -1165,52 +703,35 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/503313_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 506640,
-          "name": "151 Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 517554,
-          "name": "Code Card - 151 Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 501999,
-          "name": "151 Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "151 Elite Trainer Box|Scarlet & Violet 151|x10",
+      "query": "v2|151 Elite Trainer Box|Scarlet & Violet 151|x10",
       "multiplier": 10
     },
     "paldean-fates-tin-case-6-tins-paldean-fates": {
-      "productId": 688258,
+      "productId": 528056,
       "groupId": 23353,
-      "name": "Paldean Fates Tin Case",
-      "url": "https://www.tcgplayer.com/product/688258/pokemon-sv-paldean-fates-paldean-fates-tin-case",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/688258_200w.jpg",
-      "confidence": 0.516,
+      "name": "Paldean Fates Tin [Charizard ex]",
+      "url": "https://www.tcgplayer.com/product/528056/pokemon-sv-paldean-fates-paldean-fates-tin-charizard-ex",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/528056_200w.jpg",
+      "confidence": 0.327,
       "method": "auto",
       "alternatives": [
         {
-          "productId": 268482,
-          "name": "Shining Fates V Tin Case",
-          "score": 0.378
+          "productId": 528057,
+          "name": "Paldean Fates Tin [Great Tusk ex]",
+          "score": 0.268
         },
         {
-          "productId": 228823,
-          "name": "Shining Fates V Tin [Boltund V]",
-          "score": 0.348
+          "productId": 528058,
+          "name": "Paldean Fates Tin [Iron Treads ex]",
+          "score": 0.263
         },
         {
-          "productId": 193438,
-          "name": "Hidden Fates Tin [Raichu GX]",
-          "score": 0.348
+          "productId": 528063,
+          "name": "Paldean Fates International Tin [Charizard ex]",
+          "score": 0.226
         }
       ],
-      "query": "Paldean Fates Tin|Paldean Fates|x6",
+      "query": "v2|Paldean Fates Tin|Paldean Fates|x6",
       "multiplier": 6
     },
     "paradox-rift-booster-box-paradox-rift": {
@@ -1221,24 +742,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/512821_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 512828,
-          "name": "Paradox Rift Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 649417,
-          "name": "Paradox Rift Half Booster Box",
-          "score": 0.719
-        },
-        {
-          "productId": 512820,
-          "name": "Paradox Rift Booster Bundle",
-          "score": 0.469
-        }
-      ],
-      "query": "Paradox Rift Booster Box|Paradox Rift|x1",
+      "query": "v2|Paradox Rift Booster Box|Paradox Rift|x1",
       "multiplier": 1
     },
     "prismatic-evolutions-elite-trainer-box-case-10-etbs-prismatic-evolutions": {
@@ -1251,22 +755,12 @@
       "method": "auto",
       "alternatives": [
         {
-          "productId": 598487,
-          "name": "Prismatic Evolutions Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 627740,
-          "name": "Evolutions Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 616163,
-          "name": "Code Card - Prismatic Evolutions Elite Trainer Box",
-          "score": 0.66
+          "productId": 670607,
+          "name": "Prismatic Evolutions Elite Trainer Box (Dollar General Exclusive)",
+          "score": 0.527
         }
       ],
-      "query": "Prismatic Evolutions Elite Trainer Box|Prismatic Evolutions|x10",
+      "query": "v2|Prismatic Evolutions Elite Trainer Box|Prismatic Evolutions|x10",
       "multiplier": 10
     },
     "prismatic-evolutions-booster-bundle-case-25-bundles-prismatic-evolutions": {
@@ -1277,24 +771,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/600518_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 615027,
-          "name": "Prismatic Evolutions Booster Bundle Case",
-          "score": 0.73
-        },
-        {
-          "productId": 610317,
-          "name": "Prismatic Evolutions Booster Bundle Display",
-          "score": 0.706
-        },
-        {
-          "productId": 123446,
-          "name": "XY Evolutions Booster Box",
-          "score": 0.469
-        }
-      ],
-      "query": "Prismatic Evolutions Booster Bundle|Prismatic Evolutions|x25",
+      "query": "v2|Prismatic Evolutions Booster Bundle|Prismatic Evolutions|x25",
       "multiplier": 25
     },
     "journey-together-booster-box-case-6-boxes-journey-together": {
@@ -1307,22 +784,12 @@
       "method": "auto",
       "alternatives": [
         {
-          "productId": 614449,
-          "name": "Journey Together Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 649492,
-          "name": "Journey Together Half Booster Box",
-          "score": 0.719
-        },
-        {
           "productId": 623628,
           "name": "Journey Together Enhanced Booster Box",
           "score": 0.682
         }
       ],
-      "query": "Journey Together Booster Box|Journey Together|x6",
+      "query": "v2|Journey Together Booster Box|Journey Together|x6",
       "multiplier": 6
     },
     "journey-together-booster-box-journey-together": {
@@ -1335,22 +802,12 @@
       "method": "auto",
       "alternatives": [
         {
-          "productId": 614449,
-          "name": "Journey Together Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 649492,
-          "name": "Journey Together Half Booster Box",
-          "score": 0.719
-        },
-        {
           "productId": 623628,
           "name": "Journey Together Enhanced Booster Box",
           "score": 0.682
         }
       ],
-      "query": "Journey Together Booster Box|Journey Together|x1",
+      "query": "v2|Journey Together Booster Box|Journey Together|x1",
       "multiplier": 1
     },
     "journey-together-elite-trainer-box-case-10-etbs-journey-together": {
@@ -1361,24 +818,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/610930_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 614450,
-          "name": "Journey Together Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 626632,
-          "name": "Code Card - Journey Together Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 610929,
-          "name": "Journey Together Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Journey Together Elite Trainer Box|Journey Together|x10",
+      "query": "v2|Journey Together Elite Trainer Box|Journey Together|x10",
       "multiplier": 10
     },
     "destined-rivals-booster-bundle-case-25-bundles-destined-rivals": {
@@ -1389,24 +829,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/625670_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 628428,
-          "name": "Destined Rivals Booster Bundle Case",
-          "score": 0.73
-        },
-        {
-          "productId": 624679,
-          "name": "Destined Rivals Booster Box",
-          "score": 0.469
-        },
-        {
-          "productId": 98543,
-          "name": "Rising Rivals Booster Box",
-          "score": 0.469
-        }
-      ],
-      "query": "Destined Rivals Booster Bundle|Destined Rivals|x25",
+      "query": "v2|Destined Rivals Booster Bundle|Destined Rivals|x25",
       "multiplier": 25
     },
     "destined-rivals-booster-box-case-6-boxes-destined-rivals": {
@@ -1415,26 +838,9 @@
       "name": "Destined Rivals Booster Box",
       "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/624679_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 98543,
-          "name": "Rising Rivals Booster Box",
-          "score": 1.0
-        },
-        {
-          "productId": 624678,
-          "name": "Destined Rivals Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 624681,
-          "name": "Destined Rivals Half Booster Box",
-          "score": 0.719
-        }
-      ],
-      "query": "Destined Rivals Booster Box|Destined Rivals|x6",
+      "query": "v2|Destined Rivals Booster Box|Destined Rivals|x6",
       "multiplier": 6
     },
     "destined-rivals-booster-box-case-6-boxes-destined-rivals-2": {
@@ -1443,26 +849,9 @@
       "name": "Destined Rivals Booster Box",
       "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/624679_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 98543,
-          "name": "Rising Rivals Booster Box",
-          "score": 1.0
-        },
-        {
-          "productId": 624678,
-          "name": "Destined Rivals Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 624681,
-          "name": "Destined Rivals Half Booster Box",
-          "score": 0.719
-        }
-      ],
-      "query": "Destined Rivals Booster Box|Destined Rivals|x6",
+      "query": "v2|Destined Rivals Booster Box|Destined Rivals|x6",
       "multiplier": 6
     },
     "white-flare-elite-trainer-box-case-10-etbs-white-flare": {
@@ -1473,24 +862,7 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/630689_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 630693,
-          "name": "White Flare Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 644848,
-          "name": "Code Card - White Flare Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 630688,
-          "name": "White Flare Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "White Flare Elite Trainer Box|White Flare|x10",
+      "query": "v2|White Flare Elite Trainer Box|White Flare|x10",
       "multiplier": 10
     },
     "black-bolt-elite-trainer-box-case-10-etbs-black-bolt": {
@@ -1499,26 +871,9 @@
       "name": "Black Bolt Elite Trainer Box",
       "url": "https://www.tcgplayer.com/product/630686/pokemon-sv-black-bolt-black-bolt-elite-trainer-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/630686_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 692947,
-          "name": "Pitch Black Elite Trainer Box",
-          "score": 1.0
-        },
-        {
-          "productId": 630690,
-          "name": "Black Bolt Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 692948,
-          "name": "Pitch Black Elite Trainer Box Case",
-          "score": 0.793
-        }
-      ],
-      "query": "Black Bolt Elite Trainer Box|Black Bolt|x10",
+      "query": "v2|Black Bolt Elite Trainer Box|Black Bolt|x10",
       "multiplier": 10
     },
     "pitch-black-booster-box-pitch-black": {
@@ -1527,26 +882,9 @@
       "name": "Pitch Black Booster Box",
       "url": "https://www.tcgplayer.com/product/692939/pokemon-me05-pitch-black-pitch-black-booster-box",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/692939_200w.jpg",
-      "confidence": 0.9,
+      "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 98552,
-          "name": "Black and White Booster Box",
-          "score": 1.0
-        },
-        {
-          "productId": 692941,
-          "name": "Pitch Black Booster Box Case",
-          "score": 0.719
-        },
-        {
-          "productId": 692942,
-          "name": "Pitch Black Booster Bundle",
-          "score": 0.469
-        }
-      ],
-      "query": "Pitch Black Booster Box|Pitch Black|x1",
+      "query": "v2|Pitch Black Booster Box|Pitch Black|x1",
       "multiplier": 1
     },
     "destined-rivals-elite-trainer-box-case-10-etbs-destined-rivals": {
@@ -1557,164 +895,129 @@
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/624676_200w.jpg",
       "confidence": 1.0,
       "method": "auto",
-      "alternatives": [
-        {
-          "productId": 628398,
-          "name": "Destined Rivals Elite Trainer Box Case",
-          "score": 0.793
-        },
-        {
-          "productId": 633151,
-          "name": "Code Card - Destined Rivals Elite Trainer Box",
-          "score": 0.66
-        },
-        {
-          "productId": 624675,
-          "name": "Destined Rivals Pokemon Center Elite Trainer Box (Exclusive)",
-          "score": 0.623
-        }
-      ],
-      "query": "Destined Rivals Elite Trainer Box|Destined Rivals|x10",
+      "query": "v2|Destined Rivals Elite Trainer Box|Destined Rivals|x10",
       "multiplier": 10
     },
     "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products": {
-      "productId": 654213,
+      "productId": 226136,
       "groupId": 2374,
-      "name": "Mega Charizard X ex Ultra Premium Collection",
-      "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
-      "confidence": 0.677,
+      "name": "Sword & Shield Ultra-Premium Collection - Zacian & Zamazenta",
+      "url": "https://www.tcgplayer.com/product/226136/pokemon-miscellaneous-cards-and-products-sword-and-shield-ultra-premium-collection-zacian-and-zamazenta",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/226136_200w.jpg",
+      "confidence": 0.663,
       "method": "auto",
       "alternatives": [
         {
-          "productId": 285424,
-          "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
-          "score": 0.587
-        },
-        {
-          "productId": 594491,
-          "name": "Greninja ex Ultra-Premium Collection",
-          "score": 0.565
+          "productId": 654213,
+          "name": "Mega Charizard X ex Ultra Premium Collection",
+          "score": 0.55
         },
         {
           "productId": 575198,
           "name": "Terapagos ex Ultra-Premium Collection",
-          "score": 0.562
+          "score": 0.46
+        },
+        {
+          "productId": 594491,
+          "name": "Greninja ex Ultra-Premium Collection",
+          "score": 0.446
         }
       ],
-      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "query": "v2|Sword & Shield Ultra-Premium Collection Charizard|Miscellaneous Cards & Products|x4",
       "multiplier": 4
     },
     "paldea-collection-case-6-boxes-miscellaneous-cards-products": {
-      "productId": 477174,
+      "productId": 451118,
       "groupId": 2374,
-      "name": "Paldea Collection [Set of 6]",
-      "url": "https://www.tcgplayer.com/product/477174/pokemon-miscellaneous-cards-and-products-paldea-collection-set-of-6",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/477174_200w.jpg",
-      "confidence": 0.537,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 451120,
-          "name": "Paldea Collection [Quaxly/Miraidon ex]",
-          "score": 0.485
-        },
-        {
-          "productId": 477171,
-          "name": "Paldea Collection [Quaxly/Koraidon ex]",
-          "score": 0.485
-        },
-        {
-          "productId": 451119,
-          "name": "Paldea Collection [Fuecoco/Koraidon ex]",
-          "score": 0.48
-        }
-      ],
-      "query": "Paldea Collection|Miscellaneous Cards & Products|x6",
+      "name": "Paldea Collection [Sprigatito/Miraidon ex]",
+      "url": "https://www.tcgplayer.com/product/451118/pokemon-miscellaneous-cards-and-products-paldea-collection-sprigatito-miraidon-ex",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/451118_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
       "multiplier": 6
     },
     "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-2": {
-      "productId": 654213,
+      "productId": 226136,
       "groupId": 2374,
-      "name": "Mega Charizard X ex Ultra Premium Collection",
-      "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
-      "confidence": 0.677,
+      "name": "Sword & Shield Ultra-Premium Collection - Zacian & Zamazenta",
+      "url": "https://www.tcgplayer.com/product/226136/pokemon-miscellaneous-cards-and-products-sword-and-shield-ultra-premium-collection-zacian-and-zamazenta",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/226136_200w.jpg",
+      "confidence": 0.663,
       "method": "auto",
       "alternatives": [
         {
-          "productId": 285424,
-          "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
-          "score": 0.587
-        },
-        {
-          "productId": 594491,
-          "name": "Greninja ex Ultra-Premium Collection",
-          "score": 0.565
+          "productId": 654213,
+          "name": "Mega Charizard X ex Ultra Premium Collection",
+          "score": 0.55
         },
         {
           "productId": 575198,
           "name": "Terapagos ex Ultra-Premium Collection",
-          "score": 0.562
+          "score": 0.46
+        },
+        {
+          "productId": 594491,
+          "name": "Greninja ex Ultra-Premium Collection",
+          "score": 0.446
         }
       ],
-      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "query": "v2|Sword & Shield Ultra-Premium Collection Charizard|Miscellaneous Cards & Products|x4",
       "multiplier": 4
     },
     "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-3": {
-      "productId": 654213,
+      "productId": 226136,
       "groupId": 2374,
-      "name": "Mega Charizard X ex Ultra Premium Collection",
-      "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
-      "confidence": 0.677,
+      "name": "Sword & Shield Ultra-Premium Collection - Zacian & Zamazenta",
+      "url": "https://www.tcgplayer.com/product/226136/pokemon-miscellaneous-cards-and-products-sword-and-shield-ultra-premium-collection-zacian-and-zamazenta",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/226136_200w.jpg",
+      "confidence": 0.663,
       "method": "auto",
       "alternatives": [
         {
-          "productId": 285424,
-          "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
-          "score": 0.587
-        },
-        {
-          "productId": 594491,
-          "name": "Greninja ex Ultra-Premium Collection",
-          "score": 0.565
+          "productId": 654213,
+          "name": "Mega Charizard X ex Ultra Premium Collection",
+          "score": 0.55
         },
         {
           "productId": 575198,
           "name": "Terapagos ex Ultra-Premium Collection",
-          "score": 0.562
+          "score": 0.46
+        },
+        {
+          "productId": 594491,
+          "name": "Greninja ex Ultra-Premium Collection",
+          "score": 0.446
         }
       ],
-      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "query": "v2|Sword & Shield Ultra-Premium Collection Charizard|Miscellaneous Cards & Products|x4",
       "multiplier": 4
     },
     "cyrus-klara-premium-tournament-collection-display-2-boxes-miscellaneous-cards-products": {
-      "productId": 632691,
+      "productId": 594539,
       "groupId": 2374,
-      "name": "Code Card - Lillie Premium Tournament Collection",
-      "url": "https://www.tcgplayer.com/product/632691/pokemon-miscellaneous-cards-and-products-code-card-lillie-premium-tournament-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/632691_200w.jpg",
-      "confidence": 0.596,
+      "name": "Tera Team Premium Collection",
+      "url": "https://www.tcgplayer.com/product/594539/pokemon-miscellaneous-cards-and-products-tera-team-premium-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/594539_200w.jpg",
+      "confidence": 0.372,
       "method": "auto",
       "alternatives": [
         {
-          "productId": 594539,
-          "name": "Tera Team Premium Collection",
-          "score": 0.542
+          "productId": 262637,
+          "name": "Lucario VSTAR Premium Collection",
+          "score": 0.467
+        },
+        {
+          "productId": 287228,
+          "name": "VMAX Dragons Premium Collection",
+          "score": 0.461
         },
         {
           "productId": 249689,
           "name": "Vaporeon VMAX Premium Collection",
-          "score": 0.524
-        },
-        {
-          "productId": 276701,
-          "name": "Code Card - Professor Juniper Premium Tournament Collection",
-          "score": 0.515
+          "score": 0.457
         }
       ],
-      "query": "Premium Tournament Collection|Miscellaneous Cards & Products|x2",
+      "query": "v2|Cyrus Premium Tournament Collection|Miscellaneous Cards & Products|x2",
       "multiplier": 2
     },
     "charizard-ex-premium-collection-case-6-boxes-miscellaneous-cards-products": {
@@ -1727,11 +1030,6 @@
       "method": "auto",
       "alternatives": [
         {
-          "productId": 523957,
-          "name": "Code Card - Charizard ex Premium Collection",
-          "score": 0.735
-        },
-        {
           "productId": 539305,
           "name": "Armarouge ex Premium Collection",
           "score": 0.684
@@ -1740,9 +1038,14 @@
           "productId": 576482,
           "name": "Ogerpon ex Premium Collection",
           "score": 0.635
+        },
+        {
+          "productId": 526914,
+          "name": "Gyarados ex Premium Collection",
+          "score": 0.631
         }
       ],
-      "query": "Charizard ex Premium Collection|Miscellaneous Cards & Products|x6",
+      "query": "v2|Charizard ex Premium Collection|Miscellaneous Cards & Products|x6",
       "multiplier": 6
     },
     "2023-summer-collector-chest-tin-case-9-tins-miscellaneous-cards-products": {
@@ -1751,26 +1054,26 @@
       "name": "Fall 2023 Collector Chest",
       "url": "https://www.tcgplayer.com/product/516647/pokemon-miscellaneous-cards-and-products-fall-2023-collector-chest",
       "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/516647_200w.jpg",
-      "confidence": 0.487,
+      "confidence": 0.673,
       "method": "auto",
       "alternatives": [
         {
+          "productId": 265252,
+          "name": "Spring 2022 Collector Chest",
+          "score": 0.502
+        },
+        {
           "productId": 575706,
           "name": "Fall 2024 Collector Chest",
-          "score": 0.587
+          "score": 0.486
         },
         {
           "productId": 654593,
           "name": "Fall 2025 Collector Chest",
-          "score": 0.587
-        },
-        {
-          "productId": 265252,
-          "name": "Spring 2022 Collector Chest",
-          "score": 0.575
+          "score": 0.486
         }
       ],
-      "query": "Collector Chest|Miscellaneous Cards & Products|x9",
+      "query": "v2|Summer 2023 Collector Chest|Miscellaneous Cards & Products|x9",
       "multiplier": 9
     },
     "cynthia-s-garchomp-ex-premium-collection-case-6-boxes-miscellaneous-cards-products": {
@@ -1783,11 +1086,6 @@
       "method": "auto",
       "alternatives": [
         {
-          "productId": 635323,
-          "name": "Code Card - Cynthia's Garchomp ex Premium Collection",
-          "score": 0.588
-        },
-        {
           "productId": 526914,
           "name": "Gyarados ex Premium Collection",
           "score": 0.539
@@ -1796,43 +1094,30 @@
           "productId": 576482,
           "name": "Ogerpon ex Premium Collection",
           "score": 0.532
+        },
+        {
+          "productId": 516576,
+          "name": "Charizard ex Premium Collection",
+          "score": 0.486
         }
       ],
-      "query": "Cynthia's Garchomp ex Premium Collection|Miscellaneous Cards & Products|x6",
+      "query": "v2|Cynthia's Garchomp ex Premium Collection|Miscellaneous Cards & Products|x6",
       "multiplier": 6
     },
-    "unova-victini-illustration-collection-case-6-boxes-miscellaneous-cards-products": {
-      "productId": 226133,
-      "groupId": 2374,
-      "name": "Jirachi GX Collection",
-      "url": "https://www.tcgplayer.com/product/226133/pokemon-miscellaneous-cards-and-products-jirachi-gx-collection",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/226133_200w.jpg",
-      "confidence": 0.232,
-      "method": "auto",
-      "alternatives": [
-        {
-          "productId": 657884,
-          "name": "Latias ex Special Collection",
-          "score": 0.31
-        },
-        {
-          "productId": 653192,
-          "name": "Snorlax & Lapras VMAX Collection",
-          "score": 0.303
-        },
-        {
-          "productId": 594896,
-          "name": "Grand Adventure Collection",
-          "score": 0.302
-        }
-      ],
-      "query": "Victini Illustration Collection|Miscellaneous Cards & Products|x6",
+    "unova-victini-illustration-collection-case-6-boxes-black-bolt": {
+      "productId": 630615,
+      "groupId": 24325,
+      "name": "Unova Victini Illustration Collection",
+      "url": "https://www.tcgplayer.com/product/630615/pokemon-sv-black-bolt-unova-victini-illustration-collection",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/630615_200w.jpg",
+      "confidence": 1.0,
+      "method": "id",
       "multiplier": 6
     }
   },
   "cardmarket": {
     "evolving-skies-elite-trainer-box-case-10-etbs-evolving-skies": {
-      "query": "Evolving Skies Elite Trainer Box Case (10 ETBs)|Evolving Skies|x1",
+      "query": "v2|Evolving Skies Elite Trainer Box Case (10 ETBs)|Evolving Skies|x1",
       "idProduct": 873116,
       "multiplier": 1,
       "candidates": [
@@ -1898,7 +1183,7 @@
       ]
     },
     "ascended-heroes-elite-trainer-box-ascended-heroes": {
-      "query": "Ascended Heroes Elite Trainer Box|Ascended Heroes|x1",
+      "query": "v2|Ascended Heroes Elite Trainer Box|Ascended Heroes|x1",
       "idProduct": 860574,
       "multiplier": 1,
       "candidates": [
@@ -1933,7 +1218,7 @@
       "method": "auto"
     },
     "hidden-fates-elite-trainer-box-case-10-etbs-hidden-fates": {
-      "query": "Hidden Fates Elite Trainer Box Case (10 ETBs)|Hidden Fates|x1",
+      "query": "v2|Hidden Fates Elite Trainer Box Case (10 ETBs)|Hidden Fates|x1",
       "idProduct": 690875,
       "multiplier": 1,
       "candidates": [
@@ -1968,7 +1253,7 @@
       "method": "auto"
     },
     "fusion-strike-elite-trainer-box-case-10-etbs-fusion-strike": {
-      "query": "Fusion Strike Elite Trainer Box|Fusion Strike|x10",
+      "query": "v2|Fusion Strike Elite Trainer Box|Fusion Strike|x10",
       "idProduct": 574593,
       "multiplier": 10,
       "candidates": [
@@ -2003,7 +1288,7 @@
       "method": "auto"
     },
     "fusion-strike-booster-box-case-6-boxes-fusion-strike": {
-      "query": "Fusion Strike Booster Box|Fusion Strike|x6",
+      "query": "v2|Fusion Strike Booster Box|Fusion Strike|x6",
       "idProduct": 574592,
       "multiplier": 6,
       "candidates": [
@@ -2038,7 +1323,7 @@
       "method": "auto"
     },
     "astral-radiance-blister-pack-case-144-packs-astral-radiance": {
-      "query": "Astral Radiance Sleeved Booster Pack|Astral Radiance|x144",
+      "query": "v2|Astral Radiance Sleeved Booster Pack|Astral Radiance|x144",
       "idProduct": null,
       "multiplier": 144,
       "candidates": [
@@ -2070,7 +1355,7 @@
       ]
     },
     "astral-radiance-elite-trainer-box-astral-radiance": {
-      "query": "Astral Radiance Elite Trainer Box|Astral Radiance|x1",
+      "query": "v2|Astral Radiance Elite Trainer Box|Astral Radiance|x1",
       "idProduct": 611359,
       "multiplier": 1,
       "candidates": [
@@ -2105,7 +1390,7 @@
       "method": "auto"
     },
     "chilling-reign-elite-trainer-box-chilling-reign": {
-      "query": "Chilling Reign Elite Trainer Box|Chilling Reign|x1",
+      "query": "v2|Chilling Reign Elite Trainer Box|Chilling Reign|x1",
       "idProduct": null,
       "multiplier": 1,
       "candidates": [
@@ -2137,7 +1422,7 @@
       ]
     },
     "celebrations-ultra-premium-collection-celebrations": {
-      "query": "Celebrations Ultra Premium Collection|Celebrations|x1",
+      "query": "v2|Celebrations Ultra Premium Collection|Celebrations|x1",
       "idProduct": 570907,
       "multiplier": 1,
       "candidates": [
@@ -2172,7 +1457,7 @@
       "method": "auto"
     },
     "pokemon-go-elite-trainer-box-pokemon-go": {
-      "query": "Pokemon GO Elite Trainer Box|Pokemon GO|x1",
+      "query": "v2|Pokemon GO Elite Trainer Box|Pokemon GO|x1",
       "idProduct": 653700,
       "multiplier": 1,
       "candidates": [
@@ -2207,7 +1492,7 @@
       "method": "auto"
     },
     "battle-styles-elite-trainer-box-battle-styles": {
-      "query": "Battle Styles Elite Trainer Box|Battle Styles|x1",
+      "query": "v2|Battle Styles Elite Trainer Box|Battle Styles|x1",
       "idProduct": null,
       "multiplier": 1,
       "candidates": [
@@ -2239,7 +1524,7 @@
       ]
     },
     "evolving-skies-elite-trainer-box-evolving-skies": {
-      "query": "Evolving Skies Elite Trainer Box|Evolving Skies|x1",
+      "query": "v2|Evolving Skies Elite Trainer Box|Evolving Skies|x1",
       "idProduct": 568794,
       "multiplier": 1,
       "candidates": [
@@ -2274,7 +1559,7 @@
       "method": "auto"
     },
     "evolving-skies-booster-box-evolving-skies": {
-      "query": "Evolving Skies Booster Box|Evolving Skies|x1",
+      "query": "v2|Evolving Skies Booster Box|Evolving Skies|x1",
       "idProduct": 568765,
       "multiplier": 1,
       "candidates": [
@@ -2309,7 +1594,7 @@
       "method": "auto"
     },
     "brilliant-stars-blister-pack-case-144-packs-brilliant-stars": {
-      "query": "Brilliant Stars Sleeved Booster Pack|Brilliant Stars|x144",
+      "query": "v2|Brilliant Stars Sleeved Booster Pack|Brilliant Stars|x144",
       "idProduct": null,
       "multiplier": 144,
       "candidates": [
@@ -2341,7 +1626,7 @@
       ]
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith": {
-      "query": "Crown Zenith Tin|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
       "idProduct": null,
       "multiplier": 6,
       "candidates": [
@@ -2373,7 +1658,7 @@
       ]
     },
     "silver-tempest-booster-box-silver-tempest": {
-      "query": "Silver Tempest Booster Box|Silver Tempest|x1",
+      "query": "v2|Silver Tempest Booster Box|Silver Tempest|x1",
       "idProduct": 672333,
       "multiplier": 1,
       "candidates": [
@@ -2408,7 +1693,7 @@
       "method": "auto"
     },
     "lost-origin-elite-trainer-box-lost-origin": {
-      "query": "Lost Origin Elite Trainer Box|Lost Origin|x1",
+      "query": "v2|Lost Origin Elite Trainer Box|Lost Origin|x1",
       "idProduct": 666150,
       "multiplier": 1,
       "candidates": [
@@ -2443,7 +1728,7 @@
       "method": "auto"
     },
     "darkness-ablaze-elite-trainer-box-darkness-ablaze": {
-      "query": "Darkness Ablaze Elite Trainer Box|Darkness Ablaze|x1",
+      "query": "v2|Darkness Ablaze Elite Trainer Box|Darkness Ablaze|x1",
       "idProduct": 462229,
       "multiplier": 1,
       "candidates": [
@@ -2478,7 +1763,7 @@
       "method": "auto"
     },
     "vivid-voltage-elite-trainer-box-vivid-voltage": {
-      "query": "Vivid Voltage Elite Trainer Box|Vivid Voltage|x1",
+      "query": "v2|Vivid Voltage Elite Trainer Box|Vivid Voltage|x1",
       "idProduct": 494499,
       "multiplier": 1,
       "candidates": [
@@ -2513,39 +1798,42 @@
       "method": "auto"
     },
     "sun-moon-elite-trainer-box-2-box-lot-sm-base-set": {
-      "query": "Sun & Moon Elite Trainer Box|SM Base Set|x2",
-      "idProduct": null,
+      "query": "v2|Sun & Moon Elite Trainer Box|SM Base Set|x2",
+      "idProduct": 295477,
       "multiplier": 2,
       "candidates": [
         {
-          "idProduct": 669867,
-          "name": "Base Set WotC Sealed Promotional Box",
-          "score": 0.24
+          "idProduct": 295477,
+          "name": "Sun & Moon Elite Trainer Box (Lunala)",
+          "score": 0.85
         },
         {
-          "idProduct": 271923,
-          "name": "Expedition Base Set Booster Box",
-          "score": 0.224
+          "idProduct": 294123,
+          "name": "Sun & Moon Elite Trainer Box (Solgaleo)",
+          "score": 0.84
         },
         {
-          "idProduct": 271824,
-          "name": "Base Set Booster Box",
-          "score": 0.165
+          "idProduct": 653700,
+          "name": "Pok\u00e9mon GO Elite Trainer Box",
+          "score": 0.614
         },
         {
-          "idProduct": 286500,
-          "name": "Base Set 2: Lightning Bug Theme Deck",
-          "score": 0.148
+          "idProduct": 692101,
+          "name": "Scarlet & Violet Koraidon Elite Trainer Box",
+          "score": 0.608
         },
         {
-          "idProduct": 271890,
-          "name": "Base Set 2 Booster Box",
-          "score": 0.147
+          "idProduct": 692102,
+          "name": "Scarlet & Violet Miraidon Elite Trainer Box",
+          "score": 0.608
         }
-      ]
+      ],
+      "name": "Sun & Moon Elite Trainer Box (Lunala)",
+      "confidence": 0.85,
+      "method": "auto"
     },
     "astral-radiance-booster-box-case-6-boxes-astral-radiance": {
-      "query": "Astral Radiance Booster Box|Astral Radiance|x6",
+      "query": "v2|Astral Radiance Booster Box|Astral Radiance|x6",
       "idProduct": 611352,
       "multiplier": 6,
       "candidates": [
@@ -2580,7 +1868,7 @@
       "method": "auto"
     },
     "astral-radiance-elite-trainer-box-astral-radiance-2": {
-      "query": "Astral Radiance Elite Trainer Box|Astral Radiance|x1",
+      "query": "v2|Astral Radiance Elite Trainer Box|Astral Radiance|x1",
       "idProduct": 611359,
       "multiplier": 1,
       "candidates": [
@@ -2615,7 +1903,7 @@
       "method": "auto"
     },
     "crown-zenith-premium-figure-collection-case-6-boxes-crown-zenith": {
-      "query": "Crown Zenith Premium Figure Collection|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Premium Figure Collection|Crown Zenith|x6",
       "idProduct": null,
       "multiplier": 6,
       "candidates": [
@@ -2647,7 +1935,7 @@
       ]
     },
     "crown-zenith-pikachu-vmax-special-collection-case-6-boxes-crown-zenith": {
-      "query": "Crown Zenith Special Collection Pikachu VMAX|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Special Collection Pikachu VMAX|Crown Zenith|x6",
       "idProduct": 683018,
       "multiplier": 6,
       "candidates": [
@@ -2682,7 +1970,7 @@
       "method": "auto"
     },
     "crown-zenith-elite-trainer-box-case-10-etbs-crown-zenith": {
-      "query": "Crown Zenith Elite Trainer Box|Crown Zenith|x10",
+      "query": "v2|Crown Zenith Elite Trainer Box|Crown Zenith|x10",
       "idProduct": 683009,
       "multiplier": 10,
       "candidates": [
@@ -2717,74 +2005,77 @@
       "method": "auto"
     },
     "scarlet-violet-elite-trainer-box-case-10-etbs-scarlet-violet-base-set": {
-      "query": "Scarlet & Violet Elite Trainer Box|Scarlet & Violet Base Set|x10",
-      "idProduct": null,
+      "query": "v2|Scarlet & Violet Elite Trainer Box|Scarlet & Violet Base Set|x10",
+      "idProduct": 692101,
       "multiplier": 10,
       "candidates": [
         {
-          "idProduct": 271923,
-          "name": "Expedition Base Set Booster Box",
-          "score": 0.292
+          "idProduct": 692101,
+          "name": "Scarlet & Violet Koraidon Elite Trainer Box",
+          "score": 0.764
         },
         {
-          "idProduct": 271824,
-          "name": "Base Set Booster Box",
-          "score": 0.237
+          "idProduct": 692102,
+          "name": "Scarlet & Violet Miraidon Elite Trainer Box",
+          "score": 0.764
         },
         {
-          "idProduct": 669867,
-          "name": "Base Set WotC Sealed Promotional Box",
-          "score": 0.22
+          "idProduct": 692105,
+          "name": "Scarlet & Violet 10 Elite Trainer Box Case",
+          "score": 0.673
         },
         {
-          "idProduct": 271890,
-          "name": "Base Set 2 Booster Box",
-          "score": 0.2
+          "idProduct": 692103,
+          "name": "Scarlet & Violet Koraidon Pok\u00e9mon Center Elite Trainer Box",
+          "score": 0.628
         },
         {
-          "idProduct": 271871,
-          "name": "Expedition Base Set Booster",
-          "score": 0.16
+          "idProduct": 692104,
+          "name": "Scarlet & Violet Miraidon Pok\u00e9mon Center Elite Trainer Box",
+          "score": 0.628
         }
-      ]
+      ],
+      "name": "Scarlet & Violet Koraidon Elite Trainer Box",
+      "confidence": 0.764,
+      "method": "auto"
     },
     "scarlet-violet-booster-box-case-6-boxes-scarlet-violet-base-set": {
-      "query": "Scarlet & Violet Booster Box|Scarlet & Violet Base Set|x6",
-      "idProduct": 271824,
+      "query": "v2|Scarlet & Violet Booster Box|Scarlet & Violet Base Set|x6",
+      "idProduct": 692092,
       "multiplier": 6,
       "candidates": [
         {
-          "idProduct": 271824,
-          "name": "Base Set Booster Box",
+          "idProduct": 692092,
+          "name": "Scarlet & Violet Booster Box",
           "score": 1.0
         },
         {
-          "idProduct": 271890,
-          "name": "Base Set 2 Booster Box",
-          "score": 0.754
-        },
-        {
-          "idProduct": 271923,
-          "name": "Expedition Base Set Booster Box",
-          "score": 0.667
-        },
-        {
-          "idProduct": 271823,
-          "name": "Base Set Booster",
+          "idProduct": 692088,
+          "name": "Scarlet & Violet Booster",
           "score": 0.597
         },
         {
-          "idProduct": 271865,
-          "name": "Base Set 2 Booster",
-          "score": 0.462
+          "idProduct": 692095,
+          "name": "Scarlet & Violet 6 Booster Box Case",
+          "score": 0.591
+        },
+        {
+          "idProduct": 692093,
+          "name": "Scarlet & Violet Booster Box (18 Boosters)",
+          "score": 0.551
+        },
+        {
+          "idProduct": 692096,
+          "name": "Scarlet & Violet Booster Bundle",
+          "score": 0.469
         }
       ],
-      "name": "Base Set Booster Box",
+      "name": "Scarlet & Violet Booster Box",
       "confidence": 1.0,
       "method": "auto"
     },
     "astral-radiance-elite-trainer-box-case-10-etbs-astral-radiance": {
-      "query": "Astral Radiance Elite Trainer Box|Astral Radiance|x10",
+      "query": "v2|Astral Radiance Elite Trainer Box|Astral Radiance|x10",
       "idProduct": 611359,
       "multiplier": 10,
       "candidates": [
@@ -2819,7 +2110,7 @@
       "method": "auto"
     },
     "lost-origin-elite-trainer-box-case-10-etbs-lost-origin": {
-      "query": "Lost Origin Elite Trainer Box|Lost Origin|x10",
+      "query": "v2|Lost Origin Elite Trainer Box|Lost Origin|x10",
       "idProduct": 666150,
       "multiplier": 10,
       "candidates": [
@@ -2854,7 +2145,7 @@
       "method": "auto"
     },
     "fusion-strike-elite-trainer-box-case-10-etbs-fusion-strike-2": {
-      "query": "Fusion Strike Elite Trainer Box|Fusion Strike|x10",
+      "query": "v2|Fusion Strike Elite Trainer Box|Fusion Strike|x10",
       "idProduct": 574593,
       "multiplier": 10,
       "candidates": [
@@ -2889,7 +2180,7 @@
       "method": "auto"
     },
     "silver-tempest-elite-trainer-box-case-10-etbs-silver-tempest": {
-      "query": "Silver Tempest Elite Trainer Box|Silver Tempest|x10",
+      "query": "v2|Silver Tempest Elite Trainer Box|Silver Tempest|x10",
       "idProduct": 672338,
       "multiplier": 10,
       "candidates": [
@@ -2924,7 +2215,7 @@
       "method": "auto"
     },
     "astral-radiance-booster-box-case-6-boxes-astral-radiance-2": {
-      "query": "Astral Radiance Booster Box|Astral Radiance|x6",
+      "query": "v2|Astral Radiance Booster Box|Astral Radiance|x6",
       "idProduct": 611352,
       "multiplier": 6,
       "candidates": [
@@ -2959,7 +2250,7 @@
       "method": "auto"
     },
     "silver-tempest-booster-box-case-6-boxes-silver-tempest": {
-      "query": "Silver Tempest Booster Box|Silver Tempest|x6",
+      "query": "v2|Silver Tempest Booster Box|Silver Tempest|x6",
       "idProduct": 672333,
       "multiplier": 6,
       "candidates": [
@@ -2994,7 +2285,7 @@
       "method": "auto"
     },
     "crown-zenith-premium-figure-collection-case-6-boxes-crown-zenith-2": {
-      "query": "Crown Zenith Premium Figure Collection|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Premium Figure Collection|Crown Zenith|x6",
       "idProduct": null,
       "multiplier": 6,
       "candidates": [
@@ -3026,7 +2317,7 @@
       ]
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith-2": {
-      "query": "Crown Zenith Tin|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
       "idProduct": null,
       "multiplier": 6,
       "candidates": [
@@ -3058,7 +2349,7 @@
       ]
     },
     "battle-styles-booster-box-case-6-boxes-battle-styles": {
-      "query": "Battle Styles Booster Box|Battle Styles|x6",
+      "query": "v2|Battle Styles Booster Box|Battle Styles|x6",
       "idProduct": 527430,
       "multiplier": 6,
       "candidates": [
@@ -3093,7 +2384,7 @@
       "method": "auto"
     },
     "lost-origin-booster-box-case-6-boxes-lost-origin": {
-      "query": "Lost Origin Booster Box|Lost Origin|x6",
+      "query": "v2|Lost Origin Booster Box|Lost Origin|x6",
       "idProduct": 665526,
       "multiplier": 6,
       "candidates": [
@@ -3128,7 +2419,7 @@
       "method": "auto"
     },
     "crown-zenith-collection-tin-case-6-tins-crown-zenith-3": {
-      "query": "Crown Zenith Tin|Crown Zenith|x6",
+      "query": "v2|Crown Zenith Tin|Crown Zenith|x6",
       "idProduct": null,
       "multiplier": 6,
       "candidates": [
@@ -3160,7 +2451,7 @@
       ]
     },
     "vivid-voltage-booster-box-vivid-voltage": {
-      "query": "Vivid Voltage Booster Box|Vivid Voltage|x1",
+      "query": "v2|Vivid Voltage Booster Box|Vivid Voltage|x1",
       "idProduct": 494509,
       "multiplier": 1,
       "candidates": [
@@ -3195,7 +2486,7 @@
       "method": "auto"
     },
     "paldea-evolved-booster-box-paldea-evolved": {
-      "query": "Paldea Evolved Booster Box|Paldea Evolved|x1",
+      "query": "v2|Paldea Evolved Booster Box|Paldea Evolved|x1",
       "idProduct": 703156,
       "multiplier": 1,
       "candidates": [
@@ -3230,7 +2521,7 @@
       "method": "auto"
     },
     "paldea-evolved-elite-trainer-box-paldea-evolved": {
-      "query": "Paldea Evolved Elite Trainer Box|Paldea Evolved|x1",
+      "query": "v2|Paldea Evolved Elite Trainer Box|Paldea Evolved|x1",
       "idProduct": 703175,
       "multiplier": 1,
       "candidates": [
@@ -3265,7 +2556,7 @@
       "method": "auto"
     },
     "scarlet-violet-151-poster-collection-case-6-boxes-scarlet-violet-151": {
-      "query": "151 Poster Collection|Scarlet & Violet 151|x6",
+      "query": "v2|151 Poster Collection|Scarlet & Violet 151|x6",
       "idProduct": 719696,
       "multiplier": 6,
       "candidates": [
@@ -3300,7 +2591,7 @@
       "method": "auto"
     },
     "scarlet-violet-151-ultra-premium-collection-case-4-boxes-scarlet-violet-151": {
-      "query": "151 Ultra Premium Collection|Scarlet & Violet 151|x4",
+      "query": "v2|151 Ultra Premium Collection|Scarlet & Violet 151|x4",
       "idProduct": 719698,
       "multiplier": 4,
       "candidates": [
@@ -3335,7 +2626,7 @@
       "method": "auto"
     },
     "scarlet-violet-151-elite-trainer-box-case-10-etbs-scarlet-violet-151": {
-      "query": "151 Elite Trainer Box|Scarlet & Violet 151|x10",
+      "query": "v2|151 Elite Trainer Box|Scarlet & Violet 151|x10",
       "idProduct": 719691,
       "multiplier": 10,
       "candidates": [
@@ -3370,7 +2661,7 @@
       "method": "auto"
     },
     "paldean-fates-tin-case-6-tins-paldean-fates": {
-      "query": "Paldean Fates Tin|Paldean Fates|x6",
+      "query": "v2|Paldean Fates Tin|Paldean Fates|x6",
       "idProduct": null,
       "multiplier": 6,
       "candidates": [
@@ -3402,7 +2693,7 @@
       ]
     },
     "paradox-rift-booster-box-paradox-rift": {
-      "query": "Paradox Rift Booster Box|Paradox Rift|x1",
+      "query": "v2|Paradox Rift Booster Box|Paradox Rift|x1",
       "idProduct": 728718,
       "multiplier": 1,
       "candidates": [
@@ -3437,7 +2728,7 @@
       "method": "auto"
     },
     "prismatic-evolutions-elite-trainer-box-case-10-etbs-prismatic-evolutions": {
-      "query": "Prismatic Evolutions Elite Trainer Box|Prismatic Evolutions|x10",
+      "query": "v2|Prismatic Evolutions Elite Trainer Box|Prismatic Evolutions|x10",
       "idProduct": 798930,
       "multiplier": 10,
       "candidates": [
@@ -3472,7 +2763,7 @@
       "method": "auto"
     },
     "prismatic-evolutions-booster-bundle-case-25-bundles-prismatic-evolutions": {
-      "query": "Prismatic Evolutions Booster Bundle|Prismatic Evolutions|x25",
+      "query": "v2|Prismatic Evolutions Booster Bundle|Prismatic Evolutions|x25",
       "idProduct": 798924,
       "multiplier": 25,
       "candidates": [
@@ -3507,7 +2798,7 @@
       "method": "auto"
     },
     "journey-together-booster-box-case-6-boxes-journey-together": {
-      "query": "Journey Together Booster Box|Journey Together|x6",
+      "query": "v2|Journey Together Booster Box|Journey Together|x6",
       "idProduct": 805579,
       "multiplier": 6,
       "candidates": [
@@ -3542,7 +2833,7 @@
       "method": "auto"
     },
     "journey-together-booster-box-journey-together": {
-      "query": "Journey Together Booster Box|Journey Together|x1",
+      "query": "v2|Journey Together Booster Box|Journey Together|x1",
       "idProduct": 805579,
       "multiplier": 1,
       "candidates": [
@@ -3577,7 +2868,7 @@
       "method": "auto"
     },
     "journey-together-elite-trainer-box-case-10-etbs-journey-together": {
-      "query": "Journey Together Elite Trainer Box|Journey Together|x10",
+      "query": "v2|Journey Together Elite Trainer Box|Journey Together|x10",
       "idProduct": 805593,
       "multiplier": 10,
       "candidates": [
@@ -3612,7 +2903,7 @@
       "method": "auto"
     },
     "destined-rivals-booster-bundle-case-25-bundles-destined-rivals": {
-      "query": "Destined Rivals Booster Bundle|Destined Rivals|x25",
+      "query": "v2|Destined Rivals Booster Bundle|Destined Rivals|x25",
       "idProduct": 818578,
       "multiplier": 25,
       "candidates": [
@@ -3647,7 +2938,7 @@
       "method": "auto"
     },
     "destined-rivals-booster-box-case-6-boxes-destined-rivals": {
-      "query": "Destined Rivals Booster Box|Destined Rivals|x6",
+      "query": "v2|Destined Rivals Booster Box|Destined Rivals|x6",
       "idProduct": 818574,
       "multiplier": 6,
       "candidates": [
@@ -3682,7 +2973,7 @@
       "method": "auto"
     },
     "destined-rivals-booster-box-case-6-boxes-destined-rivals-2": {
-      "query": "Destined Rivals Booster Box|Destined Rivals|x6",
+      "query": "v2|Destined Rivals Booster Box|Destined Rivals|x6",
       "idProduct": 818574,
       "multiplier": 6,
       "candidates": [
@@ -3717,7 +3008,7 @@
       "method": "auto"
     },
     "white-flare-elite-trainer-box-case-10-etbs-white-flare": {
-      "query": "White Flare Elite Trainer Box|White Flare|x10",
+      "query": "v2|White Flare Elite Trainer Box|White Flare|x10",
       "idProduct": 824089,
       "multiplier": 10,
       "candidates": [
@@ -3752,7 +3043,7 @@
       "method": "auto"
     },
     "black-bolt-elite-trainer-box-case-10-etbs-black-bolt": {
-      "query": "Black Bolt Elite Trainer Box|Black Bolt|x10",
+      "query": "v2|Black Bolt Elite Trainer Box|Black Bolt|x10",
       "idProduct": 824088,
       "multiplier": 10,
       "candidates": [
@@ -3787,7 +3078,7 @@
       "method": "auto"
     },
     "pitch-black-booster-box-pitch-black": {
-      "query": "Pitch Black Booster Box|Pitch Black|x1",
+      "query": "v2|Pitch Black Booster Box|Pitch Black|x1",
       "idProduct": 885545,
       "multiplier": 1,
       "candidates": [
@@ -3822,7 +3113,7 @@
       "method": "auto"
     },
     "destined-rivals-elite-trainer-box-case-10-etbs-destined-rivals": {
-      "query": "Destined Rivals Elite Trainer Box|Destined Rivals|x10",
+      "query": "v2|Destined Rivals Elite Trainer Box|Destined Rivals|x10",
       "idProduct": 818585,
       "multiplier": 10,
       "candidates": [
@@ -3857,42 +3148,42 @@
       "method": "auto"
     },
     "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products": {
-      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "query": "v2|Sword & Shield Ultra-Premium Collection Charizard|Miscellaneous Cards & Products|x4",
       "idProduct": 670732,
       "multiplier": 4,
       "candidates": [
         {
           "idProduct": 670732,
           "name": "Sword & Shield Ultra-Premium Collection - Charizard",
-          "score": 0.727
+          "score": 1.0
         },
         {
-          "idProduct": 301684,
-          "name": "Charizard GX Premium Collection",
-          "score": 0.692
+          "idProduct": 695988,
+          "name": "Sword & Shield Ultra-Premium Collection - Charizard Promos",
+          "score": 0.883
         },
         {
-          "idProduct": 725585,
-          "name": "Charizard ex Premium Collection",
-          "score": 0.692
+          "idProduct": 523010,
+          "name": "Sword & Shield Ultra-Premium Collection: Zacian & Zamazenta",
+          "score": 0.663
         },
         {
           "idProduct": 846718,
           "name": "Mega Charizard X ex Ultra-Premium Collection",
-          "score": 0.677
+          "score": 0.55
         },
         {
-          "idProduct": 719698,
-          "name": "151 Ultra-Premium Collection",
-          "score": 0.672
+          "idProduct": 301684,
+          "name": "Charizard GX Premium Collection",
+          "score": 0.53
         }
       ],
       "name": "Sword & Shield Ultra-Premium Collection - Charizard",
-      "confidence": 0.727,
+      "confidence": 1.0,
       "method": "auto"
     },
     "paldea-collection-case-6-boxes-miscellaneous-cards-products": {
-      "query": "Paldea Collection|Miscellaneous Cards & Products|x6",
+      "query": "v2|Paldea Collection|Miscellaneous Cards & Products|x6",
       "idProduct": 681218,
       "multiplier": 6,
       "candidates": [
@@ -3927,112 +3218,112 @@
       "method": "auto"
     },
     "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-2": {
-      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "query": "v2|Sword & Shield Ultra-Premium Collection Charizard|Miscellaneous Cards & Products|x4",
       "idProduct": 670732,
       "multiplier": 4,
       "candidates": [
         {
           "idProduct": 670732,
           "name": "Sword & Shield Ultra-Premium Collection - Charizard",
-          "score": 0.727
+          "score": 1.0
         },
         {
-          "idProduct": 301684,
-          "name": "Charizard GX Premium Collection",
-          "score": 0.692
+          "idProduct": 695988,
+          "name": "Sword & Shield Ultra-Premium Collection - Charizard Promos",
+          "score": 0.883
         },
         {
-          "idProduct": 725585,
-          "name": "Charizard ex Premium Collection",
-          "score": 0.692
+          "idProduct": 523010,
+          "name": "Sword & Shield Ultra-Premium Collection: Zacian & Zamazenta",
+          "score": 0.663
         },
         {
           "idProduct": 846718,
           "name": "Mega Charizard X ex Ultra-Premium Collection",
-          "score": 0.677
+          "score": 0.55
         },
         {
-          "idProduct": 719698,
-          "name": "151 Ultra-Premium Collection",
-          "score": 0.672
+          "idProduct": 301684,
+          "name": "Charizard GX Premium Collection",
+          "score": 0.53
         }
       ],
       "name": "Sword & Shield Ultra-Premium Collection - Charizard",
-      "confidence": 0.727,
+      "confidence": 1.0,
       "method": "auto"
     },
     "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products-3": {
-      "query": "Ultra Premium Collection Charizard|Miscellaneous Cards & Products|x4",
+      "query": "v2|Sword & Shield Ultra-Premium Collection Charizard|Miscellaneous Cards & Products|x4",
       "idProduct": 670732,
       "multiplier": 4,
       "candidates": [
         {
           "idProduct": 670732,
           "name": "Sword & Shield Ultra-Premium Collection - Charizard",
-          "score": 0.727
+          "score": 1.0
         },
         {
-          "idProduct": 301684,
-          "name": "Charizard GX Premium Collection",
-          "score": 0.692
+          "idProduct": 695988,
+          "name": "Sword & Shield Ultra-Premium Collection - Charizard Promos",
+          "score": 0.883
         },
         {
-          "idProduct": 725585,
-          "name": "Charizard ex Premium Collection",
-          "score": 0.692
+          "idProduct": 523010,
+          "name": "Sword & Shield Ultra-Premium Collection: Zacian & Zamazenta",
+          "score": 0.663
         },
         {
           "idProduct": 846718,
           "name": "Mega Charizard X ex Ultra-Premium Collection",
-          "score": 0.677
+          "score": 0.55
         },
         {
-          "idProduct": 719698,
-          "name": "151 Ultra-Premium Collection",
-          "score": 0.672
+          "idProduct": 301684,
+          "name": "Charizard GX Premium Collection",
+          "score": 0.53
         }
       ],
       "name": "Sword & Shield Ultra-Premium Collection - Charizard",
-      "confidence": 0.727,
+      "confidence": 1.0,
       "method": "auto"
     },
     "cyrus-klara-premium-tournament-collection-display-2-boxes-miscellaneous-cards-products": {
-      "query": "Premium Tournament Collection|Miscellaneous Cards & Products|x2",
-      "idProduct": 751837,
+      "query": "v2|Cyrus Premium Tournament Collection|Miscellaneous Cards & Products|x2",
+      "idProduct": 691019,
       "multiplier": 2,
       "candidates": [
         {
-          "idProduct": 751837,
-          "name": "Iono Premium Tournament Collection",
-          "score": 0.81
-        },
-        {
           "idProduct": 691019,
           "name": "Cyrus Premium Tournament Collection",
-          "score": 0.805
+          "score": 1.0
+        },
+        {
+          "idProduct": 703139,
+          "name": "Cyrus Premium Tournament Collection Coin",
+          "score": 0.847
+        },
+        {
+          "idProduct": 691029,
+          "name": "Cyrus / Klara Premium Tournament Collection Display",
+          "score": 0.725
         },
         {
           "idProduct": 691021,
           "name": "Klara Premium Tournament Collection",
-          "score": 0.805
+          "score": 0.7
         },
         {
-          "idProduct": 810414,
-          "name": "Lillie Premium Tournament Collection",
-          "score": 0.8
-        },
-        {
-          "idProduct": 751834,
-          "name": "Iono Premium Tournament Collection Coin",
-          "score": 0.689
+          "idProduct": 751837,
+          "name": "Iono Premium Tournament Collection",
+          "score": 0.694
         }
       ],
-      "name": "Iono Premium Tournament Collection",
-      "confidence": 0.81,
+      "name": "Cyrus Premium Tournament Collection",
+      "confidence": 1.0,
       "method": "auto"
     },
     "charizard-ex-premium-collection-case-6-boxes-miscellaneous-cards-products": {
-      "query": "Charizard ex Premium Collection|Miscellaneous Cards & Products|x6",
+      "query": "v2|Charizard ex Premium Collection|Miscellaneous Cards & Products|x6",
       "idProduct": 725585,
       "multiplier": 6,
       "candidates": [
@@ -4067,42 +3358,42 @@
       "method": "auto"
     },
     "2023-summer-collector-chest-tin-case-9-tins-miscellaneous-cards-products": {
-      "query": "Collector Chest|Miscellaneous Cards & Products|x9",
+      "query": "v2|Summer 2023 Collector Chest|Miscellaneous Cards & Products|x9",
       "idProduct": 709528,
       "multiplier": 9,
       "candidates": [
         {
           "idProduct": 709528,
           "name": "Pok\u00e9mon TCG 2023 Collector Chest",
-          "score": 0.733
+          "score": 0.785
         },
         {
-          "idProduct": 570908,
-          "name": "Celebrations Collector Chest",
-          "score": 0.678
+          "idProduct": 731698,
+          "name": "Fall 2023 Collector Chest",
+          "score": 0.673
         },
         {
-          "idProduct": 371781,
-          "name": "Fall 2018 Collector Chest",
-          "score": 0.587
+          "idProduct": 453368,
+          "name": "Spring 2020 Collector Chest",
+          "score": 0.502
         },
         {
-          "idProduct": 412294,
-          "name": "Fall 2019 Collector Chest",
-          "score": 0.587
+          "idProduct": 546846,
+          "name": "Spring 2021 Collector Chest",
+          "score": 0.502
         },
         {
-          "idProduct": 494519,
-          "name": "Fall 2020 Collector Chest",
-          "score": 0.587
+          "idProduct": 606320,
+          "name": "2021 Eevee Collector Chest",
+          "score": 0.494
         }
       ],
       "name": "Pok\u00e9mon TCG 2023 Collector Chest",
-      "confidence": 0.733,
+      "confidence": 0.785,
       "method": "auto"
     },
     "cynthia-s-garchomp-ex-premium-collection-case-6-boxes-miscellaneous-cards-products": {
-      "query": "Cynthia's Garchomp ex Premium Collection|Miscellaneous Cards & Products|x6",
+      "query": "v2|Cynthia's Garchomp ex Premium Collection|Miscellaneous Cards & Products|x6",
       "idProduct": 819412,
       "multiplier": 6,
       "candidates": [
@@ -4136,35 +3427,35 @@
       "confidence": 1.0,
       "method": "auto"
     },
-    "unova-victini-illustration-collection-case-6-boxes-miscellaneous-cards-products": {
-      "query": "Victini Illustration Collection|Miscellaneous Cards & Products|x6",
+    "unova-victini-illustration-collection-case-6-boxes-black-bolt": {
+      "query": "v2|Victini Illustration Collection|Black Bolt|x6",
       "idProduct": null,
       "multiplier": 6,
       "candidates": [
         {
-          "idProduct": 289585,
-          "name": "Mythical Pok\u00e9mon Collection: Victini",
-          "score": 0.578
-        },
-        {
-          "idProduct": 876895,
-          "name": "Card Illustration Figure Collection",
-          "score": 0.504
-        },
-        {
           "idProduct": 824106,
           "name": "Black Bolt & White Flare: Unova Victini Illustration Collection",
-          "score": 0.482
+          "score": 0.596
         },
         {
-          "idProduct": 770967,
-          "name": "Shrouded Fable: Kingambit Illustration Collection",
-          "score": 0.456
+          "idProduct": 829736,
+          "name": "Black Bolt: Reuniclus Tech Sticker Collection",
+          "score": 0.316
         },
         {
-          "idProduct": 865393,
-          "name": "First Partner Illustration Collection Series 1",
-          "score": 0.413
+          "idProduct": 836277,
+          "name": "Black Bolt: Tech Sticker Collection Display",
+          "score": 0.312
+        },
+        {
+          "idProduct": 824094,
+          "name": "Black Bolt Binder Collection",
+          "score": 0.308
+        },
+        {
+          "idProduct": 824096,
+          "name": "Black Bolt & White Flare: Unova Poster Collection",
+          "score": 0.273
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T03:58:20+00:00",
+  "generated_at": "2026-10-16T04:00:18+00:00",
   "status": {
     "cardmarket": "ok",
     "tcgplayer": "ok"
@@ -11,9 +11,9 @@
   "totals": {
     "cost": 38677.35,
     "cost_priced": 38677.35,
-    "value": 293925.35,
-    "gain": 255248.0,
-    "gain_pct": 659.9,
+    "value": 127562.42,
+    "gain": 88885.07,
+    "gain_pct": 229.8,
     "units": 81,
     "products": 68,
     "priced_products": 68
@@ -372,28 +372,43 @@
       "purchase_date": "2022-11-24",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100582510",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/712102_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/244410_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 119.28,
-          "unit_price": 119.28,
+          "price": 303.23,
+          "unit_price": 303.23,
           "multiplier": 1,
           "basis": "market",
-          "low": 114.47,
-          "mid": 119.89,
-          "url": "https://www.tcgplayer.com/product/712102/pokemon-me06-delta-reign-delta-reign-elite-trainer-box",
-          "matched_name": "Delta Reign Elite Trainer Box",
-          "confidence": 1.0,
+          "low": 325.0,
+          "mid": 325.0,
+          "url": "https://www.tcgplayer.com/product/244410/pokemon-swsh06-chilling-reign-chilling-reign-elite-trainer-box-set-of-2",
+          "matched_name": "Chilling Reign Elite Trainer Box [Set of 2]",
+          "confidence": 0.602,
+          "uncertain": true,
+          "alternatives": [
+            {
+              "productId": 236260,
+              "name": "Chilling Reign Elite Trainer Box [Ice Rider Calyrex]",
+              "score": 0.554
+            },
+            {
+              "productId": 236261,
+              "name": "Chilling Reign Elite Trainer Box [Shadow Rider Calyrex]",
+              "score": 0.541
+            }
+          ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 119.28,
-      "value": 119.28,
-      "gain": 84.4,
-      "gain_pct": 242.0,
+      "market": 303.23,
+      "value": 303.23,
+      "gain": 268.35,
+      "gain_pct": 769.4,
       "spread_pct": null,
-      "flags": []
+      "flags": [
+        "check_match"
+      ]
     },
     {
       "key": "celebrations-ultra-premium-collection-celebrations",
@@ -494,28 +509,43 @@
       "purchase_date": "2022-11-24",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100582510",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/235284_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/244414_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1131.73,
-          "unit_price": 1131.73,
+          "price": 250.92,
+          "unit_price": 250.92,
           "multiplier": 1,
           "basis": "market",
-          "low": 1499.95,
-          "mid": 1499.95,
-          "url": "https://www.tcgplayer.com/product/235284/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-case",
-          "matched_name": "Battle Styles Elite Trainer Box Case",
-          "confidence": 0.793,
+          "low": 239.0,
+          "mid": 280.0,
+          "url": "https://www.tcgplayer.com/product/244414/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-set-of-2",
+          "matched_name": "Battle Styles Elite Trainer Box [Set of 2]",
+          "confidence": 0.602,
+          "uncertain": true,
+          "alternatives": [
+            {
+              "productId": 229284,
+              "name": "Battle Styles Elite Trainer Box [Single Strike Urshifu] (Red)",
+              "score": 0.477
+            },
+            {
+              "productId": 229285,
+              "name": "Battle Styles Elite Trainer Box [Rapid Strike Urshifu] (Blue)",
+              "score": 0.477
+            }
+          ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 1131.73,
-      "value": 1131.73,
-      "gain": 1101.85,
-      "gain_pct": 3687.6,
+      "market": 250.92,
+      "value": 250.92,
+      "gain": 221.04,
+      "gain_pct": 739.8,
       "spread_pct": null,
-      "flags": []
+      "flags": [
+        "check_match"
+      ]
     },
     {
       "key": "evolving-skies-elite-trainer-box-evolving-skies",
@@ -528,19 +558,32 @@
       "purchase_date": "2022-11-24",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100582510",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/98028_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/243721_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 7899.99,
-          "unit_price": 7899.99,
+          "price": 1089.62,
+          "unit_price": 1089.62,
           "multiplier": 1,
-          "basis": "listing",
-          "low": 7899.99,
-          "mid": 7899.99,
-          "url": "https://www.tcgplayer.com/product/98028/pokemon-xy-roaring-skies-xy-roaring-skies-elite-trainer-box",
-          "matched_name": "XY Roaring Skies Elite Trainer Box",
-          "confidence": 1.0,
-          "counted": true
+          "basis": "market",
+          "low": 1057.0,
+          "mid": 1095.0,
+          "url": "https://www.tcgplayer.com/product/243721/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-set-of-2",
+          "matched_name": "Evolving Skies Elite Trainer Box [Set of 2]",
+          "confidence": 0.602,
+          "uncertain": true,
+          "alternatives": [
+            {
+              "productId": 242434,
+              "name": "Evolving Skies Elite Trainer Box [Flareon/Jolteon/Umbreon/Leafeon]",
+              "score": 0.459
+            },
+            {
+              "productId": 242443,
+              "name": "Evolving Skies Elite Trainer Box [Glaceon/Vaporeon/Sylveon/Espeon]",
+              "score": 0.459
+            }
+          ],
+          "counted": false
         },
         "cardmarket": {
           "price": 527.28,
@@ -554,14 +597,13 @@
           "counted": true
         }
       },
-      "market": 4213.64,
-      "value": 4213.64,
-      "gain": 4163.76,
-      "gain_pct": 8347.6,
-      "spread_pct": 175.0,
+      "market": 527.28,
+      "value": 527.28,
+      "gain": 477.4,
+      "gain_pct": 957.1,
+      "spread_pct": null,
       "flags": [
-        "listing_price",
-        "sources_disagree"
+        "check_match"
       ]
     },
     {
@@ -586,7 +628,7 @@
           "mid": 3000.0,
           "url": "https://www.tcgplayer.com/product/242436/pokemon-swsh07-evolving-skies-evolving-skies-booster-box",
           "matched_name": "Evolving Skies Booster Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
@@ -653,44 +695,44 @@
       "purchase_date": "2022-12-05",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100590858",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/616290_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 6168.84,
-          "unit_price": 1028.14,
+          "price": 838.02,
+          "unit_price": 139.67,
           "multiplier": 6,
           "basis": "market",
-          "low": 899.98,
-          "mid": 1750.0,
-          "url": "https://www.tcgplayer.com/product/616290/pokemon-swsh-crown-zenith-crown-zenith-tin-case",
-          "matched_name": "6 \u00d7 Crown Zenith Tin Case",
-          "confidence": 0.516,
+          "low": 140.0,
+          "mid": 150.0,
+          "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
+          "matched_name": "6 \u00d7 Crown Zenith Tin [Galarian Zapdos]",
+          "confidence": 0.212,
           "uncertain": true,
           "alternatives": [
-            {
-              "productId": 453493,
-              "name": "Crown Zenith Mini Tin Display",
-              "score": 0.327
-            },
-            {
-              "productId": 475630,
-              "name": "Crown Zenith Tin [Galarian Zapdos]",
-              "score": 0.312
-            },
             {
               "productId": 475629,
               "name": "Crown Zenith Tin [Galarian Moltres]",
               "score": 0.308
+            },
+            {
+              "productId": 475628,
+              "name": "Crown Zenith Tin [Galarian Articuno]",
+              "score": 0.304
+            },
+            {
+              "productId": 475634,
+              "name": "Crown Zenith Tin [Set of 3]",
+              "score": 0.302
             }
           ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 6168.84,
-      "value": 6168.84,
-      "gain": 6033.89,
-      "gain_pct": 4471.2,
+      "market": 838.02,
+      "value": 838.02,
+      "gain": 703.07,
+      "gain_pct": 521.0,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -764,7 +806,7 @@
           "mid": 229.99,
           "url": "https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box",
           "matched_name": "Lost Origin Elite Trainer Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
@@ -885,28 +927,40 @@
       "purchase_date": "2022-12-05",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100590858",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/243052_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/126091_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 5999.98,
-          "unit_price": 2999.99,
+          "price": 494.98,
+          "unit_price": 247.49,
           "multiplier": 2,
           "basis": "market",
-          "low": 4997.97,
-          "mid": 4997.97,
-          "url": "https://www.tcgplayer.com/product/243052/pokemon-sm-base-set-sun-and-moon-elite-trainer-box-case",
-          "matched_name": "2 \u00d7 Sun & Moon Elite Trainer Box Case",
-          "confidence": 0.761,
+          "low": 240.0,
+          "mid": 280.49,
+          "url": "https://www.tcgplayer.com/product/126091/pokemon-sm-base-set-sun-and-moon-elite-trainer-box-lunala",
+          "matched_name": "2 \u00d7 Sun & Moon Elite Trainer Box [Lunala]",
+          "confidence": 0.75,
           "counted": true
         },
-        "cardmarket": null
+        "cardmarket": {
+          "price": 703.86,
+          "eur": 628.0,
+          "basis": "avg",
+          "listing_only": false,
+          "multiplier": 2,
+          "matched_name": "2 \u00d7 Sun & Moon Elite Trainer Box (Lunala)",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Sun%20%26%20Moon%20Elite%20Trainer%20Box%20%28Lunala%29",
+          "confidence": 0.85,
+          "counted": true
+        }
       },
-      "market": 5999.98,
-      "value": 5999.98,
-      "gain": 5905.03,
-      "gain_pct": 6219.1,
-      "spread_pct": null,
-      "flags": []
+      "market": 599.42,
+      "value": 599.42,
+      "gain": 504.47,
+      "gain_pct": 531.3,
+      "spread_pct": 34.8,
+      "flags": [
+        "sources_disagree"
+      ]
     },
     {
       "key": "charizard-ultra-premium-collection-case-4-boxes-miscellaneous-cards-products",
@@ -919,34 +973,34 @@
       "purchase_date": "2022-12-05",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100590858",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/226136_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 903.6,
-          "unit_price": 225.9,
+          "price": 1460.8,
+          "unit_price": 365.2,
           "multiplier": 4,
           "basis": "market",
-          "low": 219.97,
-          "mid": 299.93,
-          "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
-          "matched_name": "4 \u00d7 Mega Charizard X ex Ultra Premium Collection",
-          "confidence": 0.677,
+          "low": 375.0,
+          "mid": 449.69,
+          "url": "https://www.tcgplayer.com/product/226136/pokemon-miscellaneous-cards-and-products-sword-and-shield-ultra-premium-collection-zacian-and-zamazenta",
+          "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Zacian & Zamazenta",
+          "confidence": 0.663,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 285424,
-              "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
-              "score": 0.587
-            },
-            {
-              "productId": 594491,
-              "name": "Greninja ex Ultra-Premium Collection",
-              "score": 0.565
+              "productId": 654213,
+              "name": "Mega Charizard X ex Ultra Premium Collection",
+              "score": 0.55
             },
             {
               "productId": 575198,
               "name": "Terapagos ex Ultra-Premium Collection",
-              "score": 0.562
+              "score": 0.46
+            },
+            {
+              "productId": 594491,
+              "name": "Greninja ex Ultra-Premium Collection",
+              "score": 0.446
             }
           ],
           "counted": false
@@ -959,7 +1013,7 @@
           "multiplier": 4,
           "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Charizard",
           "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Sword%20%26%20Shield%20Ultra-Premium%20Collection%20-%20Charizard",
-          "confidence": 0.727,
+          "confidence": 1.0,
           "counted": true
         }
       },
@@ -1071,29 +1125,47 @@
       "purchase_date": "2023-01-14",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100599539",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/664978_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/475647_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 11993.94,
-          "unit_price": 1998.99,
+          "price": 2083.62,
+          "unit_price": 347.27,
           "multiplier": 6,
-          "basis": "listing",
-          "low": 1998.99,
-          "mid": 1998.99,
-          "url": "https://www.tcgplayer.com/product/664978/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-case",
-          "matched_name": "6 \u00d7 Crown Zenith Premium Figure Collection Case",
-          "confidence": 0.806,
+          "basis": "market",
+          "low": 350.0,
+          "mid": 375.0,
+          "url": "https://www.tcgplayer.com/product/475647/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-shiny-zacian",
+          "matched_name": "6 \u00d7 Crown Zenith Premium Figure Collection [Shiny Zacian]",
+          "confidence": 0.568,
+          "uncertain": true,
+          "alternatives": [
+            {
+              "productId": 475646,
+              "name": "Crown Zenith Premium Figure Collection [Shiny Zamazenta]",
+              "score": 0.655
+            },
+            {
+              "productId": 475648,
+              "name": "Crown Zenith Premium Figure Collection [Set of 2]",
+              "score": 0.622
+            },
+            {
+              "productId": 527796,
+              "name": "Pikachu VMAX Premium Collection",
+              "score": 0.522
+            }
+          ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 11993.94,
-      "value": 11993.94,
-      "gain": 11698.99,
-      "gain_pct": 3966.4,
+      "market": 2083.62,
+      "value": 2083.62,
+      "gain": 1788.67,
+      "gain_pct": 606.4,
       "spread_pct": null,
       "flags": [
-        "listing_price"
+        "check_match"
       ]
     },
     {
@@ -1151,9 +1223,20 @@
       "purchase_date": "2023-01-14",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100599539",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/477174_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/451118_200w.jpg",
       "prices": {
-        "tcgplayer": null,
+        "tcgplayer": {
+          "price": 465.48,
+          "unit_price": 77.58,
+          "multiplier": 6,
+          "basis": "market",
+          "low": 87.88,
+          "mid": 95.0,
+          "url": "https://www.tcgplayer.com/product/451118/pokemon-miscellaneous-cards-and-products-paldea-collection-sprigatito-miraidon-ex",
+          "matched_name": "6 \u00d7 Paldea Collection [Sprigatito/Miraidon ex]",
+          "confidence": 1.0,
+          "counted": true
+        },
         "cardmarket": {
           "price": 336.24,
           "eur": 300.0,
@@ -1166,12 +1249,14 @@
           "counted": true
         }
       },
-      "market": 336.24,
-      "value": 336.24,
-      "gain": 226.29,
-      "gain_pct": 205.8,
-      "spread_pct": null,
-      "flags": []
+      "market": 400.86,
+      "value": 400.86,
+      "gain": 290.91,
+      "gain_pct": 264.6,
+      "spread_pct": 32.2,
+      "flags": [
+        "sources_disagree"
+      ]
     },
     {
       "key": "crown-zenith-elite-trainer-box-case-10-etbs-crown-zenith",
@@ -1195,7 +1280,7 @@
           "mid": 370.0,
           "url": "https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box",
           "matched_name": "10 \u00d7 Crown Zenith Elite Trainer Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
@@ -1228,34 +1313,34 @@
       "purchase_date": "2023-01-14",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100599539",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/226136_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 903.6,
-          "unit_price": 225.9,
+          "price": 1460.8,
+          "unit_price": 365.2,
           "multiplier": 4,
           "basis": "market",
-          "low": 219.97,
-          "mid": 299.93,
-          "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
-          "matched_name": "4 \u00d7 Mega Charizard X ex Ultra Premium Collection",
-          "confidence": 0.677,
+          "low": 375.0,
+          "mid": 449.69,
+          "url": "https://www.tcgplayer.com/product/226136/pokemon-miscellaneous-cards-and-products-sword-and-shield-ultra-premium-collection-zacian-and-zamazenta",
+          "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Zacian & Zamazenta",
+          "confidence": 0.663,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 285424,
-              "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
-              "score": 0.587
-            },
-            {
-              "productId": 594491,
-              "name": "Greninja ex Ultra-Premium Collection",
-              "score": 0.565
+              "productId": 654213,
+              "name": "Mega Charizard X ex Ultra Premium Collection",
+              "score": 0.55
             },
             {
               "productId": 575198,
               "name": "Terapagos ex Ultra-Premium Collection",
-              "score": 0.562
+              "score": 0.46
+            },
+            {
+              "productId": 594491,
+              "name": "Greninja ex Ultra-Premium Collection",
+              "score": 0.446
             }
           ],
           "counted": false
@@ -1268,7 +1353,7 @@
           "multiplier": 4,
           "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Charizard",
           "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Sword%20%26%20Shield%20Ultra-Premium%20Collection%20-%20Charizard",
-          "confidence": 0.727,
+          "confidence": 1.0,
           "counted": true
         }
       },
@@ -1292,48 +1377,27 @@
       "purchase_date": "2023-01-25",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100601827",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/488776_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/97747_200w.jpg",
       "prices": {
-        "tcgplayer": {
-          "price": 13994.9,
-          "unit_price": 1399.49,
+        "tcgplayer": null,
+        "cardmarket": {
+          "price": 1030.13,
+          "eur": 919.1,
+          "basis": "avg",
+          "listing_only": false,
           "multiplier": 10,
-          "basis": "market",
-          "low": 1499.0,
-          "mid": 2248.5,
-          "url": "https://www.tcgplayer.com/product/488776/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-elite-trainer-box-case",
-          "matched_name": "10 \u00d7 Scarlet & Violet Elite Trainer Box Case",
-          "confidence": 0.693,
-          "uncertain": true,
-          "alternatives": [
-            {
-              "productId": 97747,
-              "name": "XY Elite Trainer Box [Xerneas]",
-              "score": 0.771
-            },
-            {
-              "productId": 97748,
-              "name": "XY Elite Trainer Box [Yveltal]",
-              "score": 0.771
-            },
-            {
-              "productId": 478335,
-              "name": "Scarlet & Violet Elite Trainer Box [Koraidon]",
-              "score": 0.764
-            }
-          ],
+          "matched_name": "10 \u00d7 Scarlet & Violet Koraidon Elite Trainer Box",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Scarlet%20%26%20Violet%20Koraidon%20Elite%20Trainer%20Box",
+          "confidence": 0.764,
           "counted": true
-        },
-        "cardmarket": null
+        }
       },
-      "market": 13994.9,
-      "value": 13994.9,
-      "gain": 13619.95,
-      "gain_pct": 3632.5,
+      "market": 1030.13,
+      "value": 1030.13,
+      "gain": 655.18,
+      "gain_pct": 174.7,
       "spread_pct": null,
-      "flags": [
-        "check_match"
-      ]
+      "flags": []
     },
     {
       "key": "scarlet-violet-booster-box-case-6-boxes-scarlet-violet-base-set",
@@ -1361,25 +1425,23 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 100872.0,
-          "eur": 90000.0,
+          "price": 1374.82,
+          "eur": 1226.64,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 6,
-          "matched_name": "6 \u00d7 Base Set Booster Box",
-          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Base%20Set%20Booster%20Box",
+          "matched_name": "6 \u00d7 Scarlet & Violet Booster Box",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Scarlet%20%26%20Violet%20Booster%20Box",
           "confidence": 1.0,
           "counted": true
         }
       },
-      "market": 51312.51,
-      "value": 51312.51,
-      "gain": 50597.56,
-      "gain_pct": 7077.1,
-      "spread_pct": 193.2,
-      "flags": [
-        "sources_disagree"
-      ]
+      "market": 1563.92,
+      "value": 1563.92,
+      "gain": 848.97,
+      "gain_pct": 118.7,
+      "spread_pct": 24.2,
+      "flags": []
     },
     {
       "key": "astral-radiance-elite-trainer-box-case-10-etbs-astral-radiance",
@@ -1447,7 +1509,7 @@
           "mid": 229.99,
           "url": "https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box",
           "matched_name": "10 \u00d7 Lost Origin Elite Trainer Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
@@ -1658,29 +1720,47 @@
       "purchase_date": "2023-01-27",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100602316",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/664978_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/475647_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 11993.94,
-          "unit_price": 1998.99,
+          "price": 2083.62,
+          "unit_price": 347.27,
           "multiplier": 6,
-          "basis": "listing",
-          "low": 1998.99,
-          "mid": 1998.99,
-          "url": "https://www.tcgplayer.com/product/664978/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-case",
-          "matched_name": "6 \u00d7 Crown Zenith Premium Figure Collection Case",
-          "confidence": 0.806,
+          "basis": "market",
+          "low": 350.0,
+          "mid": 375.0,
+          "url": "https://www.tcgplayer.com/product/475647/pokemon-swsh-crown-zenith-crown-zenith-premium-figure-collection-shiny-zacian",
+          "matched_name": "6 \u00d7 Crown Zenith Premium Figure Collection [Shiny Zacian]",
+          "confidence": 0.568,
+          "uncertain": true,
+          "alternatives": [
+            {
+              "productId": 475646,
+              "name": "Crown Zenith Premium Figure Collection [Shiny Zamazenta]",
+              "score": 0.655
+            },
+            {
+              "productId": 475648,
+              "name": "Crown Zenith Premium Figure Collection [Set of 2]",
+              "score": 0.622
+            },
+            {
+              "productId": 527796,
+              "name": "Pikachu VMAX Premium Collection",
+              "score": 0.522
+            }
+          ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 11993.94,
-      "value": 47975.76,
-      "gain": 46795.96,
-      "gain_pct": 3966.4,
+      "market": 2083.62,
+      "value": 8334.48,
+      "gain": 7154.68,
+      "gain_pct": 606.4,
       "spread_pct": null,
       "flags": [
-        "listing_price"
+        "check_match"
       ]
     },
     {
@@ -1694,44 +1774,44 @@
       "purchase_date": "2023-01-27",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100602316",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/616290_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 6168.84,
-          "unit_price": 1028.14,
+          "price": 838.02,
+          "unit_price": 139.67,
           "multiplier": 6,
           "basis": "market",
-          "low": 899.98,
-          "mid": 1750.0,
-          "url": "https://www.tcgplayer.com/product/616290/pokemon-swsh-crown-zenith-crown-zenith-tin-case",
-          "matched_name": "6 \u00d7 Crown Zenith Tin Case",
-          "confidence": 0.516,
+          "low": 140.0,
+          "mid": 150.0,
+          "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
+          "matched_name": "6 \u00d7 Crown Zenith Tin [Galarian Zapdos]",
+          "confidence": 0.212,
           "uncertain": true,
           "alternatives": [
-            {
-              "productId": 453493,
-              "name": "Crown Zenith Mini Tin Display",
-              "score": 0.327
-            },
-            {
-              "productId": 475630,
-              "name": "Crown Zenith Tin [Galarian Zapdos]",
-              "score": 0.312
-            },
             {
               "productId": 475629,
               "name": "Crown Zenith Tin [Galarian Moltres]",
               "score": 0.308
+            },
+            {
+              "productId": 475628,
+              "name": "Crown Zenith Tin [Galarian Articuno]",
+              "score": 0.304
+            },
+            {
+              "productId": 475634,
+              "name": "Crown Zenith Tin [Set of 3]",
+              "score": 0.302
             }
           ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 6168.84,
-      "value": 12337.68,
-      "gain": 12037.78,
-      "gain_pct": 4013.9,
+      "market": 838.02,
+      "value": 1676.04,
+      "gain": 1376.14,
+      "gain_pct": 458.9,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -1803,7 +1883,7 @@
           "mid": 877.0,
           "url": "https://www.tcgplayer.com/product/277324/pokemon-swsh11-lost-origin-lost-origin-booster-box",
           "matched_name": "6 \u00d7 Lost Origin Booster Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
@@ -1838,34 +1918,34 @@
       "purchase_date": "2023-03-14",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100612070",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/654213_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/226136_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 903.6,
-          "unit_price": 225.9,
+          "price": 1460.8,
+          "unit_price": 365.2,
           "multiplier": 4,
           "basis": "market",
-          "low": 219.97,
-          "mid": 299.93,
-          "url": "https://www.tcgplayer.com/product/654213/pokemon-miscellaneous-cards-and-products-mega-charizard-x-ex-ultra-premium-collection",
-          "matched_name": "4 \u00d7 Mega Charizard X ex Ultra Premium Collection",
-          "confidence": 0.677,
+          "low": 375.0,
+          "mid": 449.69,
+          "url": "https://www.tcgplayer.com/product/226136/pokemon-miscellaneous-cards-and-products-sword-and-shield-ultra-premium-collection-zacian-and-zamazenta",
+          "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Zacian & Zamazenta",
+          "confidence": 0.663,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 285424,
-              "name": "Code Card - Sword & Shield Ultra-Premium Collection: Charizard",
-              "score": 0.587
-            },
-            {
-              "productId": 594491,
-              "name": "Greninja ex Ultra-Premium Collection",
-              "score": 0.565
+              "productId": 654213,
+              "name": "Mega Charizard X ex Ultra Premium Collection",
+              "score": 0.55
             },
             {
               "productId": 575198,
               "name": "Terapagos ex Ultra-Premium Collection",
-              "score": 0.562
+              "score": 0.46
+            },
+            {
+              "productId": 594491,
+              "name": "Greninja ex Ultra-Premium Collection",
+              "score": 0.446
             }
           ],
           "counted": false
@@ -1878,7 +1958,7 @@
           "multiplier": 4,
           "matched_name": "4 \u00d7 Sword & Shield Ultra-Premium Collection - Charizard",
           "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Sword%20%26%20Shield%20Ultra-Premium%20Collection%20-%20Charizard",
-          "confidence": 0.727,
+          "confidence": 1.0,
           "counted": true
         }
       },
@@ -1902,44 +1982,44 @@
       "purchase_date": "2023-03-19",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100612884",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/616290_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/475630_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 6168.84,
-          "unit_price": 1028.14,
+          "price": 838.02,
+          "unit_price": 139.67,
           "multiplier": 6,
           "basis": "market",
-          "low": 899.98,
-          "mid": 1750.0,
-          "url": "https://www.tcgplayer.com/product/616290/pokemon-swsh-crown-zenith-crown-zenith-tin-case",
-          "matched_name": "6 \u00d7 Crown Zenith Tin Case",
-          "confidence": 0.516,
+          "low": 140.0,
+          "mid": 150.0,
+          "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
+          "matched_name": "6 \u00d7 Crown Zenith Tin [Galarian Zapdos]",
+          "confidence": 0.212,
           "uncertain": true,
           "alternatives": [
-            {
-              "productId": 453493,
-              "name": "Crown Zenith Mini Tin Display",
-              "score": 0.327
-            },
-            {
-              "productId": 475630,
-              "name": "Crown Zenith Tin [Galarian Zapdos]",
-              "score": 0.312
-            },
             {
               "productId": 475629,
               "name": "Crown Zenith Tin [Galarian Moltres]",
               "score": 0.308
+            },
+            {
+              "productId": 475628,
+              "name": "Crown Zenith Tin [Galarian Articuno]",
+              "score": 0.304
+            },
+            {
+              "productId": 475634,
+              "name": "Crown Zenith Tin [Set of 3]",
+              "score": 0.302
             }
           ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 6168.84,
-      "value": 18506.52,
-      "gain": 18075.42,
-      "gain_pct": 4192.9,
+      "market": 838.02,
+      "value": 2514.06,
+      "gain": 2082.96,
+      "gain_pct": 483.2,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -2090,54 +2170,54 @@
       "purchase_date": "2023-04-17",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100618185",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/632691_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/594539_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 8.5,
-          "unit_price": 4.25,
+          "price": 187.06,
+          "unit_price": 93.53,
           "multiplier": 2,
           "basis": "market",
-          "low": 4.99,
-          "mid": 23.96,
-          "url": "https://www.tcgplayer.com/product/632691/pokemon-miscellaneous-cards-and-products-code-card-lillie-premium-tournament-collection",
-          "matched_name": "2 \u00d7 Code Card - Lillie Premium Tournament Collection",
-          "confidence": 0.596,
+          "low": 118.98,
+          "mid": 259.49,
+          "url": "https://www.tcgplayer.com/product/594539/pokemon-miscellaneous-cards-and-products-tera-team-premium-collection",
+          "matched_name": "2 \u00d7 Tera Team Premium Collection",
+          "confidence": 0.372,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 594539,
-              "name": "Tera Team Premium Collection",
-              "score": 0.542
+              "productId": 262637,
+              "name": "Lucario VSTAR Premium Collection",
+              "score": 0.467
+            },
+            {
+              "productId": 287228,
+              "name": "VMAX Dragons Premium Collection",
+              "score": 0.461
             },
             {
               "productId": 249689,
               "name": "Vaporeon VMAX Premium Collection",
-              "score": 0.524
-            },
-            {
-              "productId": 276701,
-              "name": "Code Card - Professor Juniper Premium Tournament Collection",
-              "score": 0.515
+              "score": 0.457
             }
           ],
           "counted": false
         },
         "cardmarket": {
-          "price": 106.54,
-          "eur": 95.06,
+          "price": 122.21,
+          "eur": 109.04,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 2,
-          "matched_name": "2 \u00d7 Iono Premium Tournament Collection",
-          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Iono%20Premium%20Tournament%20Collection",
-          "confidence": 0.81,
+          "matched_name": "2 \u00d7 Cyrus Premium Tournament Collection",
+          "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Cyrus%20Premium%20Tournament%20Collection",
+          "confidence": 1.0,
           "counted": true
         }
       },
-      "market": 106.54,
-      "value": 106.54,
-      "gain": -13.41,
-      "gain_pct": -11.2,
+      "market": 122.21,
+      "value": 122.21,
+      "gain": 2.26,
+      "gain_pct": 1.9,
       "spread_pct": null,
       "flags": [
         "check_match"
@@ -2343,23 +2423,23 @@
           "mid": 89.99,
           "url": "https://www.tcgplayer.com/product/516647/pokemon-miscellaneous-cards-and-products-fall-2023-collector-chest",
           "matched_name": "9 \u00d7 Fall 2023 Collector Chest",
-          "confidence": 0.487,
+          "confidence": 0.673,
           "uncertain": true,
           "alternatives": [
             {
+              "productId": 265252,
+              "name": "Spring 2022 Collector Chest",
+              "score": 0.502
+            },
+            {
               "productId": 575706,
               "name": "Fall 2024 Collector Chest",
-              "score": 0.587
+              "score": 0.486
             },
             {
               "productId": 654593,
               "name": "Fall 2025 Collector Chest",
-              "score": 0.587
-            },
-            {
-              "productId": 265252,
-              "name": "Spring 2022 Collector Chest",
-              "score": 0.575
+              "score": 0.486
             }
           ],
           "counted": false
@@ -2372,7 +2452,7 @@
           "multiplier": 9,
           "matched_name": "9 \u00d7 Pok\u00e9mon TCG 2023 Collector Chest",
           "url": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pok%C3%A9mon%20TCG%202023%20Collector%20Chest",
-          "confidence": 0.733,
+          "confidence": 0.785,
           "counted": true
         }
       },
@@ -2396,47 +2476,46 @@
       "purchase_date": "2024-02-28",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100684045",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/688258_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/528056_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 9674.88,
-          "unit_price": 1612.48,
+          "price": 1199.52,
+          "unit_price": 199.92,
           "multiplier": 6,
-          "basis": "listing",
-          "low": 1599.99,
-          "mid": 1612.48,
-          "url": "https://www.tcgplayer.com/product/688258/pokemon-sv-paldean-fates-paldean-fates-tin-case",
-          "matched_name": "6 \u00d7 Paldean Fates Tin Case",
-          "confidence": 0.516,
+          "basis": "market",
+          "low": 199.95,
+          "mid": 214.99,
+          "url": "https://www.tcgplayer.com/product/528056/pokemon-sv-paldean-fates-paldean-fates-tin-charizard-ex",
+          "matched_name": "6 \u00d7 Paldean Fates Tin [Charizard ex]",
+          "confidence": 0.327,
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 268482,
-              "name": "Shining Fates V Tin Case",
-              "score": 0.378
+              "productId": 528057,
+              "name": "Paldean Fates Tin [Great Tusk ex]",
+              "score": 0.268
             },
             {
-              "productId": 228823,
-              "name": "Shining Fates V Tin [Boltund V]",
-              "score": 0.348
+              "productId": 528058,
+              "name": "Paldean Fates Tin [Iron Treads ex]",
+              "score": 0.263
             },
             {
-              "productId": 193438,
-              "name": "Hidden Fates Tin [Raichu GX]",
-              "score": 0.348
+              "productId": 528063,
+              "name": "Paldean Fates International Tin [Charizard ex]",
+              "score": 0.226
             }
           ],
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 9674.88,
-      "value": 9674.88,
-      "gain": 9534.93,
-      "gain_pct": 6813.1,
+      "market": 1199.52,
+      "value": 1199.52,
+      "gain": 1059.57,
+      "gain_pct": 757.1,
       "spread_pct": null,
       "flags": [
-        "listing_price",
         "check_match"
       ]
     },
@@ -2734,11 +2813,6 @@
           "uncertain": true,
           "alternatives": [
             {
-              "productId": 635323,
-              "name": "Code Card - Cynthia's Garchomp ex Premium Collection",
-              "score": 0.588
-            },
-            {
               "productId": 526914,
               "name": "Gyarados ex Premium Collection",
               "score": 0.539
@@ -2747,6 +2821,11 @@
               "productId": 576482,
               "name": "Ogerpon ex Premium Collection",
               "score": 0.532
+            },
+            {
+              "productId": 516576,
+              "name": "Charizard ex Premium Collection",
+              "score": 0.486
             }
           ],
           "counted": false
@@ -2840,7 +2919,7 @@
           "mid": 549.99,
           "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box",
           "matched_name": "6 \u00d7 Destined Rivals Booster Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
@@ -2884,7 +2963,7 @@
           "mid": 549.99,
           "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box",
           "matched_name": "6 \u00d7 Destined Rivals Booster Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
@@ -2972,7 +3051,7 @@
           "mid": 174.95,
           "url": "https://www.tcgplayer.com/product/630686/pokemon-sv-black-bolt-black-bolt-elite-trainer-box",
           "matched_name": "10 \u00d7 Black Bolt Elite Trainer Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
@@ -2997,9 +3076,9 @@
       ]
     },
     {
-      "key": "unova-victini-illustration-collection-case-6-boxes-miscellaneous-cards-products",
+      "key": "unova-victini-illustration-collection-case-6-boxes-black-bolt",
       "name": "Unova Victini Illustration Collection Case (6 Boxes)",
-      "set": "Miscellaneous Cards & Products",
+      "set": "Black Bolt",
       "type": "Collection Case",
       "qty": 2,
       "unit_cost": 299.95,
@@ -3007,49 +3086,28 @@
       "purchase_date": "2025-06-11",
       "bought_from": "Blowout Cards",
       "notes": "Blowout order #100761400",
-      "image": "https://tcgplayer-cdn.tcgplayer.com/product/226133_200w.jpg",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/630615_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 2397.0,
-          "unit_price": 399.5,
+          "price": 429.9,
+          "unit_price": 71.65,
           "multiplier": 6,
-          "basis": "listing",
-          "low": 374.0,
-          "mid": 399.5,
-          "url": "https://www.tcgplayer.com/product/226133/pokemon-miscellaneous-cards-and-products-jirachi-gx-collection",
-          "matched_name": "6 \u00d7 Jirachi GX Collection",
-          "confidence": 0.232,
-          "uncertain": true,
-          "alternatives": [
-            {
-              "productId": 657884,
-              "name": "Latias ex Special Collection",
-              "score": 0.31
-            },
-            {
-              "productId": 653192,
-              "name": "Snorlax & Lapras VMAX Collection",
-              "score": 0.303
-            },
-            {
-              "productId": 594896,
-              "name": "Grand Adventure Collection",
-              "score": 0.302
-            }
-          ],
+          "basis": "market",
+          "low": 60.0,
+          "mid": 74.48,
+          "url": "https://www.tcgplayer.com/product/630615/pokemon-sv-black-bolt-unova-victini-illustration-collection",
+          "matched_name": "6 \u00d7 Unova Victini Illustration Collection",
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": null
       },
-      "market": 2397.0,
-      "value": 4794.0,
-      "gain": 4194.1,
-      "gain_pct": 699.1,
+      "market": 429.9,
+      "value": 859.8,
+      "gain": 259.9,
+      "gain_pct": 43.3,
       "spread_pct": null,
-      "flags": [
-        "listing_price",
-        "check_match"
-      ]
+      "flags": []
     },
     {
       "key": "pitch-black-booster-box-pitch-black",
@@ -3073,7 +3131,7 @@
           "mid": 210.0,
           "url": "https://www.tcgplayer.com/product/692939/pokemon-me05-pitch-black-pitch-black-booster-box",
           "matched_name": "Pitch Black Booster Box",
-          "confidence": 0.9,
+          "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
