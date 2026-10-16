@@ -40,22 +40,11 @@ Sold something? Lower `qty` or delete the row.
 
 The blended **market price** is a weighted average of whichever sources have a price; change the weights in `config.json`.
 
-## Past prices (one-time backfill)
+## Price history
 
-The value-over-time chart starts at your earliest purchase. Past market values come from TCGCSV's daily archives (available from Feb 8, 2024), but the archive host refuses GitHub's servers, so the backfill has to run once from your own computer:
+The value-over-time chart starts at your earliest purchase and uses TCGplayer's weekly market-price history (the series behind the chart on each TCGplayer product page). TCGplayer refuses requests from GitHub's servers, so that history is saved in `data/tcgplayer_history/<productId>.csv` and the daily job reads it from there. When a new product is added, its history file gets added too. Until a product has a price, the chart counts it at what you paid.
 
-1. Install [Python 3](https://www.python.org/downloads/) (tick "Add python.exe to PATH"), [7-Zip](https://www.7-zip.org/) and [Git](https://git-scm.com/downloads).
-2. In a terminal:
-   ```
-   git clone https://github.com/kjvande3/pokemon-collection
-   cd pokemon-collection
-   python scripts/backfill_history.py
-   git add data
-   git commit -m "Backfill price history"
-   git push
-   ```
-
-It samples the 1st and 15th of each month and only downloads what's missing, so re-run it after adding an item with an older purchase date. The daily GitHub run also retries a few dates each day in case access opens up; `data/backfill_log.txt` shows the last result.
+`scripts/backfill_history.py` can also be run from your own computer: it refreshes those files live and fills any gaps from TCGCSV's archives (needs 7-Zip). `data/backfill_log.txt` shows the last run.
 
 ## Run it now
 

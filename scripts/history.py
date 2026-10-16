@@ -29,7 +29,49 @@ TCG_HISTORY_URL = "https://infinite-api.tcgplayer.com/price/history/{pid}/detail
 USER_AGENT = "pokemon-collection-dashboard/1.0 (+https://github.com/kjvande3/pokemon-collection)"
 
 
+SEED_DIR = DATA / "tcgplayer_history"
+
+
+def _read_seed(pid: int) -> list[tuple[str, float, int]]:
+    import csv
+    f = SEED_DIR / f"{pid}.csv"
+    if not f.exists():
+        return []
+    with f.open(newline="") as fh:
+        return sorted((r["date"], float(r["market_price"]), int(float(r.get("qty_sold") or 0)))
+                      for r in csv.DictReader(fh) if float(r.get("market_price") or 0) > 0)
+
+
+def _write_seed(pid: int, rows: list[tuple[str, float, int]]) -> None:
+    SEED_DIR.mkdir(parents=True, exist_ok=True)
+    lines = ["date,market_price,qty_sold"] + [f"{d},{p:g},{q}" for d, p, q in rows]
+    (SEED_DIR / f"{pid}.csv").write_text("\n".join(lines) + "\n")
+
+
 def tcgplayer_history(pid: int) -> list[tuple[str, float, int]]:
+    """Weekly TCGplayer market price history, oldest first.
+
+    Tries TCGplayer live; it refuses GitHub's servers, so when that fails we use
+    the saved copy in data/tcgplayer_history/<productId>.csv (added by hand or
+    from a run that could reach TCGplayer). A live result refreshes the saved copy.
+    """
+    try:
+        live = _tcgplayer_history_live(pid)
+    except Exception:  # noqa: BLE001
+        live = []
+    saved = _read_seed(pid)
+    if live:
+        merged = dict((d, (p, q)) for d, p, q in saved)
+        merged.update((d, (p, q)) for d, p, q in live)
+        rows = sorted((d, p, q) for d, (p, q) in merged.items())
+        _write_seed(pid, rows)
+        return rows
+    if saved:
+        return saved
+    raise RuntimeError("TCGplayer unreachable and no saved history")
+
+
+def _tcgplayer_history_live(pid: int) -> list[tuple[str, float, int]]:
     """Weekly TCGplayer market price history for a product: [(YYYY-MM-DD, price, qty_sold)], oldest first.
 
     This is the series behind the price chart on TCGplayer's product page; it goes

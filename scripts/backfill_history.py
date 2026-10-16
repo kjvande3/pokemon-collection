@@ -142,7 +142,8 @@ def backfill_from_tcgplayer(ph: dict, products: dict[int, dict], today: date) ->
                 continue
             ph["prices"].setdefault(d, {})[str(pid)] = price
             added += 1
-        ph["tcg_history_fetched"][str(pid)] = today.isoformat()
+        if series and series[-1][0] >= (today - timedelta(days=14)).isoformat():
+            ph["tcg_history_fetched"][str(pid)] = today.isoformat()
         span = f"{series[0][0]} to {series[-1][0]}" if series else "none"
         log(f"  TCGplayer history for {pid}: {added} weekly prices ({span})")
     history.save_price_history(ph)
