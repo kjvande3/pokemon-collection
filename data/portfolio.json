@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:06:05+00:00",
+  "generated_at": "2026-10-16T00:09:30+00:00",
   "status": {
     "pricecharting": "off - add a PRICECHARTING_TOKEN secret to enable",
     "ebay": "manual - from the ebay_price column",
@@ -11,14 +11,14 @@
     "ebay": 1
   },
   "totals": {
-    "cost": 789.95,
-    "cost_priced": 789.95,
-    "value": 5700.0,
-    "gain": 4910.05,
-    "gain_pct": 621.6,
-    "units": 1,
-    "products": 1,
-    "priced_products": 1
+    "cost": 2219.9,
+    "cost_priced": 2219.9,
+    "value": 19199.5,
+    "gain": 16979.6,
+    "gain_pct": 764.9,
+    "units": 2,
+    "products": 2,
+    "priced_products": 2
   },
   "items": [
     {
@@ -50,6 +50,40 @@
       "value": 5700.0,
       "gain": 4910.05,
       "gain_pct": 621.6,
+      "spread_pct": null,
+      "flags": [
+        "listing_price"
+      ]
+    },
+    {
+      "key": "scarlet-violet-151-booster-bundle-display-case-6-displays-scarlet-violet-151",
+      "name": "Scarlet & Violet 151 Booster Bundle Display Case (6 Displays)",
+      "set": "Scarlet & Violet 151",
+      "type": "Booster Bundle Case",
+      "qty": 1,
+      "unit_cost": 1429.95,
+      "cost": 1429.95,
+      "purchase_date": "",
+      "bought_from": "",
+      "notes": "Order SKU PKSCARLET151BUNCS",
+      "image": "https://tcgplayer-cdn.tcgplayer.com/product/513409_200w.jpg",
+      "prices": {
+        "tcgplayer": {
+          "price": 13499.5,
+          "basis": "listing",
+          "low": 11997.96,
+          "mid": 13499.5,
+          "url": "https://www.tcgplayer.com/product/513409/pokemon-sv-scarlet-and-violet-151-151-booster-bundle-display-case",
+          "matched_name": "151 Booster Bundle Display Case",
+          "confidence": 1.0
+        },
+        "pricecharting": null,
+        "ebay": null
+      },
+      "market": 13499.5,
+      "value": 13499.5,
+      "gain": 12069.55,
+      "gain_pct": 844.1,
       "spread_pct": null,
       "flags": [
         "listing_price"
