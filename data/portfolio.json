@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T23:17:19+00:00",
+  "generated_at": "2026-10-20T00:24:12+00:00",
   "status": {
     "cardmarket": "ok",
     "tcgplayer": "ok"
@@ -11,8 +11,8 @@
   "totals": {
     "cost": 38677.35,
     "cost_priced": 38677.35,
-    "value": 127072.35,
-    "gain": 88395.0,
+    "value": 127047.37,
+    "gain": 88370.02,
     "gain_pct": 228.5,
     "units": 81,
     "products": 68,
@@ -45,7 +45,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 7089.39,
+          "price": 7071.75,
           "eur": 6300.0,
           "basis": "low",
           "listing_only": true,
@@ -89,7 +89,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 11988.83,
+          "price": 11959.0,
           "eur": 10653.9,
           "basis": "avg",
           "listing_only": false,
@@ -100,11 +100,11 @@
           "counted": true
         }
       },
-      "market": 11994.42,
-      "value": 11994.42,
-      "gain": 10564.47,
-      "gain_pct": 738.8,
-      "spread_pct": 0.1,
+      "market": 11979.5,
+      "value": 11979.5,
+      "gain": 10549.55,
+      "gain_pct": 737.8,
+      "spread_pct": 0.3,
       "flags": []
     },
     {
@@ -121,11 +121,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/668496_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 130.31,
-          "unit_price": 130.31,
+          "price": 125.63,
+          "unit_price": 125.63,
           "multiplier": 1,
           "basis": "market",
-          "low": 116.0,
+          "low": 125.0,
           "mid": 175.0,
           "url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box",
           "matched_name": "Ascended Heroes Elite Trainer Box",
@@ -133,7 +133,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 141.18,
+          "price": 140.83,
           "eur": 125.46,
           "basis": "avg",
           "listing_only": false,
@@ -144,11 +144,11 @@
           "counted": true
         }
       },
-      "market": 135.75,
-      "value": 135.75,
-      "gain": 5.75,
-      "gain_pct": 4.4,
-      "spread_pct": 8.0,
+      "market": 133.23,
+      "value": 133.23,
+      "gain": 3.23,
+      "gain_pct": 2.5,
+      "spread_pct": 11.4,
       "flags": []
     },
     {
@@ -169,15 +169,15 @@
           "unit_price": 551.4,
           "multiplier": 10,
           "basis": "market",
-          "low": 545.0,
-          "mid": 648.88,
+          "low": 543.69,
+          "mid": 649.42,
           "url": "https://www.tcgplayer.com/product/194729/pokemon-hidden-fates-hidden-fates-elite-trainer-box",
           "matched_name": "10 \u00d7 Hidden Fates Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 5795.3,
+          "price": 5780.88,
           "eur": 5150.0,
           "basis": "avg",
           "listing_only": false,
@@ -188,11 +188,11 @@
           "counted": true
         }
       },
-      "market": 5654.65,
-      "value": 5654.65,
-      "gain": 4276.79,
-      "gain_pct": 310.4,
-      "spread_pct": 5.0,
+      "market": 5647.44,
+      "value": 5647.44,
+      "gain": 4269.58,
+      "gain_pct": 309.9,
+      "spread_pct": 4.7,
       "flags": []
     },
     {
@@ -213,15 +213,15 @@
           "unit_price": 335.14,
           "multiplier": 10,
           "basis": "market",
-          "low": 345.0,
-          "mid": 407.5,
+          "low": 328.44,
+          "mid": 399.99,
           "url": "https://www.tcgplayer.com/product/247671/pokemon-swsh08-fusion-strike-fusion-strike-elite-trainer-box",
           "matched_name": "10 \u00d7 Fusion Strike Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 3310.41,
+          "price": 3302.17,
           "eur": 2941.8,
           "basis": "avg",
           "listing_only": false,
@@ -232,11 +232,11 @@
           "counted": true
         }
       },
-      "market": 3330.9,
-      "value": 3330.9,
-      "gain": 3041.02,
-      "gain_pct": 1049.1,
-      "spread_pct": 1.2,
+      "market": 3326.78,
+      "value": 3326.78,
+      "gain": 3036.9,
+      "gain_pct": 1047.6,
+      "spread_pct": 1.5,
       "flags": []
     },
     {
@@ -258,14 +258,14 @@
           "multiplier": 6,
           "basis": "market",
           "low": 970.0,
-          "mid": 1259.55,
+          "mid": 1259.34,
           "url": "https://www.tcgplayer.com/product/247654/pokemon-swsh08-fusion-strike-fusion-strike-booster-box",
           "matched_name": "6 \u00d7 Fusion Strike Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 5182.82,
+          "price": 5169.92,
           "eur": 4605.72,
           "basis": "avg",
           "listing_only": false,
@@ -276,11 +276,11 @@
           "counted": true
         }
       },
-      "market": 5519.11,
-      "value": 5519.11,
-      "gain": 4899.16,
-      "gain_pct": 790.3,
-      "spread_pct": 12.2,
+      "market": 5512.66,
+      "value": 5512.66,
+      "gain": 4892.71,
+      "gain_pct": 789.2,
+      "spread_pct": 12.4,
       "flags": []
     },
     {
@@ -301,7 +301,7 @@
           "unit_price": 13.1,
           "multiplier": 144,
           "basis": "market",
-          "low": 11.0,
+          "low": 10.0,
           "mid": 13.5,
           "url": "https://www.tcgplayer.com/product/265526/pokemon-swsh10-astral-radiance-astral-radiance-sleeved-booster-pack",
           "matched_name": "144 \u00d7 Astral Radiance Sleeved Booster Pack",
@@ -336,14 +336,14 @@
           "multiplier": 1,
           "basis": "market",
           "low": 121.0,
-          "mid": 159.97,
+          "mid": 159.98,
           "url": "https://www.tcgplayer.com/product/265527/pokemon-swsh10-astral-radiance-astral-radiance-elite-trainer-box",
           "matched_name": "Astral Radiance Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 116.46,
+          "price": 116.17,
           "eur": 103.49,
           "basis": "avg",
           "listing_only": false,
@@ -354,11 +354,11 @@
           "counted": true
         }
       },
-      "market": 121.17,
-      "value": 121.17,
-      "gain": 94.29,
-      "gain_pct": 350.8,
-      "spread_pct": 7.8,
+      "market": 121.03,
+      "value": 121.03,
+      "gain": 94.15,
+      "gain_pct": 350.3,
+      "spread_pct": 8.0,
       "flags": []
     },
     {
@@ -380,7 +380,7 @@
           "multiplier": 1,
           "basis": "market",
           "low": 141.41,
-          "mid": 172.5,
+          "mid": 170.0,
           "url": "https://www.tcgplayer.com/product/236260/pokemon-swsh06-chilling-reign-chilling-reign-elite-trainer-box-ice-rider-calyrex",
           "matched_name": "Chilling Reign Elite Trainer Box [Ice Rider Calyrex]",
           "confidence": 1.0,
@@ -414,14 +414,14 @@
           "multiplier": 1,
           "basis": "market",
           "low": 1120.0,
-          "mid": 1337.5,
+          "mid": 1300.0,
           "url": "https://www.tcgplayer.com/product/245140/pokemon-celebrations-celebrations-ultra-premium-collection",
           "matched_name": "Celebrations Ultra-Premium Collection",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1005.69,
+          "price": 1003.19,
           "eur": 893.71,
           "basis": "avg",
           "listing_only": false,
@@ -432,11 +432,11 @@
           "counted": true
         }
       },
-      "market": 1112.89,
-      "value": 1112.89,
-      "gain": 813.01,
-      "gain_pct": 271.1,
-      "spread_pct": 19.3,
+      "market": 1111.64,
+      "value": 1111.64,
+      "gain": 811.76,
+      "gain_pct": 270.7,
+      "spread_pct": 19.5,
       "flags": []
     },
     {
@@ -453,19 +453,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/270708_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 160.72,
-          "unit_price": 160.72,
+          "price": 162.16,
+          "unit_price": 162.16,
           "multiplier": 1,
           "basis": "market",
           "low": 159.55,
-          "mid": 189.95,
+          "mid": 189.97,
           "url": "https://www.tcgplayer.com/product/270708/pokemon-pokemon-go-pokemon-go-elite-trainer-box",
           "matched_name": "Pokemon GO Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 131.94,
+          "price": 131.61,
           "eur": 117.25,
           "basis": "avg",
           "listing_only": false,
@@ -476,11 +476,11 @@
           "counted": true
         }
       },
-      "market": 146.33,
-      "value": 146.33,
-      "gain": 108.45,
-      "gain_pct": 286.3,
-      "spread_pct": 19.7,
+      "market": 146.88,
+      "value": 146.88,
+      "gain": 109.0,
+      "gain_pct": 287.8,
+      "spread_pct": 20.8,
       "flags": []
     },
     {
@@ -501,7 +501,7 @@
           "unit_price": 131.42,
           "multiplier": 1,
           "basis": "market",
-          "low": 125.0,
+          "low": 124.5,
           "mid": 149.98,
           "url": "https://www.tcgplayer.com/product/229284/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-single-strike-urshifu-red",
           "matched_name": "Battle Styles Elite Trainer Box [Single Strike Urshifu] (Red)",
@@ -531,19 +531,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/242434_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 561.45,
-          "unit_price": 561.45,
+          "price": 555.57,
+          "unit_price": 555.57,
           "multiplier": 1,
           "basis": "market",
           "low": 510.0,
-          "mid": 569.76,
+          "mid": 569.99,
           "url": "https://www.tcgplayer.com/product/242434/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon",
           "matched_name": "Evolving Skies Elite Trainer Box [Flareon/Jolteon/Umbreon/Leafeon]",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 529.4,
+          "price": 528.08,
           "eur": 470.45,
           "basis": "avg",
           "listing_only": false,
@@ -554,11 +554,11 @@
           "counted": true
         }
       },
-      "market": 545.42,
-      "value": 545.42,
-      "gain": 495.54,
-      "gain_pct": 993.5,
-      "spread_pct": 5.9,
+      "market": 541.83,
+      "value": 541.83,
+      "gain": 491.95,
+      "gain_pct": 986.3,
+      "spread_pct": 5.1,
       "flags": []
     },
     {
@@ -579,15 +579,15 @@
           "unit_price": 2198.94,
           "multiplier": 1,
           "basis": "market",
-          "low": 2300.0,
-          "mid": 3251.0,
+          "low": 2000.0,
+          "mid": 3125.5,
           "url": "https://www.tcgplayer.com/product/242436/pokemon-swsh07-evolving-skies-evolving-skies-booster-box",
           "matched_name": "Evolving Skies Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1884.54,
+          "price": 1879.85,
           "eur": 1674.7,
           "basis": "avg",
           "listing_only": false,
@@ -598,11 +598,11 @@
           "counted": true
         }
       },
-      "market": 2041.74,
-      "value": 2041.74,
-      "gain": 1781.79,
-      "gain_pct": 685.4,
-      "spread_pct": 15.4,
+      "market": 2039.39,
+      "value": 2039.39,
+      "gain": 1779.44,
+      "gain_pct": 684.5,
+      "spread_pct": 15.6,
       "flags": []
     },
     {
@@ -623,8 +623,8 @@
           "unit_price": 19.45,
           "multiplier": 144,
           "basis": "market",
-          "low": 19.25,
-          "mid": 24.9,
+          "low": 19.0,
+          "mid": 21.5,
           "url": "https://www.tcgplayer.com/product/256125/pokemon-swsh09-brilliant-stars-brilliant-stars-sleeved-booster-pack",
           "matched_name": "144 \u00d7 Brilliant Stars Sleeved Booster Pack",
           "confidence": 1.0,
@@ -687,20 +687,20 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/283389_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 522.31,
-          "unit_price": 522.31,
+          "price": 521.77,
+          "unit_price": 521.77,
           "multiplier": 1,
           "basis": "market",
           "low": 492.0,
-          "mid": 565.25,
+          "mid": 567.61,
           "url": "https://www.tcgplayer.com/product/283389/pokemon-swsh12-silver-tempest-silver-tempest-booster-box",
           "matched_name": "Silver Tempest Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 405.93,
-          "eur": 360.73,
+          "price": 421.34,
+          "eur": 375.36,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 1,
@@ -710,14 +710,12 @@
           "counted": true
         }
       },
-      "market": 464.12,
-      "value": 464.12,
-      "gain": 364.24,
-      "gain_pct": 364.7,
-      "spread_pct": 25.1,
-      "flags": [
-        "sources_disagree"
-      ]
+      "market": 471.55,
+      "value": 471.55,
+      "gain": 371.67,
+      "gain_pct": 372.1,
+      "spread_pct": 21.3,
+      "flags": []
     },
     {
       "key": "lost-origin-elite-trainer-box-lost-origin",
@@ -733,11 +731,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/277335_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 195.5,
-          "unit_price": 195.5,
+          "price": 195.62,
+          "unit_price": 195.62,
           "multiplier": 1,
           "basis": "market",
-          "low": 194.98,
+          "low": 193.0,
           "mid": 235.78,
           "url": "https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box",
           "matched_name": "Lost Origin Elite Trainer Box",
@@ -745,7 +743,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 219.7,
+          "price": 219.16,
           "eur": 195.24,
           "basis": "avg",
           "listing_only": false,
@@ -756,11 +754,11 @@
           "counted": true
         }
       },
-      "market": 207.6,
-      "value": 207.6,
-      "gain": 177.72,
-      "gain_pct": 594.8,
-      "spread_pct": 11.7,
+      "market": 207.39,
+      "value": 207.39,
+      "gain": 177.51,
+      "gain_pct": 594.1,
+      "spread_pct": 11.4,
       "flags": []
     },
     {
@@ -777,19 +775,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/216856_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 120.19,
-          "unit_price": 120.19,
+          "price": 120.67,
+          "unit_price": 120.67,
           "multiplier": 1,
           "basis": "market",
           "low": 121.0,
-          "mid": 162.5,
+          "mid": 175.0,
           "url": "https://www.tcgplayer.com/product/216856/pokemon-swsh03-darkness-ablaze-darkness-ablaze-elite-trainer-box",
           "matched_name": "Darkness Ablaze Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 108.03,
+          "price": 107.76,
           "eur": 96.0,
           "basis": "avg",
           "listing_only": false,
@@ -800,11 +798,11 @@
           "counted": true
         }
       },
-      "market": 114.11,
-      "value": 114.11,
-      "gain": 84.16,
-      "gain_pct": 281.0,
-      "spread_pct": 10.7,
+      "market": 114.22,
+      "value": 114.22,
+      "gain": 84.27,
+      "gain_pct": 281.4,
+      "spread_pct": 11.3,
       "flags": []
     },
     {
@@ -821,19 +819,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/221752_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 137.72,
-          "unit_price": 137.72,
+          "price": 139.12,
+          "unit_price": 139.12,
           "multiplier": 1,
           "basis": "market",
           "low": 140.0,
-          "mid": 183.94,
+          "mid": 185.87,
           "url": "https://www.tcgplayer.com/product/221752/pokemon-swsh04-vivid-voltage-vivid-voltage-elite-trainer-box",
           "matched_name": "Vivid Voltage Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 135.89,
+          "price": 135.55,
           "eur": 120.76,
           "basis": "avg",
           "listing_only": false,
@@ -844,11 +842,11 @@
           "counted": true
         }
       },
-      "market": 136.81,
-      "value": 136.81,
-      "gain": 101.86,
-      "gain_pct": 291.4,
-      "spread_pct": 1.3,
+      "market": 137.34,
+      "value": 137.34,
+      "gain": 102.39,
+      "gain_pct": 293.0,
+      "spread_pct": 2.6,
       "flags": []
     },
     {
@@ -877,7 +875,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 706.69,
+          "price": 704.93,
           "eur": 628.0,
           "basis": "avg",
           "listing_only": false,
@@ -888,11 +886,11 @@
           "counted": true
         }
       },
-      "market": 602.38,
-      "value": 602.38,
-      "gain": 507.43,
-      "gain_pct": 534.4,
-      "spread_pct": 34.6,
+      "market": 601.5,
+      "value": 601.5,
+      "gain": 506.55,
+      "gain_pct": 533.5,
+      "spread_pct": 34.4,
       "flags": [
         "sources_disagree"
       ]
@@ -912,7 +910,7 @@
       "prices": {
         "tcgplayer": null,
         "cardmarket": {
-          "price": 1958.56,
+          "price": 1953.69,
           "eur": 1740.48,
           "basis": "avg",
           "listing_only": false,
@@ -923,10 +921,10 @@
           "counted": true
         }
       },
-      "market": 1958.56,
-      "value": 1958.56,
-      "gain": 1558.68,
-      "gain_pct": 389.8,
+      "market": 1953.69,
+      "value": 1953.69,
+      "gain": 1553.81,
+      "gain_pct": 388.6,
       "spread_pct": null,
       "flags": [
         "no_tcgplayer_match"
@@ -946,8 +944,8 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/265519_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 2467.14,
-          "unit_price": 411.19,
+          "price": 2470.74,
+          "unit_price": 411.79,
           "multiplier": 6,
           "basis": "market",
           "low": 399.99,
@@ -958,7 +956,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 2074.76,
+          "price": 2069.6,
           "eur": 1843.74,
           "basis": "avg",
           "listing_only": false,
@@ -969,11 +967,11 @@
           "counted": true
         }
       },
-      "market": 2270.95,
-      "value": 2270.95,
-      "gain": 1735.01,
-      "gain_pct": 323.7,
-      "spread_pct": 17.3,
+      "market": 2270.17,
+      "value": 2270.17,
+      "gain": 1734.23,
+      "gain_pct": 323.6,
+      "spread_pct": 17.7,
       "flags": []
     },
     {
@@ -995,14 +993,14 @@
           "multiplier": 1,
           "basis": "market",
           "low": 121.0,
-          "mid": 159.97,
+          "mid": 159.98,
           "url": "https://www.tcgplayer.com/product/265527/pokemon-swsh10-astral-radiance-astral-radiance-elite-trainer-box",
           "matched_name": "Astral Radiance Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 116.46,
+          "price": 116.17,
           "eur": 103.49,
           "basis": "avg",
           "listing_only": false,
@@ -1013,11 +1011,11 @@
           "counted": true
         }
       },
-      "market": 121.17,
-      "value": 121.17,
-      "gain": 97.35,
-      "gain_pct": 408.7,
-      "spread_pct": 7.8,
+      "market": 121.03,
+      "value": 121.03,
+      "gain": 97.21,
+      "gain_pct": 408.1,
+      "spread_pct": 8.0,
       "flags": []
     },
     {
@@ -1080,7 +1078,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 917.03,
+          "price": 914.75,
           "eur": 814.92,
           "basis": "avg",
           "listing_only": false,
@@ -1091,11 +1089,11 @@
           "counted": true
         }
       },
-      "market": 940.91,
-      "value": 940.91,
-      "gain": 805.96,
-      "gain_pct": 597.2,
-      "spread_pct": 5.1,
+      "market": 939.77,
+      "value": 939.77,
+      "gain": 804.82,
+      "gain_pct": 596.4,
+      "spread_pct": 5.3,
       "flags": []
     },
     {
@@ -1124,7 +1122,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 337.59,
+          "price": 336.75,
           "eur": 300.0,
           "basis": "avg",
           "listing_only": false,
@@ -1135,11 +1133,11 @@
           "counted": true
         }
       },
-      "market": 401.53,
-      "value": 401.53,
-      "gain": 291.58,
-      "gain_pct": 265.2,
-      "spread_pct": 31.9,
+      "market": 401.12,
+      "value": 401.12,
+      "gain": 291.17,
+      "gain_pct": 264.8,
+      "spread_pct": 32.1,
       "flags": [
         "sources_disagree"
       ]
@@ -1162,15 +1160,15 @@
           "unit_price": 325.8,
           "multiplier": 10,
           "basis": "market",
-          "low": 312.0,
-          "mid": 362.5,
+          "low": 299.69,
+          "mid": 367.5,
           "url": "https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box",
           "matched_name": "10 \u00d7 Crown Zenith Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 3063.52,
+          "price": 3055.89,
           "eur": 2722.4,
           "basis": "avg",
           "listing_only": false,
@@ -1181,11 +1179,11 @@
           "counted": true
         }
       },
-      "market": 3160.76,
-      "value": 3160.76,
-      "gain": 2710.81,
-      "gain_pct": 602.5,
-      "spread_pct": 6.2,
+      "market": 3156.94,
+      "value": 3156.94,
+      "gain": 2706.99,
+      "gain_pct": 601.6,
+      "spread_pct": 6.4,
       "flags": []
     },
     {
@@ -1203,7 +1201,7 @@
       "prices": {
         "tcgplayer": null,
         "cardmarket": {
-          "price": 1958.56,
+          "price": 1953.69,
           "eur": 1740.48,
           "basis": "avg",
           "listing_only": false,
@@ -1214,10 +1212,10 @@
           "counted": true
         }
       },
-      "market": 1958.56,
-      "value": 1958.56,
-      "gain": 1558.61,
-      "gain_pct": 389.7,
+      "market": 1953.69,
+      "value": 1953.69,
+      "gain": 1553.74,
+      "gain_pct": 388.5,
       "spread_pct": null,
       "flags": [
         "no_tcgplayer_match"
@@ -1237,11 +1235,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/478335_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1314.1,
-          "unit_price": 131.41,
+          "price": 1314.0,
+          "unit_price": 131.4,
           "multiplier": 10,
           "basis": "market",
-          "low": 127.0,
+          "low": 124.69,
           "mid": 140.0,
           "url": "https://www.tcgplayer.com/product/478335/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-elite-trainer-box-koraidon",
           "matched_name": "10 \u00d7 Scarlet & Violet Elite Trainer Box [Koraidon]",
@@ -1249,7 +1247,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 1034.26,
+          "price": 1031.69,
           "eur": 919.1,
           "basis": "avg",
           "listing_only": false,
@@ -1260,11 +1258,11 @@
           "counted": true
         }
       },
-      "market": 1174.18,
-      "value": 1174.18,
-      "gain": 799.23,
-      "gain_pct": 213.2,
-      "spread_pct": 23.8,
+      "market": 1172.85,
+      "value": 1172.85,
+      "gain": 797.9,
+      "gain_pct": 212.8,
+      "spread_pct": 24.1,
       "flags": []
     },
     {
@@ -1281,19 +1279,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/476452_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1753.86,
-          "unit_price": 292.31,
+          "price": 1757.52,
+          "unit_price": 292.92,
           "multiplier": 6,
           "basis": "market",
-          "low": 289.99,
-          "mid": 343.25,
+          "low": 290.0,
+          "mid": 346.49,
           "url": "https://www.tcgplayer.com/product/476452/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-booster-box",
           "matched_name": "6 \u00d7 Scarlet & Violet Booster Box",
           "confidence": 0.9,
           "counted": true
         },
         "cardmarket": {
-          "price": 1380.34,
+          "price": 1376.9,
           "eur": 1226.64,
           "basis": "avg",
           "listing_only": false,
@@ -1304,11 +1302,11 @@
           "counted": true
         }
       },
-      "market": 1567.1,
-      "value": 1567.1,
-      "gain": 852.15,
+      "market": 1567.21,
+      "value": 1567.21,
+      "gain": 852.26,
       "gain_pct": 119.2,
-      "spread_pct": 23.8,
+      "spread_pct": 24.3,
       "flags": []
     },
     {
@@ -1330,14 +1328,14 @@
           "multiplier": 10,
           "basis": "market",
           "low": 121.0,
-          "mid": 159.97,
+          "mid": 159.98,
           "url": "https://www.tcgplayer.com/product/265527/pokemon-swsh10-astral-radiance-astral-radiance-elite-trainer-box",
           "matched_name": "10 \u00d7 Astral Radiance Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1164.57,
+          "price": 1161.68,
           "eur": 1034.9,
           "basis": "avg",
           "listing_only": false,
@@ -1348,11 +1346,11 @@
           "counted": true
         }
       },
-      "market": 1211.68,
-      "value": 1211.68,
-      "gain": 887.86,
-      "gain_pct": 274.2,
-      "spread_pct": 7.8,
+      "market": 1210.24,
+      "value": 1210.24,
+      "gain": 886.42,
+      "gain_pct": 273.7,
+      "spread_pct": 8.0,
       "flags": []
     },
     {
@@ -1369,11 +1367,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/277335_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1955.0,
-          "unit_price": 195.5,
+          "price": 1956.2,
+          "unit_price": 195.62,
           "multiplier": 10,
           "basis": "market",
-          "low": 194.98,
+          "low": 193.0,
           "mid": 235.78,
           "url": "https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box",
           "matched_name": "10 \u00d7 Lost Origin Elite Trainer Box",
@@ -1381,7 +1379,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 2197.04,
+          "price": 2191.57,
           "eur": 1952.4,
           "basis": "avg",
           "listing_only": false,
@@ -1392,11 +1390,11 @@
           "counted": true
         }
       },
-      "market": 2076.02,
-      "value": 2076.02,
-      "gain": 1737.25,
-      "gain_pct": 512.8,
-      "spread_pct": 11.7,
+      "market": 2073.89,
+      "value": 2073.89,
+      "gain": 1735.12,
+      "gain_pct": 512.2,
+      "spread_pct": 11.3,
       "flags": []
     },
     {
@@ -1417,15 +1415,15 @@
           "unit_price": 335.14,
           "multiplier": 10,
           "basis": "market",
-          "low": 345.0,
-          "mid": 407.5,
+          "low": 328.44,
+          "mid": 399.99,
           "url": "https://www.tcgplayer.com/product/247671/pokemon-swsh08-fusion-strike-fusion-strike-elite-trainer-box",
           "matched_name": "10 \u00d7 Fusion Strike Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 3310.41,
+          "price": 3302.17,
           "eur": 2941.8,
           "basis": "avg",
           "listing_only": false,
@@ -1436,11 +1434,11 @@
           "counted": true
         }
       },
-      "market": 3330.9,
-      "value": 3330.9,
-      "gain": 3007.08,
-      "gain_pct": 928.6,
-      "spread_pct": 1.2,
+      "market": 3326.78,
+      "value": 3326.78,
+      "gain": 3002.96,
+      "gain_pct": 927.4,
+      "spread_pct": 1.5,
       "flags": []
     },
     {
@@ -1461,16 +1459,16 @@
           "unit_price": 162.12,
           "multiplier": 10,
           "basis": "market",
-          "low": 157.0,
-          "mid": 173.98,
+          "low": 156.5,
+          "mid": 173.0,
           "url": "https://www.tcgplayer.com/product/283401/pokemon-swsh12-silver-tempest-silver-tempest-elite-trainer-box",
           "matched_name": "10 \u00d7 Silver Tempest Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1454.79,
-          "eur": 1292.8,
+          "price": 1481.03,
+          "eur": 1319.4,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 10,
@@ -1480,11 +1478,11 @@
           "counted": true
         }
       },
-      "market": 1537.99,
-      "value": 1537.99,
-      "gain": 1174.31,
-      "gain_pct": 322.9,
-      "spread_pct": 10.8,
+      "market": 1551.12,
+      "value": 1551.12,
+      "gain": 1187.44,
+      "gain_pct": 326.5,
+      "spread_pct": 9.0,
       "flags": []
     },
     {
@@ -1501,8 +1499,8 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/265519_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 2467.14,
-          "unit_price": 411.19,
+          "price": 2470.74,
+          "unit_price": 411.79,
           "multiplier": 6,
           "basis": "market",
           "low": 399.99,
@@ -1513,7 +1511,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 2074.76,
+          "price": 2069.6,
           "eur": 1843.74,
           "basis": "avg",
           "listing_only": false,
@@ -1524,11 +1522,11 @@
           "counted": true
         }
       },
-      "market": 2270.95,
-      "value": 2270.95,
-      "gain": 1538.55,
-      "gain_pct": 210.1,
-      "spread_pct": 17.3,
+      "market": 2270.17,
+      "value": 2270.17,
+      "gain": 1537.77,
+      "gain_pct": 210.0,
+      "spread_pct": 17.7,
       "flags": []
     },
     {
@@ -1545,20 +1543,20 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/283389_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 3133.86,
-          "unit_price": 522.31,
+          "price": 3130.62,
+          "unit_price": 521.77,
           "multiplier": 6,
           "basis": "market",
           "low": 492.0,
-          "mid": 565.25,
+          "mid": 567.61,
           "url": "https://www.tcgplayer.com/product/283389/pokemon-swsh12-silver-tempest-silver-tempest-booster-box",
           "matched_name": "6 \u00d7 Silver Tempest Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 2435.58,
-          "eur": 2164.38,
+          "price": 2528.05,
+          "eur": 2252.16,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 6,
@@ -1568,14 +1566,12 @@
           "counted": true
         }
       },
-      "market": 2784.72,
-      "value": 2784.72,
-      "gain": 1992.53,
-      "gain_pct": 251.5,
-      "spread_pct": 25.1,
-      "flags": [
-        "sources_disagree"
-      ]
+      "market": 2829.34,
+      "value": 2829.34,
+      "gain": 2037.15,
+      "gain_pct": 257.2,
+      "spread_pct": 21.3,
+      "flags": []
     },
     {
       "key": "crown-zenith-premium-figure-collection-case-6-boxes-crown-zenith-2",
@@ -1664,14 +1660,14 @@
           "multiplier": 6,
           "basis": "market",
           "low": 294.99,
-          "mid": 327.48,
+          "mid": 329.97,
           "url": "https://www.tcgplayer.com/product/229277/pokemon-swsh05-battle-styles-battle-styles-booster-box",
           "matched_name": "6 \u00d7 Battle Styles Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1711.04,
+          "price": 1706.78,
           "eur": 1520.52,
           "basis": "avg",
           "listing_only": false,
@@ -1682,11 +1678,11 @@
           "counted": true
         }
       },
-      "market": 1701.67,
-      "value": 1701.67,
-      "gain": 1001.72,
-      "gain_pct": 143.1,
-      "spread_pct": 1.1,
+      "market": 1699.54,
+      "value": 1699.54,
+      "gain": 999.59,
+      "gain_pct": 142.8,
+      "spread_pct": 0.9,
       "flags": []
     },
     {
@@ -1703,19 +1699,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/277324_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 4397.22,
-          "unit_price": 732.87,
+          "price": 4386.66,
+          "unit_price": 731.11,
           "multiplier": 6,
           "basis": "market",
-          "low": 723.98,
-          "mid": 884.5,
+          "low": 720.0,
+          "mid": 877.0,
           "url": "https://www.tcgplayer.com/product/277324/pokemon-swsh11-lost-origin-lost-origin-booster-box",
           "matched_name": "6 \u00d7 Lost Origin Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 2936.56,
+          "price": 2929.25,
           "eur": 2609.58,
           "basis": "avg",
           "listing_only": false,
@@ -1726,10 +1722,10 @@
           "counted": true
         }
       },
-      "market": 3666.89,
-      "value": 3666.89,
-      "gain": 2777.11,
-      "gain_pct": 312.1,
+      "market": 3657.95,
+      "value": 3657.95,
+      "gain": 2768.17,
+      "gain_pct": 311.1,
       "spread_pct": 39.8,
       "flags": [
         "sources_disagree"
@@ -1750,7 +1746,7 @@
       "prices": {
         "tcgplayer": null,
         "cardmarket": {
-          "price": 1958.56,
+          "price": 1953.69,
           "eur": 1740.48,
           "basis": "avg",
           "listing_only": false,
@@ -1761,10 +1757,10 @@
           "counted": true
         }
       },
-      "market": 1958.56,
-      "value": 1958.56,
-      "gain": 1583.44,
-      "gain_pct": 422.1,
+      "market": 1953.69,
+      "value": 1953.69,
+      "gain": 1578.57,
+      "gain_pct": 420.8,
       "spread_pct": null,
       "flags": [
         "no_tcgplayer_match"
@@ -1830,7 +1826,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 311.18,
+          "price": 310.4,
           "eur": 276.53,
           "basis": "avg",
           "listing_only": false,
@@ -1841,11 +1837,11 @@
           "counted": true
         }
       },
-      "market": 313.54,
-      "value": 313.54,
-      "gain": 169.84,
-      "gain_pct": 118.2,
-      "spread_pct": 1.5,
+      "market": 313.15,
+      "value": 313.15,
+      "gain": 169.45,
+      "gain_pct": 117.9,
+      "spread_pct": 1.8,
       "flags": []
     },
     {
@@ -1862,11 +1858,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/493975_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 450.03,
-          "unit_price": 450.03,
+          "price": 451.2,
+          "unit_price": 451.2,
           "multiplier": 1,
           "basis": "market",
-          "low": 450.0,
+          "low": 440.0,
           "mid": 549.99,
           "url": "https://www.tcgplayer.com/product/493975/pokemon-sv02-paldea-evolved-paldea-evolved-booster-box",
           "matched_name": "Paldea Evolved Booster Box",
@@ -1874,7 +1870,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 303.9,
+          "price": 303.14,
           "eur": 270.06,
           "basis": "avg",
           "listing_only": false,
@@ -1885,11 +1881,11 @@
           "counted": true
         }
       },
-      "market": 376.96,
-      "value": 376.96,
-      "gain": 257.01,
-      "gain_pct": 214.3,
-      "spread_pct": 38.8,
+      "market": 377.17,
+      "value": 377.17,
+      "gain": 257.22,
+      "gain_pct": 214.4,
+      "spread_pct": 39.3,
       "flags": [
         "sources_disagree"
       ]
@@ -1912,7 +1908,7 @@
           "unit_price": 213.26,
           "multiplier": 1,
           "basis": "market",
-          "low": 200.0,
+          "low": 196.69,
           "mid": 250.0,
           "url": "https://www.tcgplayer.com/product/493974/pokemon-sv02-paldea-evolved-paldea-evolved-elite-trainer-box",
           "matched_name": "Paldea Evolved Elite Trainer Box",
@@ -1920,7 +1916,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 178.92,
+          "price": 178.48,
           "eur": 159.0,
           "basis": "avg",
           "listing_only": false,
@@ -1931,11 +1927,11 @@
           "counted": true
         }
       },
-      "market": 196.09,
-      "value": 196.09,
-      "gain": 156.14,
-      "gain_pct": 390.8,
-      "spread_pct": 17.5,
+      "market": 195.87,
+      "value": 195.87,
+      "gain": 155.92,
+      "gain_pct": 390.3,
+      "spread_pct": 17.8,
       "flags": []
     },
     {
@@ -1953,7 +1949,7 @@
       "prices": {
         "tcgplayer": null,
         "cardmarket": {
-          "price": 122.7,
+          "price": 122.4,
           "eur": 109.04,
           "basis": "avg",
           "listing_only": false,
@@ -1964,10 +1960,10 @@
           "counted": true
         }
       },
-      "market": 122.7,
-      "value": 122.7,
-      "gain": 2.75,
-      "gain_pct": 2.3,
+      "market": 122.4,
+      "value": 122.4,
+      "gain": 2.45,
+      "gain_pct": 2.0,
       "spread_pct": null,
       "flags": [
         "no_tcgplayer_match"
@@ -1991,15 +1987,15 @@
           "unit_price": 84.55,
           "multiplier": 6,
           "basis": "market",
-          "low": 79.99,
-          "mid": 88.29,
+          "low": 77.0,
+          "mid": 88.0,
           "url": "https://www.tcgplayer.com/product/502001/pokemon-sv-scarlet-and-violet-151-151-poster-collection",
           "matched_name": "6 \u00d7 151 Poster Collection",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 468.91,
+          "price": 467.75,
           "eur": 416.7,
           "basis": "avg",
           "listing_only": false,
@@ -2010,11 +2006,11 @@
           "counted": true
         }
       },
-      "market": 488.11,
-      "value": 488.11,
-      "gain": 403.16,
-      "gain_pct": 474.6,
-      "spread_pct": 7.9,
+      "market": 487.52,
+      "value": 487.52,
+      "gain": 402.57,
+      "gain_pct": 473.9,
+      "spread_pct": 8.1,
       "flags": []
     },
     {
@@ -2031,19 +2027,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/502005_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 3144.92,
-          "unit_price": 786.23,
+          "price": 3135.32,
+          "unit_price": 783.83,
           "multiplier": 4,
           "basis": "market",
-          "low": 730.0,
-          "mid": 1090.0,
+          "low": 825.0,
+          "mid": 1100.0,
           "url": "https://www.tcgplayer.com/product/502005/pokemon-sv-scarlet-and-violet-151-151-ultra-premium-collection",
           "matched_name": "4 \u00d7 151 Ultra-Premium Collection",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 3014.54,
+          "price": 3007.04,
           "eur": 2678.88,
           "basis": "avg",
           "listing_only": false,
@@ -2054,10 +2050,10 @@
           "counted": true
         }
       },
-      "market": 3079.73,
-      "value": 3079.73,
-      "gain": 2609.78,
-      "gain_pct": 555.3,
+      "market": 3071.18,
+      "value": 3071.18,
+      "gain": 2601.23,
+      "gain_pct": 553.5,
       "spread_pct": 4.2,
       "flags": []
     },
@@ -2075,8 +2071,8 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/503313_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 4992.1,
-          "unit_price": 499.21,
+          "price": 4972.9,
+          "unit_price": 497.29,
           "multiplier": 10,
           "basis": "market",
           "low": 492.97,
@@ -2087,7 +2083,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 4531.81,
+          "price": 4520.53,
           "eur": 4027.2,
           "basis": "avg",
           "listing_only": false,
@@ -2098,11 +2094,11 @@
           "counted": true
         }
       },
-      "market": 4761.95,
-      "value": 4761.95,
-      "gain": 4292.0,
-      "gain_pct": 913.3,
-      "spread_pct": 9.7,
+      "market": 4746.72,
+      "value": 4746.72,
+      "gain": 4276.77,
+      "gain_pct": 910.0,
+      "spread_pct": 9.5,
       "flags": []
     },
     {
@@ -2131,7 +2127,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 500.98,
+          "price": 499.74,
           "eur": 445.2,
           "basis": "avg",
           "listing_only": false,
@@ -2142,11 +2138,11 @@
           "counted": true
         }
       },
-      "market": 576.41,
-      "value": 576.41,
-      "gain": 361.46,
-      "gain_pct": 168.2,
-      "spread_pct": 26.2,
+      "market": 575.79,
+      "value": 575.79,
+      "gain": 360.84,
+      "gain_pct": 167.9,
+      "spread_pct": 26.4,
       "flags": [
         "sources_disagree"
       ]
@@ -2166,7 +2162,7 @@
       "prices": {
         "tcgplayer": null,
         "cardmarket": {
-          "price": 668.43,
+          "price": 666.76,
           "eur": 594.0,
           "basis": "avg",
           "listing_only": false,
@@ -2177,10 +2173,10 @@
           "counted": true
         }
       },
-      "market": 668.43,
-      "value": 668.43,
-      "gain": 468.48,
-      "gain_pct": 234.3,
+      "market": 666.76,
+      "value": 666.76,
+      "gain": 466.81,
+      "gain_pct": 233.5,
       "spread_pct": null,
       "flags": [
         "no_tcgplayer_match"
@@ -2234,11 +2230,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/512821_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 284.85,
-          "unit_price": 284.85,
+          "price": 284.84,
+          "unit_price": 284.84,
           "multiplier": 1,
           "basis": "market",
-          "low": 270.99,
+          "low": 270.9,
           "mid": 310.0,
           "url": "https://www.tcgplayer.com/product/512821/pokemon-sv04-paradox-rift-paradox-rift-booster-box",
           "matched_name": "Paradox Rift Booster Box",
@@ -2246,7 +2242,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 246.8,
+          "price": 246.19,
           "eur": 219.32,
           "basis": "avg",
           "listing_only": false,
@@ -2257,11 +2253,11 @@
           "counted": true
         }
       },
-      "market": 265.83,
-      "value": 265.83,
-      "gain": 185.88,
-      "gain_pct": 232.5,
-      "spread_pct": 14.3,
+      "market": 265.51,
+      "value": 265.51,
+      "gain": 185.56,
+      "gain_pct": 232.1,
+      "spread_pct": 14.6,
       "flags": []
     },
     {
@@ -2278,20 +2274,20 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/593355_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1272.0,
-          "unit_price": 127.2,
+          "price": 1322.0,
+          "unit_price": 132.2,
           "multiplier": 10,
           "basis": "market",
-          "low": 117.97,
-          "mid": 189.99,
+          "low": 128.0,
+          "mid": 188.2,
           "url": "https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box",
           "matched_name": "10 \u00d7 Prismatic Evolutions Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1750.29,
-          "eur": 1555.4,
+          "price": 1697.56,
+          "eur": 1512.3,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 10,
@@ -2301,14 +2297,12 @@
           "counted": true
         }
       },
-      "market": 1511.14,
-      "value": 1511.14,
-      "gain": 846.19,
-      "gain_pct": 127.3,
-      "spread_pct": 31.7,
-      "flags": [
-        "sources_disagree"
-      ]
+      "market": 1509.78,
+      "value": 1509.78,
+      "gain": 844.83,
+      "gain_pct": 127.1,
+      "spread_pct": 24.9,
+      "flags": []
     },
     {
       "key": "prismatic-evolutions-booster-bundle-case-25-bundles-prismatic-evolutions",
@@ -2324,8 +2318,8 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/600518_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 2035.75,
-          "unit_price": 81.43,
+          "price": 2107.0,
+          "unit_price": 84.28,
           "multiplier": 25,
           "basis": "market",
           "low": 80.0,
@@ -2336,8 +2330,8 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 2352.72,
-          "eur": 2090.75,
+          "price": 2372.12,
+          "eur": 2113.25,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 25,
@@ -2347,11 +2341,11 @@
           "counted": true
         }
       },
-      "market": 2194.23,
-      "value": 2194.23,
-      "gain": 944.28,
-      "gain_pct": 75.5,
-      "spread_pct": 14.4,
+      "market": 2239.56,
+      "value": 2239.56,
+      "gain": 989.61,
+      "gain_pct": 79.2,
+      "spread_pct": 11.8,
       "flags": []
     },
     {
@@ -2368,19 +2362,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/610931_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1158.36,
-          "unit_price": 193.06,
+          "price": 1156.32,
+          "unit_price": 192.72,
           "multiplier": 6,
           "basis": "market",
-          "low": 179.4,
-          "mid": 263.96,
+          "low": 192.43,
+          "mid": 270.0,
           "url": "https://www.tcgplayer.com/product/610931/pokemon-sv09-journey-together-journey-together-booster-box",
           "matched_name": "6 \u00d7 Journey Together Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1225.18,
+          "price": 1222.13,
           "eur": 1088.76,
           "basis": "avg",
           "listing_only": false,
@@ -2391,11 +2385,11 @@
           "counted": true
         }
       },
-      "market": 1191.77,
-      "value": 1191.77,
-      "gain": 176.82,
-      "gain_pct": 17.4,
-      "spread_pct": 5.6,
+      "market": 1189.22,
+      "value": 1189.22,
+      "gain": 174.27,
+      "gain_pct": 17.2,
+      "spread_pct": 5.5,
       "flags": []
     },
     {
@@ -2412,19 +2406,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/610931_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 193.06,
-          "unit_price": 193.06,
+          "price": 192.72,
+          "unit_price": 192.72,
           "multiplier": 1,
           "basis": "market",
-          "low": 179.4,
-          "mid": 263.96,
+          "low": 192.43,
+          "mid": 270.0,
           "url": "https://www.tcgplayer.com/product/610931/pokemon-sv09-journey-together-journey-together-booster-box",
           "matched_name": "Journey Together Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 204.2,
+          "price": 203.69,
           "eur": 181.46,
           "basis": "avg",
           "listing_only": false,
@@ -2435,11 +2429,11 @@
           "counted": true
         }
       },
-      "market": 198.63,
-      "value": 397.26,
-      "gain": 57.36,
-      "gain_pct": 16.9,
-      "spread_pct": 5.6,
+      "market": 198.2,
+      "value": 396.4,
+      "gain": 56.5,
+      "gain_pct": 16.6,
+      "spread_pct": 5.5,
       "flags": []
     },
     {
@@ -2456,8 +2450,8 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/610930_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1339.5,
-          "unit_price": 133.95,
+          "price": 1340.1,
+          "unit_price": 134.01,
           "multiplier": 10,
           "basis": "market",
           "low": 129.99,
@@ -2468,7 +2462,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 946.6,
+          "price": 944.25,
           "eur": 841.2,
           "basis": "avg",
           "listing_only": false,
@@ -2479,11 +2473,11 @@
           "counted": true
         }
       },
-      "market": 1143.05,
-      "value": 1143.05,
-      "gain": 543.1,
-      "gain_pct": 90.5,
-      "spread_pct": 34.4,
+      "market": 1142.17,
+      "value": 1142.17,
+      "gain": 542.22,
+      "gain_pct": 90.4,
+      "spread_pct": 34.7,
       "flags": [
         "sources_disagree"
       ]
@@ -2514,7 +2508,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 339.75,
+          "price": 338.91,
           "eur": 301.92,
           "basis": "avg",
           "listing_only": false,
@@ -2525,11 +2519,11 @@
           "counted": true
         }
       },
-      "market": 395.41,
-      "value": 395.41,
-      "gain": -54.54,
-      "gain_pct": -12.1,
-      "spread_pct": 28.2,
+      "market": 395.0,
+      "value": 395.0,
+      "gain": -54.95,
+      "gain_pct": -12.2,
+      "spread_pct": 28.4,
       "flags": [
         "sources_disagree"
       ]
@@ -2548,20 +2542,20 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/625670_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1455.0,
-          "unit_price": 58.2,
+          "price": 1469.0,
+          "unit_price": 58.76,
           "multiplier": 25,
           "basis": "market",
-          "low": 55.0,
-          "mid": 79.97,
+          "low": 50.5,
+          "mid": 76.97,
           "url": "https://www.tcgplayer.com/product/625670/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle",
           "matched_name": "25 \u00d7 Destined Rivals Booster Bundle",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1989.25,
-          "eur": 1767.75,
+          "price": 1978.97,
+          "eur": 1763.0,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 25,
@@ -2571,11 +2565,11 @@
           "counted": true
         }
       },
-      "market": 1722.12,
-      "value": 1722.12,
-      "gain": -77.83,
-      "gain_pct": -4.3,
-      "spread_pct": 31.0,
+      "market": 1723.99,
+      "value": 1723.99,
+      "gain": -75.96,
+      "gain_pct": -4.2,
+      "spread_pct": 29.6,
       "flags": [
         "sources_disagree"
       ]
@@ -2594,11 +2588,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/624679_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 2388.12,
-          "unit_price": 398.02,
+          "price": 2372.28,
+          "unit_price": 395.38,
           "multiplier": 6,
           "basis": "market",
-          "low": 384.0,
+          "low": 375.0,
           "mid": 500.0,
           "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box",
           "matched_name": "6 \u00d7 Destined Rivals Booster Box",
@@ -2606,7 +2600,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 2096.5,
+          "price": 2091.28,
           "eur": 1863.06,
           "basis": "avg",
           "listing_only": false,
@@ -2617,11 +2611,11 @@
           "counted": true
         }
       },
-      "market": 2242.31,
-      "value": 4484.62,
-      "gain": 1314.72,
-      "gain_pct": 41.5,
-      "spread_pct": 13.0,
+      "market": 2231.78,
+      "value": 4463.56,
+      "gain": 1293.66,
+      "gain_pct": 40.8,
+      "spread_pct": 12.6,
       "flags": []
     },
     {
@@ -2638,11 +2632,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/624679_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 2388.12,
-          "unit_price": 398.02,
+          "price": 2372.28,
+          "unit_price": 395.38,
           "multiplier": 6,
           "basis": "market",
-          "low": 384.0,
+          "low": 375.0,
           "mid": 500.0,
           "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box",
           "matched_name": "6 \u00d7 Destined Rivals Booster Box",
@@ -2650,7 +2644,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 2096.5,
+          "price": 2091.28,
           "eur": 1863.06,
           "basis": "avg",
           "listing_only": false,
@@ -2661,11 +2655,11 @@
           "counted": true
         }
       },
-      "market": 2242.31,
-      "value": 4484.62,
-      "gain": 1314.72,
-      "gain_pct": 41.5,
-      "spread_pct": 13.0,
+      "market": 2231.78,
+      "value": 4463.56,
+      "gain": 1293.66,
+      "gain_pct": 40.8,
+      "spread_pct": 12.6,
       "flags": []
     },
     {
@@ -2682,11 +2676,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/630689_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1429.5,
-          "unit_price": 142.95,
+          "price": 1436.0,
+          "unit_price": 143.6,
           "multiplier": 10,
           "basis": "market",
-          "low": 130.0,
+          "low": 134.99,
           "mid": 160.0,
           "url": "https://www.tcgplayer.com/product/630689/pokemon-sv-white-flare-white-flare-elite-trainer-box",
           "matched_name": "10 \u00d7 White Flare Elite Trainer Box",
@@ -2694,8 +2688,8 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 1178.86,
-          "eur": 1047.6,
+          "price": 1183.9,
+          "eur": 1054.7,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 10,
@@ -2705,10 +2699,10 @@
           "counted": true
         }
       },
-      "market": 1304.18,
-      "value": 2608.36,
-      "gain": 208.46,
-      "gain_pct": 8.7,
+      "market": 1309.95,
+      "value": 2619.9,
+      "gain": 220.0,
+      "gain_pct": 9.2,
       "spread_pct": 19.2,
       "flags": []
     },
@@ -2726,20 +2720,20 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/630686_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1609.1,
-          "unit_price": 160.91,
+          "price": 1604.7,
+          "unit_price": 160.47,
           "multiplier": 10,
           "basis": "market",
-          "low": 157.0,
-          "mid": 173.0,
+          "low": 155.95,
+          "mid": 171.49,
           "url": "https://www.tcgplayer.com/product/630686/pokemon-sv-black-bolt-black-bolt-elite-trainer-box",
           "matched_name": "10 \u00d7 Black Bolt Elite Trainer Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 1204.63,
-          "eur": 1070.5,
+          "price": 1219.26,
+          "eur": 1086.2,
           "basis": "avg",
           "listing_only": false,
           "multiplier": 10,
@@ -2749,11 +2743,11 @@
           "counted": true
         }
       },
-      "market": 1406.87,
-      "value": 2813.74,
-      "gain": 413.84,
-      "gain_pct": 17.2,
-      "spread_pct": 28.7,
+      "market": 1411.98,
+      "value": 2823.96,
+      "gain": 424.06,
+      "gain_pct": 17.7,
+      "spread_pct": 27.3,
       "flags": [
         "sources_disagree"
       ]
@@ -2772,12 +2766,12 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/630615_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 428.64,
-          "unit_price": 71.44,
+          "price": 428.46,
+          "unit_price": 71.41,
           "multiplier": 6,
           "basis": "market",
           "low": 56.35,
-          "mid": 72.0,
+          "mid": 72.78,
           "url": "https://www.tcgplayer.com/product/630615/pokemon-sv-black-bolt-unova-victini-illustration-collection",
           "matched_name": "6 \u00d7 Unova Victini Illustration Collection",
           "confidence": 1.0,
@@ -2785,10 +2779,10 @@
         },
         "cardmarket": null
       },
-      "market": 428.64,
-      "value": 857.28,
-      "gain": 257.38,
-      "gain_pct": 42.9,
+      "market": 428.46,
+      "value": 856.92,
+      "gain": 257.02,
+      "gain_pct": 42.8,
       "spread_pct": null,
       "flags": []
     },
@@ -2806,19 +2800,19 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/692939_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 181.34,
-          "unit_price": 181.34,
+          "price": 181.85,
+          "unit_price": 181.85,
           "multiplier": 1,
           "basis": "market",
           "low": 159.99,
-          "mid": 209.99,
+          "mid": 210.0,
           "url": "https://www.tcgplayer.com/product/692939/pokemon-me05-pitch-black-pitch-black-booster-box",
           "matched_name": "Pitch Black Booster Box",
           "confidence": 1.0,
           "counted": true
         },
         "cardmarket": {
-          "price": 206.66,
+          "price": 206.15,
           "eur": 183.65,
           "basis": "avg",
           "listing_only": false,
@@ -2833,7 +2827,7 @@
       "value": 388.0,
       "gain": -231.3,
       "gain_pct": -37.3,
-      "spread_pct": 13.1,
+      "spread_pct": 12.5,
       "flags": []
     },
     {
@@ -2850,11 +2844,11 @@
       "image": "https://tcgplayer-cdn.tcgplayer.com/product/624676_200w.jpg",
       "prices": {
         "tcgplayer": {
-          "price": 1122.2,
-          "unit_price": 112.22,
+          "price": 1128.2,
+          "unit_price": 112.82,
           "multiplier": 10,
           "basis": "market",
-          "low": 97.0,
+          "low": 104.99,
           "mid": 135.0,
           "url": "https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box",
           "matched_name": "10 \u00d7 Destined Rivals Elite Trainer Box",
@@ -2862,7 +2856,7 @@
           "counted": true
         },
         "cardmarket": {
-          "price": 1435.66,
+          "price": 1432.09,
           "eur": 1275.8,
           "basis": "avg",
           "listing_only": false,
@@ -2873,11 +2867,11 @@
           "counted": true
         }
       },
-      "market": 1278.93,
-      "value": 1278.93,
-      "gain": 78.94,
-      "gain_pct": 6.6,
-      "spread_pct": 24.5,
+      "market": 1280.14,
+      "value": 1280.14,
+      "gain": 80.15,
+      "gain_pct": 6.7,
+      "spread_pct": 23.7,
       "flags": []
     }
   ]
