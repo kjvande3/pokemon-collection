@@ -1,4 +1,4 @@
-Last backfill run: 2026-10-26T19:29:47-05:00
+Last backfill run: 2026-10-27T19:32:44-05:00
   TCGplayer history for 126089: 42 weekly prices (2023-04-24 to 2026-10-05)
   TCGplayer history for 216856: 42 weekly prices (2023-04-17 to 2026-10-05)
   TCGplayer history for 221313: 42 weekly prices (2023-04-17 to 2026-10-05)
@@ -44,4 +44,4 @@ Last backfill run: 2026-10-26T19:29:47-05:00
   2024-02-15: download failed (HTTP 403 ); will retry next run
   2024-03-01: download failed (HTTP 403 ); will retry next run
   stopping after repeated failures
-History rebuilt: 217 points from 2022-11-24
+History rebuilt: 218 points from 2022-11-24
