@@ -1,4 +1,4 @@
-Last backfill run: 2026-11-16T21:56:38-06:00
+Last backfill run: 2026-11-17T20:55:52-06:00
   TCGplayer history for 126089: 42 weekly prices (2023-04-24 to 2026-10-05)
   TCGplayer history for 194729: 183 weekly prices (2023-04-17 to 2026-10-12)
   TCGplayer history for 216856: 42 weekly prices (2023-04-17 to 2026-10-05)
@@ -54,7 +54,5 @@ Last backfill run: 2026-11-16T21:56:38-06:00
   TCGplayer history for 630689: 18 weekly prices (2025-05-05 to 2026-10-05)
   TCGplayer history for 668496: failed (TCGplayer unreachable and no saved history)
   TCGplayer history for 692939: 7 weekly prices (2026-04-27 to 2026-10-05)
-55 product(s), 1 archive date(s) to look up
-  first archive 2026-11-15: 4.2 MB
-  2026-11-15: 55/3 priced
-History rebuilt: 254 points from 2022-11-24
+55 product(s), 0 archive date(s) to look up
+History rebuilt: 255 points from 2022-11-24
